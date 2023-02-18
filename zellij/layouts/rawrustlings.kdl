@@ -1,0 +1,37 @@
+layout {
+    default_tab_template {
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        children
+        pane size=2 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+    tab name="work" focus=true split_direction="Vertical" {
+        pane split_direction="Vertical" {
+            pane name="editor" command="/usr/local/bin/fish" focus=true {
+                args "-c" "cd ~/Documents/Code/Clion/rustlings && lvim"
+            }
+            pane split_direction="Horizontal" {
+                pane name="files" command="/usr/local/bin/fish" {
+                    args "-c" "cd ~/Documents/Code/Clion/rustlings && ranger"
+                }
+                pane name="shell" command="/usr/local/bin/fish" {
+                    args "-c" "cd ~/Documents/Code/Clion/rustlings && /usr/local/bin/fish"
+                }
+            }
+        }
+    }
+    tab name="perf" {
+        pane name="monitor" command="glances"
+    }
+    tab name="git" {
+        pane name="git" {
+            command "/usr/local/bin/fish"
+            args "-c" "cd ~/Documents/Code/Clion/rustlings && lazygit"
+        }
+    }
+}
+session_name "rawrustlings"
+attach_to_session true

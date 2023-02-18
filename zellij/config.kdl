@@ -1,0 +1,7 @@
+layot_dir "~/.config/zellij/layouts"
+
+default_shell "fish"
+
+scrollback_editor "~/.local/bin/lvim"
+
+theme "nordfox"

@@ -1,0 +1,52 @@
+local wezterm = require 'wezterm'
+
+return {
+  -- default_prog = {'/usr/local/bin/nu'},
+  default_prog = { '/usr/local/bin/nu' },
+  automatically_reload_config = true,
+  font = wezterm.font_with_fallback {
+    -- 'MonoLisa',
+    -- 'Monoid',
+    -- 'Jetbrains Mono',
+    'Rec Mono Casual',
+    'Hack FC Ligatured',
+    'Dank Mono',
+    'Iosevka',
+    'Victor Mono',
+    -- 'Source Code Pro',
+    'Hasklug Nerd Font',
+    'Cascadia Mono',
+    'Hack Nerd Font Mono',
+    'Fira Code',
+    'Broot Icons Visual Studio Code',
+  },
+  -- font = wezterm.font('Monoid', { weight = "Light", stretch = "SemiCondensed", style = "Normal" }),
+  -- unicode_version = 14,
+
+  -- color_scheme = "Gruvbox Dark",
+  -- color_scheme = "LunariaEclipse (Gogh)",
+  -- color_scheme = "Ryuuko",
+  -- color_scheme = "Sandcastle (base16)",
+  -- color_scheme = "terafox",
+  -- color_scheme = "Zenburn",
+  -- color_scheme = "Canvased Pastel (terminal.sexy)",
+  -- color_scheme = "City Streets (terminal.sexy)",
+  color_scheme = "nordfox",
+  -- color_scheme = "nord",
+
+  tab_bar_at_bottom = true,
+  hide_tab_bar_if_only_one_tab = true,
+  window_decorations = "RESIZE",
+  window_padding = {
+    left = '1cell',
+    right = '1cell',
+    top = '0.5cell',
+    bottom = '0.5cell',
+  },
+  font_size = 13,
+  line_height = 1.05,
+  -- initial_rows = 25,
+
+  default_cursor_style = 'BlinkingUnderline',
+  cursor_blink_rate = 700,
+}

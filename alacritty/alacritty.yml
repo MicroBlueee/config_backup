@@ -1,0 +1,84 @@
+live_config_reload: true
+
+font:
+  normal:
+    family: SauceCodePro Nerd Font
+    style: Regular
+
+  bold:
+    family: SauceCodePro Nerd Font
+    style: Bold
+
+  italic:
+    family: SauceCodePro Nerd Font 
+    style: Italic
+
+  bold_italic:
+    family: SauceCodePro Nerd Font
+    style: Bold Italic
+
+  size: 13
+
+  offset:
+    x: 1
+    y: 1
+  builtin_box_drawing: true
+  # use_thin_strokes: true
+
+
+window:  
+  # 窗口尺寸大小（配置变更需要重启生效）
+  #
+  # 终端显示的列和行的数量。列的数量至少是 2，如果设置为 0 那么会使用窗口管理器决定的大小。
+  dimensions:
+    columns: 80
+    lines: 24
+  dynamic_padding: true
+  decorations: transparent
+  dynamic_title: true
+  position:
+    x: 50
+    y: 85
+  padding:
+    x: 4
+    y: 22
+
+bell:
+  animation: EaseOutExpo
+
+env:
+  TERM: xterm-256color
+
+shell:
+  program: /usr/local/bin/elvish
+
+draw_bold_text_with_bright_colors: true
+
+colors:
+  bright:
+    black: '#4c566a'
+    blue: '#81a1c1'
+    cyan: '#8fbcbb'
+    green: '#a3be8c'
+    magenta: '#b48ead'
+    red: '#bf616a'
+    white: '#eceff4'
+    yellow: '#ebcb8b'
+  cursor:
+    cursor: '#eceff4'
+    text: '#282828'
+  normal:
+    black: '#3b4252'
+    blue: '#81a1c1'
+    cyan: '#88c0d0'
+    green: '#a3be8c'
+    magenta: '#b48ead'
+    red: '#bf616a'
+    white: '#e5e9f0'
+    yellow: '#ebcb8b'
+  primary:
+    background: '#2e3440'
+    foreground: '#d8dee9'
+  selection:
+    background: '#eceff4'
+    text: '#4c566a'

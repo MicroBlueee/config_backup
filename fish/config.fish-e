@@ -1,0 +1,66 @@
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+    
+    # cancel greeting
+    set fish_greeting 
+    
+    # greeting
+    fortune | cowsay -f fence -e "oO" -T "U"
+    
+    # Java
+    set JAVA_HOME /Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home
+    set CLASSPATH $JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
+    fish_add_path $JAVA_HOME/bin
+    
+    fish_add_path /usr/local/bin
+
+    # Go
+    set GOROOT /usr/local/go
+    set -g -x GOPATH /Users/sushuai/Documents/Code/GoLand
+    set -g -x GOBIN $GOPATH/bin
+    fish_add_path $GOBIN
+    fish_add_path $GOROOT/bin
+
+    # >>> conda initialize >>>
+    # !! Contents within this block are managed by 'conda init' !!
+    eval /usr/local/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+    # <<< conda initialize <<<
+    
+    # opam configuration
+    source /Users/sushuai/.opam/opam-init/init.fish > /dev/null 2> /dev/null; or true
+    
+    # rbenv
+    status --is-interactive; and rbenv init - fish | source
+    
+    # rust
+    fish_add_path $HOME/.cargo/bin
+    
+    # coursier
+    eval "$(cs install --env)"
+    
+    # the fuck
+    thefuck --alias | source
+    
+    # auto-jump
+    [ -f /usr/local/share/autojump/autojump.fish ]; and source /usr/local/share/autojump/autojump.fish
+    
+    # ranger
+    set -g -x RANGER_LOAD_DEFAULT_RC False
+
+    # fzf
+    set -g  -x FZF_DEFAULT_OPTS '--height 40% --layout=reverse --border'
+
+    # llvm
+    fish_add_path /usr/local/opt/llvm/bin
+    set -gx LDFLAGS "-L/usr/local/opt/llvm/lib"
+    set -gx CPPFLAGS "-I/usr/local/opt/llvm/include"
+
+    alias icat="kitty +kitten icat"
+
+    set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /Users/sushuai/.ghcup/bin # ghcup-env
+
+    fish_add_path /usr/local/opt/w3m/libexec/w3m
+
+end
+
+

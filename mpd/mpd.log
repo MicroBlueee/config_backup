@@ -1,0 +1,62 @@
+Jan 14 02:10 : config: inotify: auto_update was disabled. enable during compilation phase
+Jan 14 02:10 : config: option 'buffer_time' on line 36 was not recognized
+Jan 14 02:10 : update: added Files/老狼 年少时候谁没有梦.mp3
+Jan 14 02:10 : update: added Files/在他乡.mp3
+Jan 14 02:10 : update: added Files/遇见.mp3
+Jan 14 02:11 : config: inotify: auto_update was disabled. enable during compilation phase
+Jan 14 02:11 : config: option 'buffer_time' on line 36 was not recognized
+Jan 14 02:15 : update: updating Files/在他乡.mp3
+Jan 14 02:16 : update: updating Files/老狼 年少时候谁没有梦.mp3
+Jan 14 02:19 : player: played "Files/老狼 年少时候谁没有梦.mp3"
+Jan 14 02:19 : config: inotify: auto_update was disabled. enable during compilation phase
+Jan 14 02:19 : config: option 'buffer_time' on line 36 was not recognized
+Jan 14 02:22 : update: added Files/小小.mp3
+Jan 14 02:24 : player: played "Files/小小.mp3"
+Jan 14 02:24 : config: inotify: auto_update was disabled. enable during compilation phase
+Jan 14 02:24 : config: option 'buffer_time' on line 36 was not recognized
+Jan 14 02:25 : player: played "Files/小小.mp3"
+Jan 14 02:25 : config: inotify: auto_update was disabled. enable during compilation phase
+Jan 14 02:25 : config: option 'buffer_time' on line 36 was not recognized
+Jan 14 02:26 : player: played "Files/小小.mp3"
+Jan 14 02:26 : config: inotify: auto_update was disabled. enable during compilation phase
+Jan 14 02:26 : config: option 'buffer_time' on line 36 was not recognized
+Jan 14 02:28 : player: played "Files/小小.mp3"
+Jan 14 02:28 : config: inotify: auto_update was disabled. enable during compilation phase
+Jan 14 02:28 : config: option 'buffer_time' on line 36 was not recognized
+Jan 14 02:30 : update: updating Files/小小.mp3
+Jan 14 02:36 : player: played "Files/小小.mp3"
+Jan 14 02:36 : config: inotify: auto_update was disabled. enable during compilation phase
+Jan 14 02:41 : player: played "Files/老狼 年少时候谁没有梦.mp3"
+Jan 14 11:06 : config: inotify: auto_update was disabled. enable during compilation phase
+Jan 14 11:06 : player: played "Files/老狼 年少时候谁没有梦.mp3"
+Jan 14 11:07 : config: inotify: auto_update was disabled. enable during compilation phase
+Jan 14 11:08 : player: played "Files/在他乡.mp3"
+Feb 01 00:01 : config: inotify: auto_update was disabled. enable during compilation phase
+Feb 01 00:01 : update: added Files/南拳妈妈-牡丹江.mp3
+Feb 01 00:01 : update: added Files/胡夏-下雨天.mp3
+Feb 01 00:01 : update: added Files/李玖哲-想太多.mp3
+Feb 01 00:01 : update: added Files/梁咏琪-短发.mp3
+Feb 01 00:03 : update: updating Files/李玖哲-想太多.mp3
+Feb 01 00:03 : update: updating Files/梁咏琪-短发.mp3
+Feb 01 00:04 : update: updating Files/胡夏-下雨天.mp3
+Feb 01 00:04 : update: updating Files/南拳妈妈-牡丹江.mp3
+Feb 01 00:05 : update: updating Files/老狼 年少时候谁没有梦.mp3
+Feb 01 00:06 : update: updating Files/小小.mp3
+Feb 01 00:09 : player: played "Files/梁咏琪-短发.mp3"
+Feb 01 00:09 : update: updating Files/小小.mp3
+Feb 01 00:21 : player: played "Files/梁咏琪-短发.mp3"
+Feb 01 01:07 : config: inotify: auto_update was disabled. enable during compilation phase
+Feb 01 01:08 : player: played "Files/遇见.mp3"
+Feb 01 21:43 : config: inotify: auto_update was disabled. enable during compilation phase
+Feb 01 21:43 : update: added Files/田震-红尘客栈.mp3
+Feb 01 21:43 : update: updating Files/田震-红尘客栈.mp3
+Feb 01 21:46 : player: played "Files/梁咏琪-短发.mp3"
+Feb 14 15:05 : config: inotify: auto_update was disabled. enable during compilation phase
+Feb 14 15:08 : config: inotify: auto_update was disabled. enable during compilation phase
+Feb 14 15:09 : player: played "Files/梁咏琪-短发.mp3"
+Feb 14 15:10 : config: inotify: auto_update was disabled. enable during compilation phase
+Feb 14 15:11 : player: played "Files/梁咏琪-短发.mp3"
+Feb 14 15:11 : config: inotify: auto_update was disabled. enable during compilation phase
+Feb 14 15:22 : player: played "Files/梁咏琪-短发.mp3"
+Feb 14 15:23 : config: inotify: auto_update was disabled. enable during compilation phase
+Feb 14 15:23 : player: played "Files/梁咏琪-短发.mp3"

@@ -1,0 +1,75 @@
+"" Source your .vimrc
+"source ~/.vimrc
+
+"" -- Suggested options --
+" Show a few lines of context around the cursor. Note that this makes the
+" text scroll if you mouse-click near the start or end of the window.
+set scrolloff=5
+
+" Do incremental searching.
+set incsearch
+
+" Don't use Ex mode, use Q for formatting.
+map Q gq
+
+
+"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+"" Map \r to the Reformat Code action
+"map \r <Action>(ReformatCode)
+
+"" Map <leader>d to start debug
+"map <leader>d <Action>(Debug)
+
+"" Map \b to toggle the breakpoint on the current line
+"map \b <Action>(ToggleLineBreakpoint)
+
+
+" Find more examples here: https://jb.gg/share-ideavimrc
+
+let mapleader=" "
+set norelativenumber
+set cursorline
+set cursorcolumn
+set wrap
+set showcmd
+set wildmenu
+
+set hlsearch
+exec "nohlsearch"
+set incsearch
+set ignorecase
+set smartcase
+set nocompatible
+set termguicolors
+
+map S :w<CR>
+map Q :q<CR>
+map s <nop>
+
+map sl :set splitright<CR>:vsplit<CR>
+map sh :set nosplitright<CR>:vsplit<CR>
+map sk :set nosplitbelow<CR>:split<CR>
+map sj :set splitbelow<CR>:split<CR>
+
+
+map <LEADER>l <C-w>l
+map <LEADER>k <C-w>k
+map <LEADER>j <C-w>j
+map <LEADER>h <C-w>h
+
+map tu :tabe<CR>
+map tp :-tabnext<CR>
+map tn :+tabnext<CR>
+
+map sv <C-w>t<C-w>H
+map st <C-w>t<C-w>K
+
+map <C-f> /<++><CR>:nohlsearch<CR>c4l
+imap <C-f> <Esc>/<++><CR>:nohlsearch<CR>c4l
+
+Plug 'preservim/nerdtree'
+map tt :NERDTree<CR>
+
+set easymotion
+map <LEADER>f <Plug>(easymotion-f)
+map <LEADER>w <Plug>(easymotion-w)

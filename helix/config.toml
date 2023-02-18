@@ -1,0 +1,50 @@
+theme = "nord"
+
+[editor]
+auto-format=true
+auto-save=true
+true-color=true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.whitespace]
+render = "all"
+# or control each character
+# [editor.whitespace.render]
+# space = "all"
+# tab = "all"
+# newline = "none"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+tab = "→"
+newline = "⏎"
+tabpad = "·"
+
+[keys.normal]
+A-s = ":w"
+A-q = ":q"
+A-r = ":config-reload"
+s = {l = ":vsplit", j = ":hsplit", h = [":vsplit", "jump_view_left"],k = [":hsplit", "jump_view_up"]}
+"space" = {"left" = "jump_view_left", "right" = "jump_view_right", "up" = "jump_view_up", "down" = "jump_view_down"}
+
+[editor.indent-guides]
+render = true
+character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
+skip-levels = 1
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
+

@@ -1,0 +1,24 @@
+sw_volume: 50
+audio_device_state:1:CoreAudio
+audio_device_state:1:Visualizer feed
+state: pause
+current: 7
+time: 14.365000
+random: 0
+repeat: 1
+single: 1
+consume: 0
+crossfade: 5
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Files/老狼 年少时候谁没有梦.mp3
+1:Files/遇见.mp3
+2:Files/在他乡.mp3
+3:Files/小小.mp3
+4:Files/胡夏-下雨天.mp3
+5:Files/南拳妈妈-牡丹江.mp3
+6:Files/李玖哲-想太多.mp3
+7:Files/梁咏琪-短发.mp3
+8:Files/田震-红尘客栈.mp3
+playlist_end

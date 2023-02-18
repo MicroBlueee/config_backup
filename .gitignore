@@ -1,0 +1,6 @@
+clash/
+nvim/.vim/
+yarn/global/node_modules
+[?*]/.DS_Store/
+.DS_Store
+coc/extensions/

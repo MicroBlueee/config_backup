@@ -1,0 +1,37 @@
+layout {
+    default_tab_template {
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        children
+        pane size=2 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+    tab name="work" focus=true split_direction="Vertical" {
+        pane split_direction="Vertical" {
+            pane name="editor" command="/usr/local/bin/nu" focus=true {
+                args "-c" "cd ~/Documents/Code/Clion/rustlings; hx"
+            }
+            pane split_direction="Horizontal" {
+                pane name="files" command="/usr/local/bin/nu" {
+                    args "-c" "cd ~/Documents/Code/Clion/rustlings; broot"
+                }
+                pane name="shell" command="/usr/local/bin/nu" {
+                    args "-c" "cd ~/Documents/Code/Clion/rustlings; /usr/local/bin/nu"
+                }
+            }
+        }
+    }
+    tab name="perf" {
+        pane name="monitor" command="btm"
+    }
+    tab name="git" {
+        pane name="git" {
+            command "/usr/local/bin/nu"
+            args "-c" "cd ~/Documents/Code/Clion/rustlings; gitui"
+        }
+    }
+}
+session_name "rustedrustlings"
+attach_to_session true
