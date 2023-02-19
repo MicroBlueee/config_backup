@@ -480,3 +480,4 @@ brew list |bat
 brew list
 brew reinstall --cask bartender               clion                   font-hack-nerd-font     font-maple              iterm2                  lapce                   r                       visual-studio-code
 exiit 0
+brew upgrade --cask --greedy
