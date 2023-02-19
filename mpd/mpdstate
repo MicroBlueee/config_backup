@@ -2,8 +2,8 @@ sw_volume: 50
 audio_device_state:1:CoreAudio
 audio_device_state:1:Visualizer feed
 state: pause
-current: 7
-time: 14.365000
+current: 4
+time: 5.076000
 random: 0
 repeat: 1
 single: 1
@@ -19,6 +19,6 @@ playlist_begin
 4:Files/胡夏-下雨天.mp3
 5:Files/南拳妈妈-牡丹江.mp3
 6:Files/李玖哲-想太多.mp3
-7:Files/梁咏琪-短发.mp3
-8:Files/田震-红尘客栈.mp3
+7:Files/田震-红尘客栈.mp3
+8:Files/依兰爱情故事-小沈阳.mp3
 playlist_end

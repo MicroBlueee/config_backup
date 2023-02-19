@@ -204,7 +204,6 @@ lvim.plugins = {
   "olivercederborg/poimandres.nvim",
   "Yazeed1s/oh-lucy.nvim",
   "yamatsum/nvim-nonicons",
-  "p00f/nvim-ts-rainbow",
   "xiyaowong/virtcolumn.nvim",
   {
     "michaelb/sniprun",
@@ -415,6 +414,21 @@ lvim.plugins = {
   },
   "rmehri01/onenord.nvim",
   -- "gbprod/nord.nvim",
+  { 
+    "echasnovski/mini.nvim",
+    version = false 
+  },
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    config = function ()
+      require("indent_blankline").setup{
+        show_end_of_line = true,
+        space_char_blankline = " ",
+        show_current_context = true,
+        show_current_context_start = true,
+      }
+    end,
+  },
 }
 
 -- -- Autocommands (`:help autocmd`) <https://neovim.io/doc/user/autocmd.html>
@@ -456,6 +470,7 @@ lvim.builtin.lualine.sections.lualine_z = {
 }
 
 lvim.builtin.treesitter.rainbow.enable = true
+lvim.builtin.treesitter.rainbow.extended_mode = true
 
 require("auto-save").setup {
   -- your config goes here
@@ -569,3 +584,5 @@ require("headlines").setup({
     quote_highlight = "Quote",
   },
 })
+
+
