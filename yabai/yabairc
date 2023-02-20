@@ -125,6 +125,16 @@ yabai -m rule --add label="Foldor" app="^Foldor$" manage=off
 yabai -m rule --add label="Acon" app="^Acon$" manage=off
 yabai -m rule --add label="照片" app="^照片$" manage=off
 yabai -m rule --add label="播客" app="^播客$" manage=off
+yabai -m rule --add label="Emacs" app="^Emacs$" manage=off
+yabai -m rule --add label="R" app="^R$" manage=off
+yabai -m rule --add label="Julia-1.8" app="^Julia-1.8$" manage=off
+yabai -m rule --add label="iMovie剪辑" app="^iMovie剪辑$" manage=off
+yabai -m rule --add label="Logic Pro" app="^Logic Pro$" manage=off
+yabai -m rule --add label="MainStage" app="^MainStage$" manage=off
+yabai -m rule --add label="DaVinci Resolve" app="^DaVinci Resolve$" manage=off
+yabai -m rule --add label="Motion" app="^Motion$" manage=off
+yabai -m rule --add label="Compressor" app="^Compressor$" manage=off
+yabai -m rule --add label="Elmedia Player" app="^Elmedia Player$" manage=off
 
 # ===== Signals ================================
 
