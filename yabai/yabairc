@@ -135,6 +135,8 @@ yabai -m rule --add label="DaVinci Resolve" app="^DaVinci Resolve$" manage=off
 yabai -m rule --add label="Motion" app="^Motion$" manage=off
 yabai -m rule --add label="Compressor" app="^Compressor$" manage=off
 yabai -m rule --add label="Elmedia Player" app="^Elmedia Player$" manage=off
+yabai -m rule --add label="Alfred 5" app="^Alfred 5$" manage=off
+yabai -m rule --add label="Alfred Preferences" app="^Alfred Preferences$" manage=off
 
 # ===== Signals ================================
 
