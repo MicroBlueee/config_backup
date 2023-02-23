@@ -17,6 +17,12 @@ set rtp+=/usr/local/opt/fzf
 "let g:terminal_color_13 = '#FF92D0'
 "let g:terminal_color_14 = '#9AEDFE'
 
+if exists("g:neovide")
+    " Put anything you want to happen only in Neovide here
+    set guifont=Victor\ Mono:h12
+    let g:neovide_input_macos_alt_is_meta = v:true
+endif
+
 let mapleader=" "
 syntax on
 set number
