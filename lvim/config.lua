@@ -414,14 +414,14 @@ lvim.plugins = {
   },
   "rmehri01/onenord.nvim",
   -- "gbprod/nord.nvim",
-  { 
+  {
     "echasnovski/mini.nvim",
-    version = false 
+    version = false
   },
   {
     "lukas-reineke/indent-blankline.nvim",
-    config = function ()
-      require("indent_blankline").setup{
+    config = function()
+      require("indent_blankline").setup {
         show_end_of_line = true,
         space_char_blankline = " ",
         show_current_context = true,
@@ -585,4 +585,9 @@ require("headlines").setup({
   },
 })
 
-
+if vim.g.neovide then
+  -- Put anything you want to happen only in Neovide here
+  -- vim.opt.guifont = { "Iosevka", "h14" }
+  vim.opt.guifont = { "Victor Mono", "h12" }
+  vim.g.neovide_input_macos_alt_is_meta = true
+end

@@ -137,6 +137,8 @@ yabai -m rule --add label="Compressor" app="^Compressor$" manage=off
 yabai -m rule --add label="Elmedia Player" app="^Elmedia Player$" manage=off
 yabai -m rule --add label="Alfred 5" app="^Alfred 5$" manage=off
 yabai -m rule --add label="Alfred Preferences" app="^Alfred Preferences$" manage=off
+yabai -m rule --add label="Neovide" app="^Neovide$" manage=off
+yabai -m rule --add label="NVIM" app="^neovide$" manage=off
 
 # ===== Signals ================================
 

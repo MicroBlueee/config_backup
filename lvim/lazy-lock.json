@@ -45,7 +45,7 @@
   "moonlight.nvim": { "branch": "pure-lua", "commit": "e24e4218ec680b6396532808abf57ca0ada82e66" },
   "neodev.nvim": { "branch": "main", "commit": "a81e749d0fe8429cd340b2e40f274b344bef42ac" },
   "neoscroll.nvim": { "branch": "master", "commit": "d7601c26c8a183fa8994ed339e70c2d841253e93" },
-  "neovim": { "branch": "main", "commit": "845a6ad5443e3559dde42910c4523a5835c9233b" },
+  "neovim": { "branch": "main", "commit": "4eac261d575d4662c4c4ee12e3ea44571d75f095" },
   "nightfox.nvim": { "branch": "main", "commit": "be5e53df21c8f41790d25c56cd16cda90137dc63" },
   "nlsp-settings.nvim": { "branch": "main", "commit": "3f31cacc0da742cf4b8abd5c91161420a1d323de" },
   "nord.nvim": { "branch": "master", "commit": "9824b8511dcb7d89de628d7e9bab5fa65c9d59d1" },
