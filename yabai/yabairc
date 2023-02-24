@@ -103,7 +103,7 @@ yabai -m rule --add label="日历" app="^日历$" manage=off
 yabai -m rule --add label="时钟" app="^时钟$" manage=off
 yabai -m rule --add label="Safari浏览器" app="^Safari$" title="^(通用|标签页|密码|搜索|安全性|隐私|网站|扩展|高级)$" manage=off
 yabai -m rule --add label="邮件" app="^邮件$" manage=off
-yabai -m rule --add label="访达" app="^访达$" title="(简介|访达设置|下载|复制|拷贝|共享|连接|移动|前往文件夹)" manage=off
+yabai -m rule --add label="访达" app="^访达$" title="(简介|访达设置|下载|复制|拷贝|共享|连接|移动|前往文件夹|废纸篓)" manage=off
 yabai -m rule --add label="系统信息" app="系统信息" title="MacBook Pro" manage=off
 yabai -m rule --add label="App Cleaner & Uninstaller" app="^App Cleaner & Uninstaller$" manage=off
 yabai -m rule --add label="AppCleaner" app="^AppCleaner$" manage=off
@@ -139,6 +139,7 @@ yabai -m rule --add label="Alfred 5" app="^Alfred 5$" manage=off
 yabai -m rule --add label="Alfred Preferences" app="^Alfred Preferences$" manage=off
 yabai -m rule --add label="Neovide" app="^Neovide$" manage=off
 yabai -m rule --add label="NVIM" app="^neovide$" manage=off
+yabai -m rule --add label="Raycast" app="^Raycast$" manage=off
 
 # ===== Signals ================================
 

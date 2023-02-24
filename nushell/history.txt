@@ -481,3 +481,26 @@ brew list
 brew reinstall --cask bartender               clion                   font-hack-nerd-font     font-maple              iterm2                  lapce                   r                       visual-studio-code
 exiit 0
 brew upgrade --cask --greedy
+lvim .config/kitty/kitty.conf
+lvim .config/wezterm/wezterm.lua
+brew install --cask font-fantasque-sans-mono
+brew tap homebrew/cask-fonts
+brew install --cask font-fantasque-sans-mono
+lvim .config/wezterm/wezterm.lua
+echo "!="
+echo "->"
+echo "-->"
+echo "=>"
+brew search ligaturizer
+lvim .config/wezterm/wezterm.lua
+lvim Documents/Code/Clion/for_grammer_test/src/int_break.rs
+lvim .config/wezterm/wezterm.lua
+lvim .config/kitty/kitty.conf
+clear
+brew list
+lvim .config/wezterm/wezterm.lua
+lvim .config/kitty/kitty.conf
+lvim .config/wezterm/wezterm.lua
+echo "!= <= => ==> -->"
+lvim lvim Documents/Code/Clion/for_grammer_test/src/int_break.rs
+doom upgrade
