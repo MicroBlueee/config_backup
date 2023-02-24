@@ -590,4 +590,6 @@ if vim.g.neovide then
   -- vim.opt.guifont = { "Iosevka", "h14" }
   vim.opt.guifont = { "Victor Mono", "h12" }
   vim.g.neovide_input_macos_alt_is_meta = true
+  vim.g.neovide_fullscreen = true
+  vim.g.neovide_remember_window_size = true
 end
