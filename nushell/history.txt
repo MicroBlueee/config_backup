@@ -504,3 +504,10 @@ lvim .config/wezterm/wezterm.lua
 echo "!= <= => ==> -->"
 lvim lvim Documents/Code/Clion/for_grammer_test/src/int_break.rs
 doom upgrade
+brew upgrade --cask --greedy
+brew doctor
+brew upgrade --cask --greedy
+echo "!= <= => ==> -->"
+lvim lvim lvim Documents/Code/Clion/for_grammer_test/src/int_break.rs
+lvim Documents/Code/Clion/for_grammer_test/src/int_break.rs
+whereis zsh
