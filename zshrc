@@ -113,7 +113,7 @@ export NNN_PLUG='f:finder;o:fzopen;p:preview-tui;d:diffs;t:nmount;v:imgview'
 export FFF_HIDEN=1
 export FFF_LS_COLORS=1
 
-alias nnn='nnn -H -i -d -D -P p'
+alias n='nnn -H -i -d -D -P p'
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/Users/sushuai/.emacs.d/bin:$PATH"
 

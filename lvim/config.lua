@@ -415,8 +415,32 @@ lvim.plugins = {
   "rmehri01/onenord.nvim",
   -- "gbprod/nord.nvim",
   {
-    "echasnovski/mini.nvim",
-    version = false
+    "echasnovski/mini.map",
+    branch = "stable",
+    config = function()
+      require('mini.map').setup()
+      local map = require('mini.map')
+      map.setup({
+        integrations = {
+          map.gen_integration.builtin_search(),
+          map.gen_integration.diagnostic({
+            error = 'DiagnosticFloatingError',
+            warn  = 'DiagnosticFloatingWarn',
+            info  = 'DiagnosticFloatingInfo',
+            hint  = 'DiagnosticFloatingHint',
+          }),
+        },
+        symbols = {
+          encode = map.gen_encode_symbols.dot('4x2'),
+        },
+        window = {
+          side = 'right',
+          width = 20, -- set to 1 for a pure scrollbar :)
+          winblend = 15,
+          show_integration_count = false,
+        },
+      })
+    end
   },
   {
     "lukas-reineke/indent-blankline.nvim",
@@ -594,3 +618,31 @@ if vim.g.neovide then
   vim.g.neovide_remember_window_size = true
   vim.g.neovide_cursor_vfx_mode = "sonicboom"
 end
+
+lvim.autocommands = {
+  {
+    { "BufEnter", "Filetype" },
+    {
+      desc = "Open mini.map and exclude some filetypes",
+      pattern = { "*" },
+      callback = function()
+        local exclude_ft = {
+          "qf",
+          "NvimTree",
+          "toggleterm",
+          "TelescopePrompt",
+          "alpha",
+          "netrw",
+        }
+
+        local map = require('mini.map')
+        if vim.tbl_contains(exclude_ft, vim.o.filetype) then
+          vim.b.minimap_disable = true
+          map.close()
+        elseif vim.o.buftype == "" then
+          map.open()
+        end
+      end,
+    },
+  },
+}
