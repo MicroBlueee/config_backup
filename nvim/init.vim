@@ -21,7 +21,7 @@ if exists("g:neovide")
     " Put anything you want to happen only in Neovide here
     set guifont=Victor\ Mono:h12
     let g:neovide_input_macos_alt_is_meta = v:true
-    " let g:neovide_fullscreen = v:true
+    let g:neovide_fullscreen = v:true
     let g:neovide_remember_window_size = v:true
     let g:neovide_cursor_vfx_mode = "ripple"
 endif
@@ -124,6 +124,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'ziglang/zig.vim'
 Plug 'frazrepo/vim-rainbow'
 Plug 'shaunsingh/nord.nvim'
+
+Plug 'echasnovski/mini.map', { 'branch': 'stable' }
 
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'romgrk/barbar.nvim'
@@ -437,3 +439,6 @@ lua << EOF
 EOF
 
 lua require('neoscroll').setup()
+
+lua require('mini.map').setup()
+lua require('mini.map').open()
