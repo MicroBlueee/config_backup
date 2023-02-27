@@ -52,7 +52,7 @@
   "nordic.nvim": { "branch": "main", "commit": "cd552784eeeae61644fec60f6cc52c267dbddc73" },
   "null-ls.nvim": { "branch": "main", "commit": "689cdd78f70af20a37b5309ebc287ac645ae4f76" },
   "numb.nvim": { "branch": "master", "commit": "d95b7ea62e320b02ca1aa9df3635471a88d6f3b1" },
-  "nvim": { "branch": "main", "commit": "4175759297350557315987d479fb687a9f0b781f" },
+  "nvim": { "branch": "main", "commit": "87516f43267f1ec286069621f9bd288381a9097f" },
   "nvim-autopairs": { "branch": "master", "commit": "bde7a1b4534e0a4c2451a738379cd628ba65eba7" },
   "nvim-bqf": { "branch": "main", "commit": "b71e6bc220ea2ef8f09d5e6b39d52609a965f322" },
   "nvim-cmp": { "branch": "main", "commit": "ba7a53478d0726683d1597ad1e814695033dcb4b" },
