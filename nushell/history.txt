@@ -511,3 +511,4 @@ echo "!= <= => ==> -->"
 lvim lvim lvim Documents/Code/Clion/for_grammer_test/src/int_break.rs
 lvim Documents/Code/Clion/for_grammer_test/src/int_break.rs
 whereis zsh
+exiit 0

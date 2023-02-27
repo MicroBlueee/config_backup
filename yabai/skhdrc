@@ -2,13 +2,7 @@
 alt - return : "${HOME}"/.config/yabai/scripts/open_kitty.sh
 
 # opens iTerm2
-rctrl - return : "${HOME}"/.config/yabai/scripts/open_iterm2.sh
-
-# open WezTerm
-cmd - return : "${HOME}"/.config/yabai/scripts/open_wezterm.sh
-
-# open Alacritty
-lctrl - return : "${HOME}"/.config/yabai/scripts/open_alacritty.sh
+# lctrl - return : "${HOME}"/.config/yabai/scripts/open_iterm2.sh
 
 # Show system statistics
 fn + lalt - 1 : "${HOME}"/.config/yabai/scripts/show_cpu.sh
