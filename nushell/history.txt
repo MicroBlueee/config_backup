@@ -460,7 +460,6 @@ brew upgrade --cask --greedy
 yarn global upgrade --latest
 yarn global list
 brew upgrade --cask --greedy
-exiit 0
 termusic
 brew upgrade --cask --greedy
 brew list
@@ -479,7 +478,6 @@ brew list |fd "emacs"
 brew list |bat
 brew list
 brew reinstall --cask bartender               clion                   font-hack-nerd-font     font-maple              iterm2                  lapce                   r                       visual-studio-code
-exiit 0
 brew upgrade --cask --greedy
 lvim .config/kitty/kitty.conf
 lvim .config/wezterm/wezterm.lua
@@ -511,4 +509,9 @@ echo "!= <= => ==> -->"
 lvim lvim lvim Documents/Code/Clion/for_grammer_test/src/int_break.rs
 lvim Documents/Code/Clion/for_grammer_test/src/int_break.rs
 whereis zsh
-exiit 0
+brew update
+imgcat Pictures/Wallpapers/Singapore/bo-zhang-s4G6m5LGlB8-unsplash.jpg
+whereis imgcat
+lvim $nu.history-path
+brew shell env
+brew shellenv

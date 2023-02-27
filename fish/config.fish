@@ -12,7 +12,7 @@ if status is-interactive
   set CLASSPATH $JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
   fish_add_path $JAVA_HOME/bin
   
-  fish_add_path /usr/local/bin
+  eval "$(/usr/local/bin/brew shellenv)"
 
   # >>> conda initialize >>>
   # !! Contents within this block are managed by 'conda init' !!
