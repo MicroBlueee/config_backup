@@ -84,10 +84,10 @@ map sh :set nosplitright<CR>:vsplit<CR>
 map sk :set nosplitbelow<CR>:split<CR>
 map sj :set splitbelow<CR>:split<CR>
 
-map <LEADER>l <C-w>l
-map <LEADER>k <C-w>k
-map <LEADER>j <C-w>j
-map <LEADER>h <C-w>h
+map <C-l> <C-w>l
+map <C-k> <C-w>k
+map <C-j> <C-w>j
+map <C-h> <C-w>h
 
 map <LEADER><up> :res +5<CR>
 map <LEADER><down> :res -5<CR>
