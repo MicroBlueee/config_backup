@@ -19,7 +19,7 @@ set rtp+=/usr/local/opt/fzf
 
 if exists("g:neovide")
     " Put anything you want to happen only in Neovide here
-    set guifont=Victor\ Mono:h12
+    set guifont=Victor\ Mono:h13
     let g:neovide_input_macos_alt_is_meta = v:true
     " let g:neovide_fullscreen = v:true
     let g:neovide_remember_window_size = v:true

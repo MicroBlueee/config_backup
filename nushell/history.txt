@@ -515,3 +515,17 @@ whereis imgcat
 lvim $nu.history-path
 brew shell env
 brew shellenv
+z Singapore
+imgcat bo-zhang-s4G6m5LGlB8-unsplash.jpg
+export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+lvim lvim Documents/Code/Clion/for_grammer_test/src/int_break.rs
+lvim Documents/Code/Clion/for_grammer_test/src/int_break.rs
+zsh
+whereis python3
+which python3
+pyenv global system
+pyenv versions
+pip3 install pyobjc
+pip3 list
+pyenv versions
+pyenv global 3.11.1
