@@ -535,10 +535,6 @@ source ~/.cache/starship/init.nu
 
 fortune | cowsay  -f fence -e "oO" -T "U" | lolcat -F 0.2 -p 2
 
-# alias git = /usr/local/opt/git/bin/git
-
-# alias pip3 = /usr/local/bin/pip3
-
 use `/Users/sushuai/Library/Application Support/nushell/virtual_environments/conda.nu`
 
 source ~/.zoxide.nu

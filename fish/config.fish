@@ -23,7 +23,7 @@ if status is-interactive
 
 
   # Go
-  set GOROOT /usr/local/go
+  # set GOROOT /usr/local/go
   set -g -x GOPATH /Users/sushuai/Documents/Code/GoLand
   set -g -x GOBIN $GOPATH/bin
   fish_add_path $GOBIN
@@ -69,15 +69,8 @@ if status is-interactive
   # autojump  
   zoxide init fish | source    
 
-  set -gx FFF_HIDDEN 1
-  set -gx FFF_LS_COLORS 1
-
   # eval (zellij setup --generate-auto-start fish | string collect)
 
-  set -gx NNN_FIFO /tmp/nnn.fifo
-  set -gx NNN_PLUG 'f:finder;o:fzopen;d:diffs;t:nmount;v:imgview;p:preview-tui'
-
-  abbr -a n nnn -H -i -D -d -o -P p
   starship init fish | source
 
   set -gx CHEAT_USE_FZF true

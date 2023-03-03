@@ -77,7 +77,7 @@ export RANGER_LOAD_DEFAULT_RC='False'
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 
 # GO
-export GOROOT=/usr/local/go
+# export GOROOT=/usr/local/go
 export GOPATH=/Users/sushuai/Documents/Code/GoLand
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
@@ -108,15 +108,7 @@ f() {
 # lvim
 export PATH="/Users/sushuai/.local/bin:$PATH"
 
-export NNN_FIFO="/tmp/nnn.fifo"
-export NNN_PLUG='f:finder;o:fzopen;p:preview-tui;d:diffs;t:nmount;v:imgview'
-
-export FFF_HIDEN=1
-export FFF_LS_COLORS=1
-
-alias n='nnn -H -i -d -D -P p'
 export PATH="/usr/local/sbin:$PATH"
-export PATH="/Users/sushuai/.emacs.d/bin:$PATH"
 
 set -o vi 
 
