@@ -5,3 +5,4 @@ yarn/global/node_modules
 .DS_Store
 coc/extensions/
 raycast/
+nvim/lazy-lock.json
