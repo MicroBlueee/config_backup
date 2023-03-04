@@ -61,7 +61,7 @@
   "nvim-hybrid": { "branch": "main", "commit": "89206396ba22b2518f5db08d96e9aab800902163" },
   "nvim-lastplace": { "branch": "main", "commit": "65c5d6e2501a3af9c2cd15c6548e67fa035bf640" },
   "nvim-lspconfig": { "branch": "master", "commit": "95b7a69bc6da2a6a740584ea3c555e5327638b7d" },
-  "nvim-metals": { "branch": "main", "commit": "0b9c5303b7402ae24971ed2f0e5890fd72505532" },
+  "nvim-metals": { "branch": "main", "commit": "0da75dcb1fdea2e7f3ae6c7b1f1036243fbd66a9" },
   "nvim-navic": { "branch": "master", "commit": "7e9d2b2b601149fecdccd11b516acb721e571fe6" },
   "nvim-nonicons": { "branch": "main", "commit": "ceda07dc7339f35444b5f4c4016f76a9eb42ac16" },
   "nvim-tree.lua": { "branch": "master", "commit": "362ecbeed69fae91a287004619decadcb6f7c113" },

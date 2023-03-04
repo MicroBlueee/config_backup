@@ -83,7 +83,7 @@ let-env RANGER_LOAD_DEAFAULT_RC = 'False'
 let-env GOPATH = '/Users/sushuai/Documents/Code/GoLand'
 let-env GOBIN = $'($env.GOPATH)/bin'
 let-env PATH = ($env.PATH | append $env.GOBIN)
-let-env PATH = ($env.PATH | append $'($env.GOROOT)/bin')
+# let-env PATH = ($env.PATH | append $'($env.GOROOT)/bin')
 
 let-env PATH = ($env.PATH | append '/usr/local/sbin')
 
@@ -103,7 +103,7 @@ let-env PATH = ($env.PATH | append '/usr/local/opt/llvm/bin')
 let-env LDFLAGS = "-L/usr/local/opt/llvm/lib"
 let-env CPPFLAGS = "-I/usr/local/opt/llvm/include"
 
-# zoxide init nushell | save -f ~/.zoxide.nu
+zoxide init nushell | save -f ~/.zoxide.nu
 
 # starship
 mkdir ~/.cache/starship

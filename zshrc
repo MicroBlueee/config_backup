@@ -97,13 +97,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 eval "$(mcfly init zsh)"
 
-source /Users/sushuai/.config/broot/launcher/bash/br
-
-f() {
-    fff "$@"
-    cd "$(cat "${XDG_CACHE_HOME:=${HOME}/.cache}/fff/.fff_d")"
-}
-
 # lvim
 export PATH="/Users/sushuai/.local/bin:$PATH"
 
@@ -142,3 +135,4 @@ then
   compinit
 fi
 
+export PATH="/usr/local/opt/openjdk/bin:$PATH"

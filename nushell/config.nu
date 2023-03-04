@@ -538,6 +538,3 @@ fortune | cowsay  -f fence -e "oO" -T "U" | lolcat -F 0.2 -p 2
 use `/Users/sushuai/Library/Application Support/nushell/virtual_environments/conda.nu`
 
 source ~/.zoxide.nu
-
-source /Users/sushuai/.config/broot/launcher/nushell/br
-

@@ -540,3 +540,8 @@ brew info poppler
 brew leaves
 lvim
 lvim Documents/Code/Clion/for_grammer_test/src/int_break.rs
+hx $nu.env-path
+zoxide init nushell
+brew info zoxide
+hx $nu.env-path
+hx $nu.config-path
