@@ -71,7 +71,7 @@
   "nvim-window-picker": { "branch": "main", "commit": "5902827d0e338890a22849e2f18dc80d1cc1a8db" },
   "oceanic-next": { "branch": "master", "commit": "5ef31a34204f84714885ae9036f66a626036c3dc" },
   "oh-lucy.nvim": { "branch": "main", "commit": "706c74fe8dcc2014dc17bbc861a05d27623e06e3" },
-  "one_monokai.nvim": { "branch": "main", "commit": "fec253c3449c32069dc645f783444e0183b10fcc" },
+  "one_monokai.nvim": { "branch": "main", "commit": "aae71a5507f5c542d3c239319d7ba97b7afb2b83" },
   "onedarker.nvim": { "branch": "freeze", "commit": "b00dd2189f264c5aeb4cf04c59439655ecd573ec" },
   "onedarkpro.nvim": { "branch": "main", "commit": "b8a172efe906ca3c9bc2c2fe6bc7983e2345eaf1" },
   "onenord.nvim": { "branch": "main", "commit": "71bdcdf105a8feb16cd5248b40e44c88832f75ca" },

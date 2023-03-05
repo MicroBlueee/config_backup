@@ -79,7 +79,7 @@ let-env PATH = ($env.PATH | append '~/.cargo/bin')
 let-env RANGER_LOAD_DEAFAULT_RC = 'False'
 
 # Go
-# let-env GOROOT = '/usr/local/go'
+let-env GOROOT = '/usr/local/opt/go'
 let-env GOPATH = '/Users/sushuai/Documents/Code/GoLand'
 let-env GOBIN = $'($env.GOPATH)/bin'
 let-env PATH = ($env.PATH | append $env.GOBIN)

@@ -76,7 +76,7 @@ export RANGER_LOAD_DEFAULT_RC='False'
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 
 # GO
-# export GOROOT=/usr/local/go
+export GOROOT=/usr/local/opt/go
 export GOPATH=/Users/sushuai/Documents/Code/GoLand
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN

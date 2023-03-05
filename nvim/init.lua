@@ -1,8 +1,8 @@
 -- 使用gui
-require("core.neovide")
+require("neovide")
 
 -- Vim键位配置
-require("core.keymaps")
+require("keymaps")
 
 -- Vim选项加载
-require("core.options")
+require("options")

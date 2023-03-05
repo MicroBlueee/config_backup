@@ -1,9 +1,9 @@
 theme = "nord"
 
 [editor]
-auto-format=true
-auto-save=true
-true-color=true
+auto-format = true
+auto-save = true
+true-color = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -28,12 +28,12 @@ tab = "→"
 newline = "⏎"
 tabpad = "·"
 
-[keys.normal]
-A-s = ":w"
-A-q = ":q"
-A-r = ":config-reload"
-s = {l = ":vsplit", j = ":hsplit", h = [":vsplit", "jump_view_left"],k = [":hsplit", "jump_view_up"]}
-"space" = {"left" = "jump_view_left", "right" = "jump_view_right", "up" = "jump_view_up", "down" = "jump_view_down"}
+# [keys.normal]
+# A-s = ":w"
+# A-q = ":q"
+# A-r = ":config-reload"
+# s = {l = ":vsplit", j = ":hsplit", h = [":vsplit", "jump_view_left"],k = [":hsplit", "jump_view_up"]}
+# "space" = {"left" = "jump_view_left", "right" = "jump_view_right", "up" = "jump_view_up", "down" = "jump_view_down"}
 
 [editor.indent-guides]
 render = true
@@ -48,3 +48,19 @@ skip-levels = 1
 '`' = '`'
 '<' = '>'
 
+[editor.statusline]
+left = ["mode", "file-line-ending", "selections", "primary-selection-length"]
+center = ["spinner", "diagnostics", "spacer", "workspace-diagnostics"]
+right = [
+  "file-name",
+  "file-type",
+  "file-encoding",
+  "separator",
+  "position",
+  "spacer",
+  "total-line-numbers",
+  "position-percentage",
+]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"

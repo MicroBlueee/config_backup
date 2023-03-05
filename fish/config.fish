@@ -23,7 +23,7 @@ if status is-interactive
 
 
   # Go
-  # set GOROOT /usr/local/go
+  set GOROOT /usr/local/opt/go
   set -g -x GOPATH /Users/sushuai/Documents/Code/GoLand
   set -g -x GOBIN $GOPATH/bin
   fish_add_path $GOBIN

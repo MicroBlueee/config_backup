@@ -5,9 +5,10 @@
     "create-slidev": "^0.40.3",
     "docsify-cli": "^4.4.4",
     "hexo-cli": "^4.3.0",
-    "playwright-chromium": "^1.31.1",
+    "playwright-chromium": "^1.31.2",
     "typescript": "^4.9.5",
     "typescript-language-server": "^3.3.0",
+    "vscode-langservers-extracted": "^4.6.0",
     "yaml-language-server": "^1.11.0"
   }
 }

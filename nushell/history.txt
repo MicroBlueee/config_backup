@@ -545,3 +545,5 @@ zoxide init nushell
 brew info zoxide
 hx $nu.env-path
 hx $nu.config-path
+brew search --cask font-sauce
+brew install --cask font-sauce-code-pro-nerd-font
