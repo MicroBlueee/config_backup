@@ -15,7 +15,7 @@ layout {
             }
             pane split_direction="Horizontal" {
                 pane name="files" command="/usr/local/bin/nu" {
-                    args "-c" "cd ~/Documents/Code/Clion/rustlings; broot"
+                    args "-c" "cd ~/Documents/Code/Clion/rustlings; ranger"
                 }
                 pane name="shell" command="/usr/local/bin/nu" {
                     args "-c" "cd ~/Documents/Code/Clion/rustlings; /usr/local/bin/nu"
