@@ -550,3 +550,4 @@ brew install --cask font-sauce-code-pro-nerd-font
 hx --tutor
 hx Desktop/tutor.txt
 :q
+hx --tutor
