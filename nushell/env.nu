@@ -114,3 +114,4 @@ let-env PATH = ($env.PATH | append '/Users/sushuai/.emacs.d/bin')
 alias proxy = (let-env http_proxy = "http://127.0.0.1:7890"; let-env https_proxy = "http://127.0.0.1:7890"; let-env all_proxy = "socks5://127.0.0.1:7890"; echo "proxy is used now")
 alias noproxy = (hide-env http_proxy ; hide-env https_proxy ; hide-env all_proxy ; echo "proxy is off now")
 
+let-env PATH = ($env.PATH | append '/Applications/IntelliJ IDEA.app/Contents/MacOS')

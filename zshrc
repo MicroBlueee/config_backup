@@ -136,3 +136,5 @@ then
 fi
 
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
+
+export PATH="$PATH:/Applications/IntelliJ IDEA.app/Contents/MacOS"

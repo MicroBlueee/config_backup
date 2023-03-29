@@ -80,6 +80,8 @@ if status is-interactive
 
   set -gx NVM_DIR "$HOME/.nvm"
 
+  fish_add_path /Applications/IntelliJ\ IDEA.app/Contents/MacOS
+
 end
 
   # Add this to you config.fish or equivalent.

@@ -551,3 +551,4 @@ hx --tutor
 hx Desktop/tutor.txt
 :q
 hx --tutor
+brew upgrade --cask --greedy
