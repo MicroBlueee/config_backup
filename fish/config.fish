@@ -81,6 +81,7 @@ if status is-interactive
   set -gx NVM_DIR "$HOME/.nvm"
 
   fish_add_path /Applications/IntelliJ\ IDEA.app/Contents/MacOS
+  fish_add_path /Applications/CLion.app/Contents/MacOS
 
 end
 

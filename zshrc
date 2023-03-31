@@ -138,3 +138,4 @@ fi
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
 
 export PATH="$PATH:/Applications/IntelliJ IDEA.app/Contents/MacOS"
+export PATH="$PATH:/Applications/CLion.app/Contents/MacOS"
