@@ -1,7 +1,7 @@
 {
   "iciba": true,
   "youdao": true,
-  "dictionaryapi": false,
+  "dictionaryapi": true,
   "say": false,
   "color": true,
 }
