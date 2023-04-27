@@ -140,6 +140,7 @@ yabai -m rule --add label="Alfred Preferences" app="^Alfred Preferences$" manage
 yabai -m rule --add label="Neovide" app="^Neovide$" manage=off
 yabai -m rule --add label="NVIM" app="^neovide$" manage=off
 yabai -m rule --add label="Raycast" app="^Raycast$" manage=off
+yabai -m rule --add label="UPDF" app="^UPDF$" manage=off
 
 # ===== Signals ================================
 

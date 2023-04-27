@@ -133,3 +133,4 @@ alias noproxy = (hide-env http_proxy ; hide-env https_proxy ; hide-env all_proxy
 let-env PATH = ($env.PATH | append '/Applications/IntelliJ IDEA.app/Contents/MacOS')
 let-env PATH = ($env.PATH | append '/Applications/CLion.app/Contents/MacOS')
 
+let-env PATH = ($env.PATH | append PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"'/usr/local/opt/coreutils/libexec/gnubin')

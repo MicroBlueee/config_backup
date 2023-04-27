@@ -1,14 +1,14 @@
 {
   "dependencies": {
-    "@slidev/cli": "^0.40.10",
+    "@slidev/cli": "^0.40.14",
     "cli-markdown": "^3.0.3",
-    "create-slidev": "^0.40.10",
+    "create-slidev": "^0.40.14",
     "docsify-cli": "^4.4.4",
     "hexo-cli": "^4.3.0",
-    "playwright-chromium": "^1.32.3",
+    "playwright-chromium": "^1.33.0",
     "typescript": "^5.0.4",
-    "typescript-language-server": "^3.3.1",
-    "vscode-langservers-extracted": "^4.6.0",
+    "typescript-language-server": "^3.3.2",
+    "vscode-langservers-extracted": "^4.7.0",
     "yaml-language-server": "^1.12.0"
   }
 }
