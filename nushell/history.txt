@@ -1,1 +1,6 @@
 brew upgrade --cask --greedy
+fortune
+cowsay 1
+ex
+fzf
+/usr/local/opt/fzf/install

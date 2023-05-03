@@ -1,7 +1,1 @@
-{
-  "iciba": true,
-  "youdao": true,
-  "dictionaryapi": false,
-  "say": false,
-  "color": true,
-}
+{"say":false}
