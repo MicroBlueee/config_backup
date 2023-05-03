@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "@slidev/cli": "^0.40.14",
+    "@slidev/cli": "^0.40.16",
     "cli-markdown": "^3.0.3",
-    "create-slidev": "^0.40.14",
+    "create-slidev": "^0.40.16",
     "docsify-cli": "^4.4.4",
     "hexo-cli": "^4.3.0",
     "playwright-chromium": "^1.33.0",
