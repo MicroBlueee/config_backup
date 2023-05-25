@@ -4,3 +4,11 @@ cowsay 1
 ex
 fzf
 /usr/local/opt/fzf/install
+z .config
+git status
+git log --tree
+whereis nu
+which nu
+brew update
+brew upgrade
+brew upgrade --cask --greedy

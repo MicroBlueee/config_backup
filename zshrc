@@ -95,8 +95,6 @@ export CPPFLAGS="-I/usr/local/opt/llvm/include"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-eval "$(mcfly init zsh)"
-
 # lvim
 export PATH="/Users/sushuai/.local/bin:$PATH"
 
