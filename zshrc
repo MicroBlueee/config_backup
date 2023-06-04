@@ -139,3 +139,11 @@ export PATH="$PATH:/Applications/IntelliJ IDEA.app/Contents/MacOS"
 export PATH="$PATH:/Applications/CLion.app/Contents/MacOS"
 
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
+# pnpm
+export PNPM_HOME="/Users/sushuai/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end

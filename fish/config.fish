@@ -83,6 +83,9 @@ if status is-interactive
   fish_add_path /Applications/IntelliJ\ IDEA.app/Contents/MacOS
   fish_add_path /Applications/CLion.app/Contents/MacOS
 
+  set -gx PNPM_HOME "/Users/sushuai/Library/pnpm"
+  fish_add_path $PNPM_HOME
+
 end
 
   # Add this to you config.fish or equivalent.
