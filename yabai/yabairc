@@ -109,11 +109,9 @@ yabai -m rule --add label="App Cleaner & Uninstaller" app="^App Cleaner & Uninst
 yabai -m rule --add label="AppCleaner" app="^AppCleaner$" manage=off
 yabai -m rule --add label="KeyCastr" app="^KeyCastr$" eymanage=off
 yabai -m rule --add label="Bartender 4" app="^Bartender 4$" manage=off
-yabai -m rule --add label="HapiGo" app="^HapiGo$" manage=off
 yabai -m rule --add label="Pixelmator" app="^Pixelmator$" manage=off
 yabai -m rule --add label="Pixelmator Pro" app="^Pixelmator Pro$" manage=off
 yabai -m rule --add label="Downie 4" app="^Downie 4$" manage=off
-yabai -m rule --add label="QuickQ VPN" app="^QuickQ VPN$" manage=off
 yabai -m rule --add label="音乐" app="^音乐$" manage=off
 yabai -m rule --add label="Typora" app="^Typora$" title="偏好设置" manage=off
 yabai -m rule --add label="FaceTime通话" app="^FaceTime通话$" manage=off
