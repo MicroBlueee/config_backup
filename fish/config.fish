@@ -86,6 +86,14 @@ if status is-interactive
   set -gx PNPM_HOME "/Users/sushuai/Library/pnpm"
   fish_add_path $PNPM_HOME
 
+  set -gx ETH_RPC_URL "https://eth-mainnet.g.alchemy.com/v2/c9ouypKBKIlNYltuNQ_fU92ln83TZReW"
+  # set -gx ETH_RPC_URL https://rpc.ankr.com/arbitrum/7127b9264e0043d99c4495803f5ff25a6655bd3d8e8eccb13ae0221856661b8c
+  set -gx ETHERSCAN_API_KEY "TN5NIU7K7M58Y8RS4SAEQUQPPGMBWCD2VV"
+
+  fish_add_path ~/.local/share/solana/install/active_release/bin
+
+  fish_add_path /Library/TeX/texbin
+
 end
 
   # Add this to you config.fish or equivalent.

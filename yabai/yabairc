@@ -142,6 +142,10 @@ yabai -m rule --add label="UPDF" app="^UPDF$" manage=off
 yabai -m rule --add label="Discord" app="^Discord$" manage=off
 yabai -m rule --add label="Pictogram" app="^Pictogram$" manage=off
 yabai -m rule --add label="HP Smart" app="^HP Smart$" manage=off
+yabai -m rule --add label="HP LaserJet Professional P1106" app="^HP LaserJet Professional P1106$" manage=off
+yabai -m rule --add label="1Password 7" app="^1Password 7$" manage=off
+yabai -m rule --add label="1Password" app="^1Password$" manage=off
+yabai -m rule --add label="1Password for Safari" app="^1Password for Safari$" manage=off
 
 # ===== Signals ================================
 

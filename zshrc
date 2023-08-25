@@ -147,3 +147,11 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+export PATH="$PATH:/Users/sushuai/.foundry/bin"
+
+export ETH_RPC_URL="https://eth-mainnet.g.alchemy.com/v2/c9ouypKBKIlNYltuNQ_fU92ln83TZReW"
+export ETHERSCAN_API_KEY="TN5NIU7K7M58Y8RS4SAEQUQPPGMBWCD2VV"
+
+export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
+
