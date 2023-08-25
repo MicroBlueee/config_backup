@@ -7,3 +7,5 @@ coc/extensions/
 raycast/
 nvim/lazy-lock.json
 fanyi/searchHistroy.txt
+solana/
+exercism/
