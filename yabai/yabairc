@@ -79,6 +79,7 @@ yabai -m rule --add label="Quickq" app="^Quickq$" manage=off
 yabai -m rule --add label="WhatsApp" app="^WhatsApp$" manage=off
 yabai -m rule --add label="Telegram" app="^Telegram$" manage=off
 yabai -m rule --add label="CLion" app="^CLion$" manage=off
+yabai -m rule --add label="RustRover.*" app="^RustRover.*$" manage=off
 yabai -m rule --add label="IntelliJ IDEA" app="^IntelliJ IDEA$" manage=off
 yabai -m rule --add label="ClashX" app="^ClashX$" manage=off
 yabai -m rule --add label="Spotify" app="^Spotify$" manage=off
