@@ -9,7 +9,7 @@
 {
   "base_keymap": "VSCode",
   "theme": "Andromeda",
-  "buffer_font_family":"Berkeley Mono",
+  "buffer_font_family": "Zed Mono",
   "buffer_font_size": 14,
   "terminal": {
     "alternate_scroll": "off",
@@ -18,11 +18,40 @@
     "font_size": 13,
     "option_as_meta": true,
     "shell": {
-      "program":"/usr/local/bin/fish"
+      "program": "/usr/local/bin/fish"
     }
   },
-  "vim_mode":true,
-  "journal":{
-    "hour_format":"hour24"
+  "vim_mode": true,
+  "journal": {
+    "hour_format": "hour24"
+  },
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "inlayHints": {
+          "maxLength": null,
+          "lifetimeElisionHints": {
+            "useParameterNames": true,
+            "enable": "skip_trivial"
+          },
+          "closureReturnTypeHints": {
+            "enable": "always"
+          }
+        }
+      }
+    },
+    "gopls": {
+      "initialization_options": {
+        "hints": {
+          "assignVariableTypes": true,
+          "compositeLiteralFields": true,
+          "compositeLiteralTypes": true,
+          "constantValues": true,
+          "functionTypeParameters": true,
+          "parameterNames": true,
+          "rangeVariableTypes": true
+        }
+      }
+    }
   }
 }

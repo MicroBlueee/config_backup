@@ -40,7 +40,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
+# source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -76,7 +76,7 @@ export RANGER_LOAD_DEFAULT_RC='False'
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 
 # GO
-export GOROOT=/usr/local/opt/go
+export GOROOT=/usr/local/opt/go/libexec/
 export GOPATH=/Users/sushuai/Documents/Code/GoLand
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
@@ -155,3 +155,5 @@ export ETHERSCAN_API_KEY="TN5NIU7K7M58Y8RS4SAEQUQPPGMBWCD2VV"
 
 export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
 
+export PATH="~/.bun/bin:$PATH"
+source /usr/local/share/powerlevel10k/powerlevel10k.zsh-theme

@@ -53,11 +53,7 @@ lvim.keys.normal_mode["sc"] = ":set spell!<cr>"
 -- -- Use which-key to add extra bindings with the leader-key prefix
 -- lvim.builtin.which_key.mappings["W"] = { "<cmd>noautocmd w<cr>", "Save without formatting" }
 lvim.builtin.which_key.mappings["H"] = {
-  name = "Hop, QuickFix and CodeRunner",
-  c = { "<cmd>HopChar2<cr>", "use HopChar2" },
-  w = { "<cmd>HopWord<cr>", "use HopWord" },
-  l = { "<cmd>HopLine<cr>", "use HopLine" },
-  v = { "<cmd>HopVertical<cr>", "use HopVertical" },
+  name = "QuickFix and CodeRunner",
   x = { "<cmd>TroubleToggle quickfix<cr>", "quickfix, bqf" },
   r = { "<cmd>RunCode<cr>", "CodeRunner, Run Code" },
 }
@@ -79,7 +75,6 @@ lvim.builtin.terminal.open_mapping = "<C-t>"
 -- Automatically install missing parsers when entering buffer
 lvim.builtin.treesitter.auto_install = true
 
--- lvim.builtin.treesitter.ignore_install = { "haskell" }
 
 -- -- generic LSP settings <https://www.lunarvim.org/docs/languages#lsp-support>
 
@@ -129,27 +124,8 @@ lvim.builtin.treesitter.auto_install = true
 
 -- -- Additional Plugins <https://www.lunarvim.org/docs/plugins#user-plugins>
 lvim.plugins = {
-  {
-    "folke/trouble.nvim",
-    cmd = "TroubleToggle",
-  },
-  "frazrepo/vim-rainbow",
-  "marko-cerovac/material.nvim",
   "sainnhe/sonokai",
   "sainnhe/everforest",
-  {
-    "shaunsingh/nord.nvim",
-    config = function()
-      vim.g.nord_contrast = true
-      vim.g.nord_borders = true
-      vim.g.nord_disable_background = false
-      vim.g.nord_italic = true
-      vim.g.nord_uniform_diff_background = true
-      vim.g.nord_bold = true
-    end
-  },
-  "tjdevries/colorbuddy.vim",
-  "tjdevries/gruvbuddy.nvim",
   {
     "iamcco/markdown-preview.nvim",
     build = function() vim.fn["mkdp#util#install"]() end,
@@ -176,41 +152,6 @@ lvim.plugins = {
     mkdp_port = '',
     mkdp_page_title = '「${name}」',
     mkdp_theme = 'dark'
-  },
-  "rockerBOO/boo-colorscheme-nvim",
-  "glepnir/zephyr-nvim",
-  "mhartington/oceanic-next",
-  "kyazdani42/blue-moon",
-  "sainnhe/edge",
-  "PHSix/nvim-hybrid",
-  "shaunsingh/moonlight.nvim",
-  "fenetikm/falcon",
-  "savq/melange",
-  "ray-x/starry.nvim",
-  "kvrohit/substrata.nvim",
-  "EdenEast/nightfox.nvim",
-  "frenzyexists/aquarium-vim",
-  "catppuccin/nvim",
-  "rose-pine/neovim",
-  "projekt0n/github-nvim-theme",
-  "nxvu699134/vn-night.nvim",
-  "yashguptaz/calvera-dark.nvim",
-  "cpea2506/one_monokai.nvim",
-  "tiagovla/tokyodark.nvim",
-  "rebelot/kanagawa.nvim",
-  "olimorris/onedarkpro.nvim",
-  "Everblush/everblush.nvim",
-  "Mofiqul/adwaita.nvim",
-  "olivercederborg/poimandres.nvim",
-  "Yazeed1s/oh-lucy.nvim",
-  "yamatsum/nvim-nonicons",
-  "xiyaowong/virtcolumn.nvim",
-  {
-    "michaelb/sniprun",
-    build = 'bash ./install.sh',
-  },
-  {
-    "phaazon/hop.nvim",
   },
   "Pocco81/auto-save.nvim",
   {
@@ -256,44 +197,7 @@ lvim.plugins = {
       })
     end
   },
-  -- {
-  --   "ethanholz/nvim-lastplace",
-  --   event = "BufRead",
-  --   config = function()
-  --     require("nvim-lastplace").setup({
-  --       lastplace_ignore_buftype = { "quickfix", "nofile", "help" },
-  --       lastplace_ignore_filetype = {
-  --         "gitcommit", "gitrebase", "svn", "hgcommit",
-  --       },
-  --       lastplace_open_folds = true,
-  --     })
-  --   end,
-  -- },
-  {
-    "itchyny/vim-cursorword",
-    event = { "BufEnter", "BufNewFile" },
-    config = function()
-      vim.api.nvim_command("augroup user_plugin_cursorword")
-      vim.api.nvim_command("autocmd!")
-      vim.api.nvim_command("autocmd FileType NvimTree,lspsagafinder,dashboard,vista let b:cursorword = 0")
-      vim.api.nvim_command("autocmd WinEnter * if &diff || &pvw | let b:cursorword = 0 | endif")
-      vim.api.nvim_command("autocmd InsertEnter * let b:cursorword = 0")
-      vim.api.nvim_command("autocmd InsertLeave * let b:cursorword = 1")
-      vim.api.nvim_command("augroup END")
-    end
-  },
-  {
-    "felipec/vim-sanegx",
-    event = "BufRead",
-  },
-  {
-    "f-person/git-blame.nvim",
-    event = "BufRead",
-    config = function()
-      vim.cmd "highlight default link gitblame SpecialComment"
-      vim.g.gitblame_enabled = 0
-    end,
-  },
+
   {
     "s1n7ax/nvim-window-picker",
     version = "1.*",
@@ -454,14 +358,6 @@ lvim.plugins = {
   },
 }
 
--- -- Autocommands (`:help autocmd`) <https://neovim.io/doc/user/autocmd.html>
--- vim.api.nvim_create_autocmd("FileType", {
---   pattern = "zsh",
---   callback = function()
---     -- let treesitter use bash highlight for zsh files as well
---     require("nvim-treesitter.highlight").attach(0, "bash")
---   end,
--- })
 
 lvim.colorscheme = "nord"
 
@@ -499,8 +395,6 @@ require("auto-save").setup {
   -- your config goes here
   -- or just leave it empty :)
 }
-
-require("hop").setup()
 
 -- example mappings you can place in some other place
 -- An awesome method to jump to windows
@@ -605,16 +499,6 @@ require("headlines").setup({
   },
 })
 
-if vim.g.neovide then
-  -- Put anything you want to happen only in Neovide here
-  -- vim.opt.guifont = { "Iosevka", "h14" }
-  vim.opt.guifont = { "Victor Mono", "h13" }
-  vim.g.neovide_input_macos_alt_is_meta = true
-  -- vim.g.neovide_fullscreen = true
-  vim.g.neovide_remember_window_size = true
-  vim.g.neovide_cursor_vfx_mode = "sonicboom"
-end
-
 lvim.autocommands = {
   {
     { "BufEnter", "Filetype" },
@@ -642,3 +526,10 @@ lvim.autocommands = {
     },
   },
 }
+
+if vim.g.neovide then
+  -- vim.o.guifont = "Victor Mono:h14"
+  vim.g.neovide_input_macos_alt_is_meta = true
+  vim.g.neovide_remember_window_size = true
+  vim.g.neovide_cursor_vfx_mode = "sonicboom"
+end

@@ -1,7 +1,8 @@
 {
   "dependencies": {
-    "typescript-language-server": "^3.3.2",
-    "vscode-langservers-extracted": "^4.7.0",
+    "create-slidev": "^0.48.0-beta.24",
+    "typescript-language-server": "^4.3.3",
+    "vscode-langservers-extracted": "^4.8.0",
     "yaml-language-server": "^1.14.0"
   }
 }

@@ -23,7 +23,7 @@ if status is-interactive
 
 
   # Go
-  set GOROOT /usr/local/opt/go
+  set GOROOT /usr/local/opt/go/libexec/
   set -g -x GOPATH /Users/sushuai/Documents/Code/GoLand
   set -g -x GOBIN $GOPATH/bin
   fish_add_path $GOBIN
@@ -58,8 +58,8 @@ if status is-interactive
 
   # llvm
   fish_add_path /usr/local/opt/llvm/bin
-  set -gx LDFLAGS "-L/usr/local/opt/llvm/lib"
-  set -gx CPPFLAGS "-I/usr/local/opt/llvm/include"
+  # set -gx LDFLAGS "-L/usr/local/opt/llvm/lib"
+  # set -gx CPPFLAGS "-I/usr/local/opt/llvm/include"
 
   alias icat="kitty +kitten icat"
 

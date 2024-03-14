@@ -77,6 +77,7 @@ yabai -m rule --add label="微信" app="^微信$" manage=off
 yabai -m rule --add label="QQ" app="^QQ$" manage=off
 yabai -m rule --add label="Quickq" app="^Quickq$" manage=off
 yabai -m rule --add label="WhatsApp" app="^WhatsApp$" manage=off
+yabai -m rule --add label=".*WhatsApp.*" app=".*WhatsApp.*" manage=off
 yabai -m rule --add label="Telegram" app="^Telegram$" manage=off
 yabai -m rule --add label="CLion" app="^CLion$" manage=off
 yabai -m rule --add label="RustRover.*" app="^RustRover.*$" manage=off
@@ -86,9 +87,9 @@ yabai -m rule --add label="Spotify" app="^Spotify$" manage=off
 yabai -m rule --add label="ArcTime Pro" app="^ArcTime Pro$" manage=off
 yabai -m rule --add label="QQ音乐" app="^QQ音乐$" manage=off
 yabai -m rule --add label="网易云音乐" app="^网易云音乐$" manage=off
-yabai -m rule --add label="Affinity Photo" app="^Affinity Photo$" manage=off
-yabai -m rule --add label="Affinity Designer" app="^Affinity Designer$" manage=off
-yabai -m rule --add label="Affinity Publisher" app="^Affinity Publisher$" manage=off
+yabai -m rule --add label=".*Affinity Photo.*" app="^.*Affinity Photo.*$" manage=off
+yabai -m rule --add label=".*Affinity Designer.*" app="^.*Affinity Designer.*$" manage=off
+yabai -m rule --add label=".*Affinity Publisher.*" app="^.*Affinity Publisher.*$" manage=off
 yabai -m rule --add label="Final Cut Pro" app="^Final Cut Pro$" manage=off
 yabai -m rule --add label="Cakebrew" app="^Cakebrew$" manage=off
 yabai -m rule --add label="Lunimar 4" app="^Luminar 4$" manage=off
@@ -147,6 +148,11 @@ yabai -m rule --add label="HP LaserJet Professional P1106" app="^HP LaserJet Pro
 yabai -m rule --add label="1Password 7" app="^1Password 7$" manage=off
 yabai -m rule --add label="1Password" app="^1Password$" manage=off
 yabai -m rule --add label="1Password for Safari" app="^1Password for Safari$" manage=off
+yabai -m rule --add label="GoLand" app="^GoLand$" manage=off
+yabai -m rule --add label="PyChram" app="^PyCharm$" manage=off
+yabai -m rule --add label=".*飞书.*" app="^.*飞书.*$" manage=off
+yabai -m rule --add label="Postman" app="^Postman$" manage=off
+
 
 # ===== Signals ================================
 
