@@ -33,14 +33,14 @@ boolbase@^1.0.0:
   integrity sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==
 
 core-js@^3.20.1:
-  version "3.36.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.36.0.tgz#e752fa0b0b462a0787d56e9d73f80b0f7c0dde68"
-  integrity sha512-mt7+TUBbTFg5+GngsAxeKBTl5/VS0guFeJacYge9OmHb+m058UwwIm41SE9T4Den7ClatV57B6TYTuJ0CX1MAw==
+  version "3.36.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.36.1.tgz#c97a7160ebd00b2de19e62f4bbd3406ab720e578"
+  integrity sha512-BTvUrwxVBezj5SZ3f10ImnX2oRByMxql3EimVqMysepbC9EeMUOpLwdy6Eoili2x6E4kf+ZUB5k/+Jv55alPfA==
 
-create-slidev@^0.48.0-beta.24:
-  version "0.48.0-beta.24"
-  resolved "https://registry.yarnpkg.com/create-slidev/-/create-slidev-0.48.0-beta.24.tgz#f77c8752c2e0d712b89d3571260768d117d6294d"
-  integrity sha512-/N1LD9yM/S1aMVwL7ck2pzGkrldnzozvg3rLb3ggyngsKxvuB++Sal2KE75rwWFQEYvdvXlwp3z7TGRWttVvQw==
+create-slidev@^0.48.3:
+  version "0.48.3"
+  resolved "https://registry.yarnpkg.com/create-slidev/-/create-slidev-0.48.3.tgz#a5613d64c8f9e0b7effee42bd64a98d08a174576"
+  integrity sha512-HUfi/epHXGWSH7yf5Cyc2Pt5o8x6uFKeM8eTJEG0u9rdlmZbWzmaSqTvS3IMWXp1i/lbUfLH59/2NrdoBrFhQw==
   dependencies:
     execa "^8.0.1"
     kolorist "^1.8.0"
