@@ -61,7 +61,7 @@ lvim.builtin.which_key.mappings["H"] = {
 
 
 -- -- Change theme settings
--- lvim.colorscheme = "lunar"
+lvim.colorscheme = "nordic"
 
 -- After changing plugin config exit and reopen LunarVim, Run :PackerSync
 lvim.builtin.alpha.active = true
@@ -270,12 +270,6 @@ lvim.plugins = {
       vim.g.rnvimr_bw_enable = 1
     end,
   },
-  {
-    "scalameta/nvim-metals",
-    config = function()
-      require("user.metals").config()
-    end,
-  },
   "imsnif/kdl.vim",
   {
     "CRAG666/code_runner.nvim",
@@ -316,7 +310,7 @@ lvim.plugins = {
     end
   },
   "rmehri01/onenord.nvim",
-  -- "gbprod/nord.nvim",
+  "gbprod/nord.nvim",
   {
     "echasnovski/mini.map",
     branch = "stable",
@@ -356,6 +350,7 @@ lvim.plugins = {
       }
     end,
   },
+  "github/copilot.vim",
 }
 
 
@@ -529,7 +524,7 @@ lvim.autocommands = {
 
 if vim.g.neovide then
   -- vim.o.guifont = "Victor Mono:h14"
-  vim.g.neovide_input_macos_alt_is_meta = true
+  vim.g.neovide_input_macos_option_key_is_meta = true
   vim.g.neovide_remember_window_size = true
   vim.g.neovide_cursor_vfx_mode = "sonicboom"
 end

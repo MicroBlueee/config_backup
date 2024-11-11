@@ -50,4 +50,5 @@ return {
 
   default_cursor_style = 'BlinkingUnderline',
   cursor_blink_rate = 700,
+  -- enable_wayland = true,
 }

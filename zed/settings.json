@@ -7,15 +7,23 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "base_keymap": "VSCode",
-  "theme": "Andromeda",
-  "buffer_font_family": "Zed Mono",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "theme": "Nord",
+  "base_keymap": "JetBrains",
+  // "buffer_font_family": "Zed Mono",
   "buffer_font_size": 14,
   "terminal": {
     "alternate_scroll": "off",
     "blinking": "terminal_controlled",
-    "font_family": "Zed Mono",
+    "font_family": "Berkeley Mono",
     "font_size": 13,
+    "font_features": {
+      "liga": true,
+      "calt": true
+    },
     "option_as_meta": true,
     "shell": {
       "program": "/usr/local/bin/fish"
@@ -24,6 +32,17 @@
   "vim_mode": true,
   "journal": {
     "hour_format": "hour24"
+  },
+  "always_treat_brackets_as_autoclosed": true,
+  "enable_preview_from_file_finder": true,
+  "soft_wrap": "editor_width",
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+    "edit_debounce_ms": 700,
+    "scroll_debounce_ms": 50
   },
   "lsp": {
     "rust-analyzer": {
@@ -36,7 +55,8 @@
           },
           "closureReturnTypeHints": {
             "enable": "always"
-          }
+          },
+          "analyzerTargetDir": true
         }
       }
     },
@@ -53,5 +73,9 @@
         }
       }
     }
-  }
+  },
+  "show_whitespaces": "all",
+  "show_wrap_guides": true,
+  "autosave": "on_window_change",
+  "format_on_save": "on"
 }

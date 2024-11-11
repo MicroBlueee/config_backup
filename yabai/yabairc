@@ -82,7 +82,7 @@ yabai -m rule --add app="^信息$" manage=off
 yabai -m rule --add app="^字体册$" manage=off
 yabai -m rule --add app="^计算器$" manage=off
 yabai -m rule --add app="^词典$" manage=off
-yabai -m rule --add app="^日历$" manage=off
+yabai -m rule --add app="日历" manage=off
 yabai -m rule --add app="^时钟$" manage=off
 yabai -m rule --add label="Safari浏览器" app="^Safari浏览器$" title="^(通用|标签页|密码|搜索|安全性|隐私|网站|扩展|高级)$" manage=off
 yabai -m rule --add label="邮件" app="^邮件$" manage=off
@@ -95,12 +95,12 @@ yabai -m rule --add label="天气" app="^天气$" manage=off
 yabai -m rule --add app="^照片$" manage=off
 yabai -m rule --add app="^播客$" manage=off
 
-yabai -m rule --add app="^飞书$" manage=off
-yabai -m rule --add app="^微信$" manage=off
+yabai -m rule --add app="飞书" manage=off
+yabai -m rule --add app="^微信$" title="微信 (聊天)" manage=off
 yabai -m rule --add app="^.*QQ.*$" manage=off
 yabai -m rule --add app=".*WhatsApp.*" manage=off
-yabai -m rule --add app="^Telegram$" manage=off
-yabai -m rule --add app="^Discord$" manage=off
+yabai -m rule --add app=".*Telegram.*" manage=off
+yabai -m rule --add app="Discord" manage=off
 
 yabai -m rule --add app="^网易云音乐$" manage=off
 yabai -m rule --add app="^Spotify$" manage=off
@@ -144,18 +144,20 @@ yabai -m rule --add app="^.*Microsoft.*$" manage=off
 yabai -m rule --add app="^Postman$" manage=off
 yabai -m rule --add app="^.*Clash.*$" manage=off
 
+yabai -m rule --add app="^.*Office.*$" manage=off
+
 yabai -m rule --add app="^.*League.*$" manage=off
 yabai -m rule --add app="^.*Riot.*$" manage=off
 
 # ===== Signals ================================
 
-# yabai -m signal --add event=application_front_switched action="${ubersicht_spaces_refresh_command}"
-# yabai -m signal --add event=display_changed action="${ubersicht_spaces_refresh_command}"
-# yabai -m signal --add event=space_changed action="${ubersicht_spaces_refresh_command}"
-# yabai -m signal --add event=window_created action="${ubersicht_spaces_refresh_command}"
-# yabai -m signal --add event=window_destroyed action="${ubersicht_spaces_refresh_command}"
-# yabai -m signal --add event=window_focused action="${ubersicht_spaces_refresh_command}"
-# yabai -m signal --add event=window_title_changed action="${ubersicht_spaces_refresh_command}"
+yabai -m signal --add event=application_front_switched action="${ubersicht_spaces_refresh_command}"
+yabai -m signal --add event=display_changed action="${ubersicht_spaces_refresh_command}"
+yabai -m signal --add event=space_changed action="${ubersicht_spaces_refresh_command}"
+yabai -m signal --add event=window_created action="${ubersicht_spaces_refresh_command}"
+yabai -m signal --add event=window_destroyed action="${ubersicht_spaces_refresh_command}"
+yabai -m signal --add event=window_focused action="${ubersicht_spaces_refresh_command}"
+yabai -m signal --add event=window_title_changed action="${ubersicht_spaces_refresh_command}"
 
 set +x
 printf "yabai: configuration loaded...\\n"
