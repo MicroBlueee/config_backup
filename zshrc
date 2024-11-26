@@ -157,3 +157,12 @@ export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
 
 export PATH="~/.bun/bin:$PATH"
 source /usr/local/share/powerlevel10k/powerlevel10k.zsh-theme
+
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
