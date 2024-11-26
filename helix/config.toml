@@ -28,12 +28,12 @@ tab = "→"
 newline = "⏎"
 tabpad = "·"
 
-# [keys.normal]
-# A-s = ":w"
-# A-q = ":q"
-# A-r = ":config-reload"
-# s = {l = ":vsplit", j = ":hsplit", h = [":vsplit", "jump_view_left"],k = [":hsplit", "jump_view_up"]}
-# "space" = {"left" = "jump_view_left", "right" = "jump_view_right", "up" = "jump_view_up", "down" = "jump_view_down"}
+[keys.normal]
+A-s = ":w"
+A-q = ":q"
+A-r = ":config-reload"
+s = {l = ":vsplit", j = ":hsplit", h = [":vsplit", "jump_view_left"],k = [":hsplit", "jump_view_up"]}
+"space" = {"left" = "jump_view_left", "right" = "jump_view_right", "up" = "jump_view_up", "down" = "jump_view_down"}
 
 [editor.indent-guides]
 render = true
