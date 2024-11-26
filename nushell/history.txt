@@ -214,3 +214,13 @@ opam update
 exit 0
 cd .config
 git status
+git add lvim/config.lua neovide/ nushell/
+git commit -m "neovide"
+git push
+git status
+exit 0
+ps
+ps | rg "nu"
+exit 0
+ex 
+exit 0
