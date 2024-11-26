@@ -77,8 +77,8 @@ $env.NU_PLUGIN_DIRS = [
 
 # Java
 $env.JAVA_HOME = '/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home'
-$env.CLASSPATH = $env.JAVA_HOME/lib/tools.jar
-$env.CLASSPATH = $env.CLASSPATH | append $"($env.JAVA_HOME)/lib/dt.jar"
+$env.CLASSPATH = '$env.JAVA_HOME/lib/tools.jar'
+$env.CLASSPATH = $env.CLASSPATH | append '$env.JAVA_HOME/lib/dt.jar'
 
 $env.CARGO_HOME = '~/.cargo'
 
@@ -88,7 +88,7 @@ $env.RANGER_LOAD_DEAFAULT_RC = 'False'
 # Go
 $env.GOROOT = '/usr/local/opt/go'
 $env.GOPATH = '/Users/sushuai/Documents/Code/GoLand'
-$env.GOBIN = '($env.GOPATH)/bin'
+$env.GOBIN = '$env.GOPATH/bin'
 
 # LLVM
 $env.LDFLAGS = '-L/usr/local/opt/llvm/lib'
@@ -113,8 +113,8 @@ $env.PATH = (
     | append "/Users/sushuai/Library/Application Support/Coursier/bin"
     | append /usr/local/opt/openjdk@8/bin
     | append $env.GOBIN
-    | append $env.JAVA_HOME/bin
-    | append $env.CARGO_HOME/bin
+    | append '$env.JAVA_HOME/bin'
+    | append '$env.CARGO_HOME/bin'
     )
 
 def proxy [] {

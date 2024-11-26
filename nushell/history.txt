@@ -200,3 +200,8 @@ ls
 cd virtual_env/
 ls
 exit 0
+brew --help
+exit 0
+echo $JAVA_HOME
+echo $env.JAVA_HOME
+exit 0
