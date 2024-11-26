@@ -205,3 +205,12 @@ exit 0
 echo $JAVA_HOME
 echo $env.JAVA_HOME
 exit 0
+brew update
+brew upgrade
+brew c
+brew cleanup
+brew upgrade --cask --greedy
+opam update
+exit 0
+cd .config
+git status
