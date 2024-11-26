@@ -1,12 +1,13 @@
 local wezterm = require 'wezterm'
 
 return {
-  -- default_prog = {'/usr/local/bin/nu'},
+  default_prog = {'/usr/local/bin/nu'},
   -- default_prog = { '/usr/local/bin/zsh' },
   -- default_prog = {'/usr/local/bin/fish'},
   automatically_reload_config = true,
   font = wezterm.font_with_fallback {
     'Berkeley Mono',
+    -- 'Apple Color Emoji',
     'MonoLisa',
     'Monoid',
     'Jetbrains Mono',
@@ -23,6 +24,7 @@ return {
     'Fira Code',
     'Broot Icons Visual Studio Code',
   },
+  use_cap_height_to_scale_fallback_fonts = true,
   -- font = wezterm.font('Monoid', { weight = "Light", stretch = "SemiCondensed", style = "Normal" }),
   -- unicode_version = 14,
 

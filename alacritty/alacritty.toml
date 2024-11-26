@@ -65,7 +65,7 @@ x = 1
 y = 1
 
 [terminal.shell]
-program = "/usr/local/bin/fish"
+program = "/usr/local/bin/nu"
 
 [window]
 decorations = "transparent"

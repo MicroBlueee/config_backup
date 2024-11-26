@@ -128,7 +128,15 @@ previewers = [
     # Fallback
     { name = "*", run = "file" },
 ]
-prepend_previewers = [{ mime = "text/csv", run = "miller" }]
+prepend_previewers = [
+    { mime = "text/csv", run = "miller" },
+    { name = "*.md", run = "glow" },
+    { mime = "video/*", run = "video-ffmpeg" },
+]
+
+prepend_preloaders = [
+  { mime = "video/*", run = "video-ffmpeg" },
+]
 
 [input]
 cursor_blink = false
@@ -204,3 +212,14 @@ sort_translit = false
 
 [log]
 enabled = false
+
+
+[[plugin.prepend_fetchers]]
+id   = "git"
+name = "*"
+run  = "git"
+
+[[plugin.prepend_fetchers]]
+id   = "git"
+name = "*/"
+run  = "git"

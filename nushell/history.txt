@@ -12,3 +12,191 @@ which nu
 brew update
 brew upgrade
 brew upgrade --cask --greedy
+exit 0
+hx .config/nushell/config.nu
+exit 0
+echo ($env.PATH | append /usr/local/opt/llvm/bin)
+echo $env.PATH
+exit 0
+[ nu_plugin_inc<\n>  nu_plugin_polars<\n>  nu_plugin_gstat<\n>  nu_plugin_formats<\n>  nu_plugin_query<\n>] | each { cargo install $in --locked } | ignore
+cd .config/nushell
+starship init nu | save -f ./init.nu
+exit 0
+nu_plugin ls
+plugin ls
+plugin list
+hx .zshrc
+exit 0
+fortune |lolcat
+exit 0
+cargo list
+cargo --list
+cargo install --list
+plugin add nu_plugin_formats
+plugin add formats
+exit 0
+plugin list
+nu_plugin_formats 
+[ nu_plugin_inc<\n>  nu_plugin_polars<\n>  nu_plugin_gstat<\n>  nu_plugin_formats<\n>  nu_plugin_query<\n>] | each { cargo install $in --locked } | ignore
+whereis inc
+whereis nu_plugin_inc
+cargo uninstall nu_plugin_inc
+whereis nu_plugin_inc
+cargo uninstall nu_plugin_polars
+cargo uninstall nu_plugin_gstat
+cargo uninstall nu_plugin_formats
+cargo uninstall nu_plugin_query
+cargo cache -a
+plugin list
+> help commands | where is_plugin == true
+help commands | where is_plugin == true
+> plugin add nu_plugin_inc
+plugin add nu_plugin_inc
+plugin use
+plugin use --help
+plugin use query
+cargo install nu_plugin_highlight
+which nu_plugin_highlight
+plugin add ~/.cargo/bin/nu_plugin_highlight
+plugin use highlight
+plugin list
+whereis u_plugin_formats
+which nu_plugin_formats
+plugin add /usr/local/bin/nu_plugin_formats
+plugin use formats
+plugin list
+which nu_plugin_query
+plugin add /usr/local/bin/nu_plugin_query
+plugin use query
+plugin add /usr/local/bin/nu_plugin_gstat
+plugin use gstat
+pluginlist
+plugin list
+plugin add /usr/local/bin/nu_plugin_polars
+plugin use polars
+plugin list
+hx .config/nushell/config.nu
+exit 0
+hx .config/nushell/config.nu
+exit 0
+plugin list
+highlight --list-themes<\n>
+hx .config/nushell/config.nu
+exit 0
+hx .config/nushell/config.nu
+exit 0
+cargo install nu_plugin_hashes<\n>plugin add ($env.CARGO_HOME ++ /bin/nu_plugin_hashes)
+plugin add ~/.cargo/bin/nu_plugin_hashes
+plugin list
+> cargo install nu_plugin_skim
+cargo install nu_plugin_skim
+plugin add ~/.cargo/bin/nu_plugin_skim
+hx .config/nushell/config.nu
+exit 0
+hx .config/nushell/config.nu
+exit 0
+cd .config/nushell
+ls
+starship init nu | save -f ./init.nu
+hx env.nu
+z ~
+zoxide init nushell | save -f zoxide.nu
+hx config.nu
+exit 0
+cd .config/nushell
+mv init.nu starship.nu
+ls
+hx config.nu
+hx zoxide.nu
+exit 0
+cd .config/nushell
+zoxide init nushell | save -f zoxide.nu
+hx config.nu
+exit 0
+cargo install nu_plugin_emoji
+plugin add ~/.cargo/bin/nu_plugin_emoji
+plugin list
+cargo install nu_plugin_clipboard
+plugin add ~/.cargo/bin/nu_plugin_clipboard
+cargo install nu_plugin_image
+hx .config/nushell/config.nu
+exit 0
+hx .config/nushell/config.nu
+exit 0
+hx .config/nushell/config.nu
+exit 0
+ls
+hx .config/nushell/config.nu
+ls
+exit 0
+ls
+hx .config/nushell/config.nu
+reload
+exit 0
+ls
+hx .config/nushell/config.nu
+source $nu.config-path
+ls
+hx .config/nushell/env.nu
+whereis idea
+hx .config/nushell/config.nu
+reload
+source $nu.config-path
+hx .config/nushell/config.nu
+reload
+source $nu.config-path
+reload
+source $nu.env-path
+echo $nu.env-path
+source  $nu.env-path
+source /Users/sushuai/.config/nushell/env.nu
+hx .config/nushell/env.nu
+ls
+table_mode
+hx .config/nushell/config.nu
+source /Users/sushuai/.config/nushell/config.nu
+hx .config/nushell/config.nu
+source /Users/sushuai/.config/nushell/config.nu
+ls
+hx .config/nushell/config.nu
+source /Users/sushuai/.config/nushell/config.nu
+ls
+source /Users/sushuai/.config/nushell/config.nu
+ls
+hx .config/nushell/config.nu
+source /Users/sushuai/.config/nushell/config.nu
+ls
+source /Users/sushuai/.config/nushell/config.nu
+hx .config/nushell/config.nu
+source /Users/sushuai/.config/nushell/config.nu
+ls
+hx .config/nushell/config.nu
+source /Users/sushuai/.config/nushell/config.nu
+ls
+hx .config/nushell/config.nu
+source /Users/sushuai/.config/nushell/config.nu
+ls
+hx .config/nushell/config.nu
+source /Users/sushuai/.config/nushell/config.nu
+ls
+hx .config/nushell/config.nu
+source /Users/sushuai/.config/nushell/config.nu
+ls
+hx .config/wezterm/wezterm.lua
+hx .config/alacritty/alacritty.toml
+exit 0
+hx .config/wezterm/wezterm.lua
+wezterm ls-fonts --text '🐍'
+hx .config/wezterm/wezterm.lua
+exit 0
+hx .config/wezterm/wezterm.lua
+hx .config/nushell/config.nu
+exit 0
+:exit 0
+exit 0
+brew update
+cd .config/nushell
+ls
+cd virtual_env/
+ls
+exit 0

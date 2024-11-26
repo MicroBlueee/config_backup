@@ -37,8 +37,8 @@ yabai -m config left_padding                "${gaps["left"]}"
 yabai -m config right_padding               "${gaps["right"]}"
 yabai -m config window_gap                  "${gaps["inner"]}"
 
-yabai -m config mouse_follows_focus         off
-yabai -m config focus_follows_mouse         off
+yabai -m config mouse_follows_focus         autofocus
+yabai -m config focus_follows_mouse         on
 
 yabai -m config window_topmost              off
 yabai -m config window_opacity              off
@@ -67,7 +67,7 @@ yabai -m rule --add label="Lark" app="^Lark$" manage=off
 yabai -m rule --add label="Feishu" app="^Feishu$" manage=off
 yabai -m rule --add label="微信" app="^微信$" manage=off
 yabai -m rule --add label="Wechat" app="^微信$" title="^(朋友圈|相册)$" manage=off
-yabai -m rule --add app="^QQ$" manage=off
+yabai -m rule --add label="QQ" app="^QQ$" title="QQ" manage=off
 yabai -m rule --add app="WhatsApp" manage=off
 yabai -m rule --add app="^Telegram$" manage=off
 yabai -m rule --add app="^Discord$" manage=off
