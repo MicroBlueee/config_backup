@@ -224,3 +224,172 @@ ps | rg "nu"
 exit 0
 ex 
 exit 0
+exa
+brew info exa
+brew intall exa
+eza --icons
+eza -l --icons
+exit 0
+q
+exit 0
+eza -l --icons
+exit 0
+exa
+eza
+exit 0
+eza -l --icons
+brew cleanup
+y
+echo $y
+hx .config/nushell/env.nu
+y
+exit 0
+yazi
+exit 0
+echo ==>
+glvim .zshrc
+exit 0
+^rustup update 
+fzf
+cargo install-update 
+cargo install-update -a
+cargo cache -a
+cargo list
+cargo --list
+exit 0
+brew update
+brew upgrade
+javac --version
+exit 0
+brew update
+brew upgrade
+brew upgrade --cask --greedy
+exit 0
+brew upgrade
+brew upgrade 
+brew upgrade --cask --greedy
+brew cleanup
+install-update -a
+.cargo/bin/cargo-install-update
+.cargo/bin/cargo-install-update -a
+cargo install-update -a
+cargo install install-update
+cargo install cargo-install-update
+cargo install cargo-update
+echo $env.PATH
+hx .config/nushell/env.nu
+exit 0
+echo $env.PATH
+y
+whereis gocode
+hx .config/nushell/env.nu
+exit 0
+hx .config/nushell/env.nu
+vim .config/nushell/env.nu
+exit 0
+whereis gocode
+whereis termusic
+ls .cargo/bin/
+whrereis move
+whrere move
+which move
+which cargo
+echo $env.PATH
+cargo install-update -a
+ls -a
+brew info rust
+whereis cargo-update
+cargo --help
+hx .config/nushell/env.nu
+brew uninstall rust
+cargo install-update -a
+whereis cargo-update
+exit 0
+cargo install-update -a
+whereis cargo-update
+whereis cargo
+whereis termusic-server
+brew install rust
+brew info rust
+whereis cargo
+/usr/local/bin/cargo --help
+/usr/local/bin/cargo --list
+brew uninstall rust
+brew cleanup
+whereis cargo
+exit 0
+cargo --version
+which cargo
+cargo install-update -a
+which cargo install-update
+which cargo-install-update
+cargo-install-update -a
+cargo-install-update
+cargo cache -a
+echo $env.PATH
+hx .config/nushell/env.nu
+exit 0
+echo $env.PATH
+cargo cache -a
+cargo info
+cargo install --help
+echo $env.CARGO_HOME
+cargo install cargo-cacje
+cargo install cargo-cache
+which rustc
+rustup run strace -o try-run-rustc.txt rustc --version
+rustup update
+/usr/local/bin/cargo --list
+which cargo
+~/.cargo/bin/cargo install cargo cache
+hx .config/nushell/env.nu
+which cargo-install-update
+exit 0
+which cargo-install-update
+cargo cache -a
+which rustc 
+source .cargo/env
+cargo install cargo-cache
+rustc --version
+cargo install cargo-cache
+exit 0
+cargo install --list
+which cargo
+cargo install-update -a
+which cargo-install-update
+cargo install cargo-cache
+cargo cache -a
+brew uninstall rust
+hx .config/nushell/env.nu
+exit 0
+echo $env.CARGO_HOME
+hx .config/nushell/env.nu
+exit 0
+cargo install cargo-cache
+cargo cache -a
+echo $env.CARGO_HOME
+hx .config/nushell/env.nu
+echo $env.PATH
+hx .config/nushell/env.nu
+exit 0
+cargo cache -a
+cargo install --list
+echo $env.HOME
+hx .config/nushell/env.nu
+exit 0
+echo $env.PATH
+ghcup tui
+opam update
+opam upgrade
+opam clean
+ghcup gc
+cs update
+cargo install-update -a
+cargo cache -a
+ls $env.CARGO_HOME/bin/
+ls ($env.CARGO_HOME ++ '/bin/')
+tree ($env.CARGO_HOME ++ '/bin/')
+npm -g update
+yarn global update
+yarn global upgrade
+exit 0

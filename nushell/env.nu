@@ -77,18 +77,18 @@ $env.NU_PLUGIN_DIRS = [
 
 # Java
 $env.JAVA_HOME = '/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home'
-$env.CLASSPATH = '$env.JAVA_HOME/lib/tools.jar'
-$env.CLASSPATH = $env.CLASSPATH | append '$env.JAVA_HOME/lib/dt.jar'
+$env.CLASSPATH = ($env.JAVA_HOME ++ '/lib/tools.jar')
+$env.CLASSPATH = $env.CLASSPATH | append ($env.JAVA_HOME ++ '/lib/dt.jar')
 
-$env.CARGO_HOME = '~/.cargo'
+$env.CARGO_HOME = ($env.HOME ++ '/.cargo')
 
 # ranger
 $env.RANGER_LOAD_DEAFAULT_RC = 'False'
 
 # Go
 $env.GOROOT = '/usr/local/opt/go'
-$env.GOPATH = '/Users/sushuai/Documents/Code/GoLand'
-$env.GOBIN = '$env.GOPATH/bin'
+$env.GOPATH = ($env.HOME + '/Documents/Code/GoLand')
+$env.GOBIN = ($env.GOPATH ++ '/bin')
 
 # LLVM
 $env.LDFLAGS = '-L/usr/local/opt/llvm/lib'
@@ -102,19 +102,20 @@ $env.PATH = (
     | prepend /usr/local/bin
     | append /usr/local/sbin
     | append /usr/local/anaconda3/bin
-    | append /Users/sushuai/.ghcup/bin
-    | append /Users/sushuai/.local/bin
-    | append /Users/sushuai/.cabal/bin
-    | append /Users/sushuai/.rb$env/shims
-    | append /Users/sushuai/.opam/default/bin
+    | append ($env.HOME ++ '/.ghcup/bin')
+    | append ($env.HOME ++ '/.local/bin')
+    | append ($env.HOME ++ '/.cabal/bin')
+    | append ($env.HOME ++ '/.rbenv/shims')
+    | append ($env.HOME ++ '/.pyenv/shims')
+    | append ($env.HOME ++ '/.opam/default/bin')
     | append /usr/local/opt/llvm/bin
     | append /usr/local/opt/coreutils/libexec/gnubin
     # Coursier
-    | append "/Users/sushuai/Library/Application Support/Coursier/bin"
+    | append ($env.HOME ++ '/Library/Application Support/Coursier/bin')
     | append /usr/local/opt/openjdk@8/bin
-    | append $env.GOBIN
-    | append '$env.JAVA_HOME/bin'
-    | append '$env.CARGO_HOME/bin'
+    | append ($env.GOBIN)
+    | append ($env.JAVA_HOME ++ "/bin")
+    | append ($env.CARGO_HOME ++ "/bin")
     )
 
 def proxy [] {
