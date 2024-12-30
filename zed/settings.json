@@ -18,7 +18,7 @@
   "terminal": {
     "alternate_scroll": "off",
     "blinking": "terminal_controlled",
-    "font_family": "Berkeley Mono",
+    "font_family": "TX-02",
     "font_size": 13,
     "font_features": {
       "liga": true,

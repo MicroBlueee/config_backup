@@ -393,3 +393,59 @@ npm -g update
 yarn global update
 yarn global upgrade
 exit 0
+brew update
+brew upgrade
+brew link --overwrite pnpm
+rm '/usr/local/bin/pnpm'
+brew link --overwrite pnpm
+brew unlink pnpm && brew link pnpm
+exit 0
+brew update
+brew upgrade
+brew upgrade --cask --greedy
+rustc --version
+rustup update
+exit 0
+plugin list
+exit 0
+brew upda
+fuck
+brew update
+echo $history
+echo $"(history | last 1 | get command | get 0)"
+exit 0
+brew upda
+fuck
+brew upgrade
+brew upgrade --cask --greedy
+alen update
+elan update
+exit 0
+thefuck --alias
+exit 0
+brew upda
+brew update
+brew upgrade
+brew upgrade --cask --greedy
+rustup update
+elan update
+cargo cache -a
+cargo install-update -a
+ghcup tui
+opam update
+opam upgrade
+eval $(opam env)
+exit 0
+brew update
+brew upgrade
+brew upgrade --cask --greedy
+rustup update
+cargo install-update -a
+brew cleanup
+elan update
+cs update
+found
+foundryup
+exit 0
+brew info kitty
+exit 0

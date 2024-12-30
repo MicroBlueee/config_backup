@@ -72,6 +72,7 @@ yabai -m rule --add app="WhatsApp" manage=off
 yabai -m rule --add app="^Telegram$" manage=off
 yabai -m rule --add app="^Discord$" manage=off
 yabai -m rule --add label="Zotero" app="^Zotero$" manage=off
+yabai -m rule --add label="input source pro" app="^Input Source Pro$" manage=off
 
 yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
 yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off
@@ -162,6 +163,11 @@ yabai -m signal --add event=window_created action="${ubersicht_spaces_refresh_co
 yabai -m signal --add event=window_destroyed action="${ubersicht_spaces_refresh_command}"
 yabai -m signal --add event=window_focused action="${ubersicht_spaces_refresh_command}"
 yabai -m signal --add event=window_title_changed action="${ubersicht_spaces_refresh_command}"
+
+# ghostty
+yabai -m signal --add app='^Ghostty$' event=window_created action='yabai -m space --layout bsp'
+yabai -m signal --add app='^Ghostty$' event=window_destroyed action='yabai -m space --layout bsp'
+
 
 set +x
 printf "yabai: configuration loaded...\\n"

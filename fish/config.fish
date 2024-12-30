@@ -39,9 +39,6 @@ if status is-interactive
     # coursier
     eval "$(cs install --env)"
 
-    # the fuck
-    thefuck --alias | source
-
     # ranger
     set -g -x RANGER_LOAD_DEFAULT_RC False
 

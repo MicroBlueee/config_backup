@@ -44,3 +44,5 @@ $env.config.plugins = {
         helights.theme: 'Nord'
     }
 }
+
+alias fuck = thefuck $"(history | last 1 | get command | get 0)"

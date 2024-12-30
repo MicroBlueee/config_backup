@@ -6,7 +6,7 @@ return {
   -- default_prog = {'/usr/local/bin/fish'},
   automatically_reload_config = true,
   font = wezterm.font_with_fallback {
-    'Berkeley Mono',
+    'TX-02',
     -- 'Apple Color Emoji',
     -- 'MonoLisa',
     -- 'Monoid',
