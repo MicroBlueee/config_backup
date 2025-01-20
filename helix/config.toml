@@ -30,10 +30,16 @@ tabpad = "·"
 
 [keys.normal]
 # A-s = ":w"
-# A-q = ":q"
-# A-r = ":config-reload"
+C-q = ":q"
+C-r = ":config-reload"
 # s = {l = ":vsplit", j = ":hsplit", h = [":vsplit", "jump_view_left"],k = [":hsplit", "jump_view_up"]}
 # "space" = {"left" = "jump_view_left", "right" = "jump_view_right", "up" = "jump_view_up", "down" = "jump_view_down"}
+C-s = ":w" # Maps Ctrl-s to the typable command :w which is an alias for :write (save file)
+C-o = ":open ~/.config/helix/config.toml" # Maps Ctrl-o to opening of the helix config file
+# g = { a = "code_action" } # Maps `ga` to show possible code actions
+"ret" = ["open_below", "normal_mode"] # Maps the enter key to open_below then re-enter normal mode
+"A-x" = "@x<A-d>"
+
 
 [editor.indent-guides]
 render = true
@@ -49,10 +55,12 @@ skip-levels = 1
 '<' = '>'
 
 [editor.statusline]
-left = ["mode", "file-line-ending", "selections", "primary-selection-length"]
+left = ["mode", "file-modification-indicator", "file-line-ending", "selections", "primary-selection-length"]
 center = ["spinner", "diagnostics", "spacer", "workspace-diagnostics"]
 right = [
   "file-name",
+  "version-control",
+  "read-only-indicator",
   "file-type",
   "file-encoding",
   "separator",
