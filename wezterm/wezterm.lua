@@ -1,12 +1,13 @@
 local wezterm = require 'wezterm'
 
 return {
-  default_prog = {'/usr/local/bin/nu'},
+  default_prog = { '/usr/local/bin/nu' },
   -- default_prog = { '/usr/local/bin/zsh' },
   -- default_prog = {'/usr/local/bin/fish'},
   automatically_reload_config = true,
   font = wezterm.font_with_fallback {
     'Berkeley Mono',
+    'Maple Mono CN'
     -- 'Apple Color Emoji',
     -- 'MonoLisa',
     -- 'Monoid',
