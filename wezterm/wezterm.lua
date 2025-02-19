@@ -7,7 +7,7 @@ return {
   automatically_reload_config = true,
   font = wezterm.font_with_fallback {
     'Berkeley Mono',
-    'Maple Mono CN'
+    'Maple Mono Normal CN'
     -- 'Apple Color Emoji',
     -- 'MonoLisa',
     -- 'Monoid',

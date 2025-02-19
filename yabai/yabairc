@@ -137,6 +137,7 @@ yabai -m rule --add app="^.*HP.*$" manage=off
 yabai -m rule --add app="^.*1Password.*$" manage=off
 yabai -m rule --add app="^.*Mos.*$" manage=off
 yabai -m rule --add app="^.*AltTab.*$" manage=off
+yabai -m rule --add app="^.*DockDoor.*$" manage=off
 
 yabai -m rule --add app="^CLion$" manage=off
 yabai -m rule --add app="^RustRover.*$" manage=off

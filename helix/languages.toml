@@ -1,6 +1,6 @@
-[language-server.tinymist]
-command = "tinymist"
-
 [[language]]
 name = "typst"
 language-servers = ["tinymist"]
+
+[language-server.tinymist]
+command = "tinymist"
