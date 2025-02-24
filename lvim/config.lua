@@ -523,7 +523,7 @@ lvim.autocommands = {
 }
 
 if vim.g.neovide then
-  vim.o.guifont = "Victor Mono:h14"
+  vim.o.guifont = "Berkeley_mono,Maple_Mono_CN:h14"
   vim.g.neovide_input_macos_option_key_is_meta = "only_left"
   vim.g.neovide_remember_window_size = true
   vim.g.neovide_cursor_vfx_mode = "sonicboom"
