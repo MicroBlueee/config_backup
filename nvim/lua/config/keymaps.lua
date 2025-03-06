@@ -38,7 +38,3 @@ keymap.set("n", "tp", ":-tabnext<CR>")
 keymap.set("n", "tn", ":+tabnext<CR>")
 -- 拼写检查
 keymap.set("n", "sc", ":set spell!<CR>")
-
--------------- 插件 -------------
--- nvim-tree
-keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
