@@ -1,8 +1,4 @@
--- 使用gui
-require("neovide")
-
--- Vim键位配置
-require("keymaps")
-
--- Vim选项加载
-require("options")
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
+-- Lua:
+vim.cmd [[colorscheme nord]]
