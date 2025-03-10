@@ -9,5 +9,4 @@ return {
         vim.g.mkdp_page_title = "${name}"
     end,
     ft = {"markdown"},
-    lazy = true,
 }
