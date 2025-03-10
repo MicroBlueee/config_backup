@@ -31,7 +31,7 @@ keymap.set("n", "<leader>h", ":nohl<CR>")
 -- 保存
 keymap.set("n", "S", ":w<CR>")
 -- 退出
-keymap.set("n", "Q", ":q<CR>:q<CR>")
+keymap.set("n", "Q", ":q<CR>")
 -- tab
 keymap.set("n", "ta", ":tabe<CR>")
 keymap.set("n", "tp", ":-tabnext<CR>")
