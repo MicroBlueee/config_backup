@@ -1,1 +1,11 @@
-return { "shaunsingh/nord.nvim" }
+return {
+    {
+        "shaunsingh/nord.nvim"
+    },
+    {
+        "LazyVim/LazyVim",
+        opts = {
+            colorscheme = "nord"
+        }
+    }
+}

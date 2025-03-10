@@ -7,6 +7,7 @@ local opt = vim.opt
 
 -- 行号
 opt.number = true
+opt.relativenumber = false
 
 -- 缩进
 opt.tabstop = 2
