@@ -2,10 +2,10 @@ return {
     "nvim-treesitter/nvim-treesitter",
     opts = {
         ensure_installed = {
-            "bash", "c", "cpp", "go", "haskell", 
+            "bash", "c", "cairo", "cpp", "go", "haskell", 
             "html", "javascript", "json", "lua", "markdown",
-            "markdown_inline", "python", "query", "regex", 
-            "rust", "solidity", "toml", "tsx",
-            "typescript", "vim", "yaml"}
+            "markdown_inline", "ocaml", "python", "query", "regex", 
+            "scala", "rust", "solidity", "toml", "tsx", 
+            "typescript", "typst", "vim", "yaml", "zig"}
     }
 }
