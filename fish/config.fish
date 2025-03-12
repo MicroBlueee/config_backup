@@ -27,12 +27,6 @@ if status is-interactive
     # opam configuration
     source /Users/sushuai/.opam/opam-init/init.fish >/dev/null 2>/dev/null; or true
 
-    # rbenv
-    status --is-interactive; and rbenv init - fish | source
-
-    # pyenv
-    pyenv init - | source
-
     # rust
     fish_add_path $HOME/.cargo/bin
 
@@ -55,9 +49,6 @@ if status is-interactive
     set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
     set -gx PATH $HOME/.cabal/bin $PATH /Users/sushuai/.ghcup/bin # ghcup-env
 
-    # autojump  
-    zoxide init fish | source
-
     # eval (zellij setup --generate-auto-start fish | string collect)
 
     starship init fish | source
@@ -67,17 +58,8 @@ if status is-interactive
     # Using highlight (http://www.andre-simon.de/doku/highlight/en/highlight.html)
     export FZF_CTRL_T_OPTS="--preview '(highlight -O ansi -l {} 2> /dev/null || bat {} || tree -C {} || viu {}) 2> /dev/null | head -200'"
 
-    set -gx NVM_DIR "$HOME/.nvm"
-
     fish_add_path /Applications/IntelliJ\ IDEA.app/Contents/MacOS
     fish_add_path /Applications/CLion.app/Contents/MacOS
-
-    set -gx PNPM_HOME /Users/sushuai/Library/pnpm
-    fish_add_path $PNPM_HOME
-
-    set -gx ETH_RPC_URL "https://eth-mainnet.g.alchemy.com/v2/c9ouypKBKIlNYltuNQ_fU92ln83TZReW"
-    # set -gx ETH_RPC_URL https://rpc.ankr.com/arbitrum/7127b9264e0043d99c4495803f5ff25a6655bd3d8e8eccb13ae0221856661b8c
-    set -gx ETHERSCAN_API_KEY TN5NIU7K7M58Y8RS4SAEQUQPPGMBWCD2VV
 
     fish_add_path ~/.local/share/solana/install/active_release/bin
 
