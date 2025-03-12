@@ -22,7 +22,6 @@
             neovim
             helix
             # shell
-            nerdfonts
             zsh
             zsh-powerlevel10k
             zsh-autosuggestions
@@ -106,7 +105,10 @@
         onActivation.upgrade = true;
       };
       
-      fonts.packages = with pkgs; [ ]; 
+      fonts.packages = with pkgs; [ 
+        nerdfonts.fira-code
+        nerdfonts.fira-mono
+      ]; 
 
       system.activationScripts.applications.text = let
         env = pkgs.buildEnv {
