@@ -106,8 +106,8 @@
       };
       
       fonts.packages = with pkgs; [ 
-        nerdfonts.fira-code
-        nerdfonts.fira-mono
+        nerd-fonts.fira-code
+        nerd-fonts.fira-mono
       ]; 
 
       system.activationScripts.applications.text = let
