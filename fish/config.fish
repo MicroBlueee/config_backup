@@ -5,7 +5,7 @@ if status is-interactive
     set fish_greeting
 
     # greeting
-    fortune-kind | cowsay -f fence -e oO -T U | lolcat -F 0.2 -p 2
+    fortune-kind | cowsay -f squirrel -e oO -T U | clolcat -F 0.2
 
     # Java
     set JAVA_HOME /Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home

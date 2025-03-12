@@ -24,7 +24,8 @@
             # shell
             zsh
             zsh-powerlevel10k
-            zsh-autosuggestions
+            # zsh-autosuggestions
+            # zsh-syntax-highlighting
             fish
             nushell
             bat
@@ -92,6 +93,7 @@
           "typora"
           "obsidian"
           "zotero"
+          "1password"
         ];
         masApps = {
           "WeChat" = 836500024;
@@ -145,6 +147,12 @@
 
       # Enable alternative shell support in nix-darwin.
       programs.fish.enable = true;
+
+      programs.zsh = {
+        enable = true;
+        enableCompletion = true;
+        promptInit = "source ${pkgs.zsh-powerlevel10k}/share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
+      };
 
       # Set Git commit hash for darwin-version.
       system.configurationRevision = self.rev or self.dirtyRev or null;

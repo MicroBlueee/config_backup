@@ -1,9 +1,5 @@
 # zsh
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/local/opt/zsh-git-prompt/zshrc.sh
 export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/highlighters
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 #export PROMPT="%{%F{blue}%}%n🥬$reset_color @ %{%F{green}%}%1~
 #%{$reset_color%}> "
 #export RPROMPT="[%{%F{cyan}%}%B%?%{$reset_color]%}"
@@ -30,7 +26,7 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 # cowsay
-fortune-kind | cowsay -f fence -e "oO" -T "ω" | lolcat -F 0.2 -p 2
+fortune-kind | cowsay -f squirrel -e "oO" -T "ω" | clolcat -F 0.2
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -49,21 +45,10 @@ export PATH="/usr/local/opt/python@3.10/bin:$PATH"
 export PATH="$PATH:/Users/sushuai/Library/Application Support/Coursier/bin"
 export PATH="/usr/local/opt/openjdk@8/bin:$PATH"
 
-# Ruby
-eval "$(rbenv init - zsh)"
-
-# pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
 # Java
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home"
 export PATH="$JAVA_HOME/bin:$PATH:"
 export CLASSPATH="$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar"
-
-# cargo
-. "$HOME/.cargo/env"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -84,8 +69,6 @@ export PATH=$PATH:$GOROOT/bin
 # QuickQ
 # export ALL_PROXY=socks5://127.0.0.1:10010
 
-# Fast Jump zoxide
-eval "$(zoxide init zsh)"
 
 # llvm
 export PATH="/usr/local/opt/llvm/bin:$PATH"
@@ -155,7 +138,6 @@ export ETHERSCAN_API_KEY="TN5NIU7K7M58Y8RS4SAEQUQPPGMBWCD2VV"
 export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
 
 export PATH="~/.bun/bin:$PATH"
-source /usr/local/share/powerlevel10k/powerlevel10k.zsh-theme
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
