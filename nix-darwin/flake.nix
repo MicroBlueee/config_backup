@@ -27,6 +27,8 @@
             zsh-autosuggestions
             fish
             nushell
+            bat
+            zellij
             # lang
             rustup
             go
@@ -34,6 +36,8 @@
             opam
             coursier
             jdk
+            typst
+            typstyle
             # tool
             mas
             git
@@ -48,6 +52,7 @@
             # media
             spotify
             mpv
+            viu
 
           #gui
             # terminal
@@ -79,7 +84,7 @@
           "intellij-idea"
           "pycharm"
           "goland"
-          "rust-rover"
+          "rustrover"
           "spotify"
           "discord"
           "input-source-pro"
@@ -97,8 +102,6 @@
           "OneDrive" = 823766827;
           "XCode" = 497799835;
           "QQMusic" = 595615424;
-          "NeteaseMusic" = 944848654;
-          "Lark" = 6449830127;
         };
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
