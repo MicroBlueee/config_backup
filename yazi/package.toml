@@ -10,8 +10,8 @@ hash = "54a2158dde0bf6ecb377bd71c9cdcdf9"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "a1b678d"
-hash = "bcbf72738d4b7fb9a03cac84465b9ba4"
+rev = "2bf70d8"
+hash = "806cb2842b64e976ba2c65a3e3724518"
 
 [[plugin.deps]]
 use = "Rolv-Apneseth/starship"
@@ -20,7 +20,7 @@ hash = "5614c46d5de76623c283d415bfac8025"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "a1b678d"
+rev = "2bf70d8"
 hash = "9dce00232a0e0e2502565c7aa2b0ed4e"
 
 [[plugin.deps]]

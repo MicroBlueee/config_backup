@@ -23,38 +23,37 @@
             helix
             # shell
             zsh
+            zsh-powerlevel10k
+            zsh-autosuggestions
             fish
             nushell
             # lang
             rustup
             go
             bun
+            opam
+            coursier
+            jdk
             # tool
             mas
             git
             yabai
             skhd
             neo-cowsay
+            clash-rs
+            clolcat
+            fzf
+            fortune-kind
             # media
             spotify
             mpv
-            discord
 
           #gui
             # terminal
             # kitty
-            alacritty
-            # editor and ide
-            zed-editor
-            vscode
-            jetbrains.goland
-            jetbrains.clion
-            jetbrains.idea-ultimate
-            jetbrains.pycharm-professional
-            jetbrains.rust-rover
-
-            # browser
-            pkgs.firefox
+            # alacritty
+            #editor
+            neovide
         ];
 
       homebrew = {
@@ -62,18 +61,31 @@
         brews = [
           "ghcup"
           "starship"
-          "fortune"
-          "fzf"
-          "lolcat"
         ];
         casks = [
           "google-chrome"
+          "firefox"
           "kitty"
           "miniconda"
           "alfred"
           "bartender"
+          "downie"
           "WhatsApp"
           "telegram"
+          "zed@preview"
+          "visual-studio-code"
+          "clion"
+          "intellij-idea"
+          "pycharm"
+          "goland"
+          "rust-rover"
+          "spotify"
+          "discord"
+          "input-source-pro"
+          "notion"
+          "typora"
+          "obsidian"
+          "zotero"
         ];
         masApps = {
           "WeChat" = 836500024;
@@ -83,16 +95,16 @@
           "MS PowerPoint" = 462062816;
           "OneDrive" = 823766827;
           "XCode" = 497799835;
-
+          "QQMusic" = 595615424;
+          "NeteaseMusic" = 944848654;
+          "Lark" = 6449830127;
         };
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
         onActivation.upgrade = true;
       };
       
-      fonts.packages = with pkgs; [
-        nerd-fonts.fira-code
-      ];  
+      fonts.packages = with pkgs; [ nerdfonts ]; 
 
       system.activationScripts.applications.text = let
         env = pkgs.buildEnv {

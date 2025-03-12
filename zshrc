@@ -4,7 +4,6 @@ source /usr/local/opt/zsh-git-prompt/zshrc.sh
 export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/highlighters
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
-eval $(thefuck --alias)
 #export PROMPT="%{%F{blue}%}%n🥬$reset_color @ %{%F{green}%}%1~
 #%{$reset_color%}> "
 #export RPROMPT="[%{%F{cyan}%}%B%?%{$reset_color]%}"
@@ -31,7 +30,7 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 # cowsay
-fortune | cowsay -f fence -e "oO" -T "ω" | lolcat -F 0.2 -p 2
+fortune-kind | cowsay -f fence -e "oO" -T "ω" | lolcat -F 0.2 -p 2
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
