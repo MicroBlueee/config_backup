@@ -19,6 +19,7 @@
           mkalias
           # cli
             # editor
+            starship
             neovim
             helix
             # shell
@@ -59,6 +60,7 @@
             fzf
             fortune-kind
             yazi
+            _1password-cli
             # media
             spotify
             mpv
@@ -76,7 +78,6 @@
         enable = true;
         brews = [
           "ghcup"
-          "starship"
         ];
         casks = [
           "google-chrome"
