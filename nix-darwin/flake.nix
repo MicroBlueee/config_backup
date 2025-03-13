@@ -47,6 +47,7 @@
             typst
             typstyle
             foundry
+            ollama
             # tool
             mas
             git
