@@ -157,13 +157,19 @@
           TrackpadThreeFingerDrag = true;
           TrackpadThreeFingerTapGesture = 2;
         };
+        finder = {
+            _FXSortFoldersFirst = true;
+            _FXSortFoldersFirstOnDesktop = true;
+        };
         NSGlobalDomain = {
           AppleICUForce24HourTime = true;
         };
       };
 
-      services.yabai.enable = true;
-      services.skhd.enable = true;
+      services = {
+        yabai.enable = true;
+        skhd.enable = true;
+      };
 
       # Necessary for using flakes on this system.
       nix.settings.experimental-features = "nix-command flakes";
@@ -191,6 +197,11 @@
 
       # The platform the configuration will be used on.
       nixpkgs.hostPlatform = "x86_64-darwin";
+
+      security.pam.services.sudo_local = {
+        touchIdAuth = true;
+        watchIdAuth = true;
+      };
 
       nixpkgs.config.allowUnfree = true;
     };
