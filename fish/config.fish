@@ -4,8 +4,9 @@ if status is-interactive
     # cancel greeting
     set fish_greeting
 
+    set -gx COWPATH ~/.config/cowfile
     # greeting
-    fortune-kind | cowsay -f squirrel -e oO -T U | clolcat -F 0.2
+    fortune-kind | cowsay -f fence -e oO -T U | clolcat -F 0.2
 
     # Java
     set JAVA_HOME /Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home
@@ -20,6 +21,9 @@ if status is-interactive
     set -g -x GOBIN $GOPATH/bin
     fish_add_path $GOBIN
     fish_add_path $GOROOT/bin
+    
+    # zoxide
+    zoxide init fish | source
 
     fish_add_path Users/sushuai/.ghcup/bin
     fish_add_path Users/sushuai/.cabal/bin

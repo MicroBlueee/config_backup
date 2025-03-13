@@ -26,7 +26,8 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 # cowsay
-fortune-kind | cowsay -f squirrel -e "oO" -T "ω" | clolcat -F 0.2
+export COWPATH="$HOME/.config/cowfile/"
+fortune-kind | cowsay -f fence -e "oO" -T "ω" | clolcat -F 0.2
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -55,7 +56,10 @@ export CLASSPATH="$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar"
 
 # ranger
 export RANGER_LOAD_DEFAULT_RC='False'
- 
+
+# zoxide
+eval "$(zoxide init zsh)"
+
 # fzf
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 

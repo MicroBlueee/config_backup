@@ -26,12 +26,19 @@
             zsh-powerlevel10k
             # zsh-autosuggestions
             # zsh-syntax-highlighting
+            zsh-fast-syntax-highlighting
+            zsh-completions
             fish
             nushell
+            zoxide
             bat
             zellij
             # lang
+            gdb
             rustup
+            cargo-binstall
+            cargo-update
+            cargo-cache
             go
             bun
             opam
@@ -39,6 +46,7 @@
             jdk
             typst
             typstyle
+            foundry
             # tool
             mas
             git
@@ -136,7 +144,20 @@
         '';
       
       system.defaults = {
-        dock.autohide = true;
+        dock = {
+          autohide = true;
+          magnification = true;
+          minimize-to-application = true;
+          show-recents = false;
+        };
+        trackpad = {
+          Clicking = true;
+          TrackpadThreeFingerDrag = true;
+          TrackpadThreeFingerTapGesture = 2;
+        };
+        NSGlobalDomain = {
+          AppleICUForce24HourTime = true;
+        };
       };
 
       services.yabai.enable = true;
@@ -148,9 +169,14 @@
       # Enable alternative shell support in nix-darwin.
       programs.fish.enable = true;
 
+      programs.man.enable = true;
+      
       programs.zsh = {
         enable = true;
         enableCompletion = true;
+        # enableSyntaxHighlighting = true;
+        enableFastSyntaxHighlighting = true;
+        enableFzfCompletion = true;
         promptInit = "source ${pkgs.zsh-powerlevel10k}/share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
       };
 
