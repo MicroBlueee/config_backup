@@ -49,8 +49,6 @@ opt.listchars = {
     space = "␣"
 }
 opt.showbreak = "↪"
-opt.spell = false
-opt.spelllang = "en"
 
 -- 显示光标所在位置
 opt.cursorcolumn = true
