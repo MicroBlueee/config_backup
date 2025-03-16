@@ -90,6 +90,8 @@ $env.GOROOT = '/usr/local/opt/go'
 $env.GOPATH = ($env.HOME + '/Documents/Code/GoLand')
 $env.GOBIN = ($env.GOPATH ++ '/bin')
 
+$env.COWPATH = ($env.HOME ++ '/.config/cowfile')
+
 # LLVM
 $env.LDFLAGS = '-L/usr/local/opt/llvm/lib'
 $env.CPPFLAGS = '-I/usr/local/opt/llvm/include'
@@ -101,6 +103,7 @@ $env.PATH = (
     | split row (char esep)
     | prepend /usr/local/bin
     | append /usr/local/sbin
+    | append /run/current-system/sw/bin/
     | append /usr/local/anaconda3/bin
     | append ($env.HOME ++ '/.ghcup/bin')
     | append ($env.HOME ++ '/.local/bin')

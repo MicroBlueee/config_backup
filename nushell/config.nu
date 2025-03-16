@@ -27,7 +27,7 @@ source custom-completions/zellij/zellij-completions.nu
 source custom-completions/rg/rg-completions.nu
 
 if $nu.is-interactive {
-  (fortune | cowsay -f fence -e "oO" -T "ω" | lolcat -F 0.2 -p 2)
+  (fortune-kind | cowsay -f fence -e "oO" -T "ω" | clolcat -F 0.2)
 }
 
 $env.config = {

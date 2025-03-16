@@ -57,13 +57,12 @@ if status is-interactive
 
     starship init fish | source
 
+    thefuck --alias | source 
+
     set -gx CHEAT_USE_FZF true
 
     # Using highlight (http://www.andre-simon.de/doku/highlight/en/highlight.html)
     export FZF_CTRL_T_OPTS="--preview '(highlight -O ansi -l {} 2> /dev/null || bat {} || tree -C {} || viu {}) 2> /dev/null | head -200'"
-
-    fish_add_path /Applications/IntelliJ\ IDEA.app/Contents/MacOS
-    fish_add_path /Applications/CLion.app/Contents/MacOS
 
     fish_add_path ~/.local/share/solana/install/active_release/bin
 
