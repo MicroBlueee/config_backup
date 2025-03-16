@@ -46,6 +46,7 @@
             coursier
             jdk
             typst
+            tinymist
             typstyle
             foundry
             ollama
