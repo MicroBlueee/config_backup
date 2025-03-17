@@ -70,7 +70,7 @@ yabai -m rule --add label="Wechat" app="^微信$" title="^(朋友圈|相册)$" m
 yabai -m rule --add label="QQ" app="^QQ$" title="QQ" manage=off
 yabai -m rule --add app="WhatsApp" manage=off
 yabai -m rule --add app="^Telegram$" manage=off
-yabai -m rule --add app="^Discord$" manage=off
+yabai -m rule --add app="Discord" manage=off
 yabai -m rule --add label="Zotero" app="^Zotero$" manage=off
 yabai -m rule --add label="input source pro" app="^Input Source Pro$" manage=off
 
