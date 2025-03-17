@@ -51,14 +51,12 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home"
 export PATH="$JAVA_HOME/bin:$PATH:"
 export CLASSPATH="$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar"
 
-# fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 # zoxide
 eval "$(zoxide init zsh)"
 
 # fzf
-export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
+source <(fzf --zsh)
+export FZF_DEFAULT_OPTS="--style full --height 60% --layout=reverse --border --preview 'fzf-preview {}'"
 
 # GO
 export GOROOT=/usr/local/opt/go/libexec/
@@ -71,72 +69,13 @@ export PATH=$PATH:$GOROOT/bin
 # export ALL_PROXY=socks5://127.0.0.1:10010
 
 
-# llvm
-export PATH="/usr/local/opt/llvm/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/llvm/lib"
-export CPPFLAGS="-I/usr/local/opt/llvm/include"
-
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-# lvim
-export PATH="/Users/sushuai/.local/bin:$PATH"
 
 export PATH="/usr/local/sbin:$PATH"
 
 set -o vi 
 
-# Using highlight (http://www.andre-simon.de/doku/highlight/en/highlight.html)
-export FZF_CTRL_T_OPTS="--preview '(highlight -O ansi -l {} 2> /dev/null || bat {} || tree -C {} || viu {}) 2> /dev/null | head -200'"
-
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
-# proxy function
-proxy () {
-  export https_proxy=http://127.0.0.1:7890
-  export http_proxy=http://127.0.0.1:7890
-  export all_proxy=socks5://127.0.0.1:7890
-  echo "Network Proxy on"
-}
-
-noproxy () {
-  unset http_proxy
-  unset https_proxy
-  unset all_proxy
-  echo "Network Proxy off"
-}
-
-# homebrew自动补全
-if type brew &>/dev/null
-then
-  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
-
-  autoload -Uz compinit
-  compinit
-fi
-
-export PATH="/usr/local/opt/openjdk/bin:$PATH"
-
-export PATH="$PATH:/Applications/IntelliJ IDEA.app/Contents/MacOS"
-export PATH="$PATH:/Applications/CLion.app/Contents/MacOS"
-
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-
-# pnpm
-export PNPM_HOME="/Users/sushuai/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-
-export PATH="$PATH:/Users/sushuai/.foundry/bin"
-
-export ETH_RPC_URL="https://eth-mainnet.g.alchemy.com/v2/c9ouypKBKIlNYltuNQ_fU92ln83TZReW"
-export ETHERSCAN_API_KEY="TN5NIU7K7M58Y8RS4SAEQUQPPGMBWCD2VV"
-
-export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
 
 export PATH="~/.bun/bin:$PATH"
 
