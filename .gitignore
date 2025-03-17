@@ -12,4 +12,4 @@ exercism/
 op/
 zed/prompts
 github-copilot/
-nushell/history.txt
+nushell/**/history*
