@@ -33,7 +33,7 @@ fortune-kind | cowsay -f fence -e "oO" -T "ω" | clolcat -F 0.2
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+    source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
 # source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
@@ -41,6 +41,8 @@ fi
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="/usr/local/opt/python@3.10/bin:$PATH"
+
+source /run/current-system/sw/share/zsh/plugins/nix/nix-zsh-completions.plugin.zsh
 
 # coursier
 export PATH="$PATH:/Users/sushuai/Library/Application Support/Coursier/bin"
