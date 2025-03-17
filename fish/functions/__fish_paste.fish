@@ -43,6 +43,6 @@ function __fish_paste
     end
 
     if test -n "$data"
-        commandline --insert-smart -- $data
+        commandline $data
     end
 end
