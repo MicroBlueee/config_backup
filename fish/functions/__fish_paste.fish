@@ -43,6 +43,6 @@ function __fish_paste
     end
 
     if test -n "$data"
-        commandline $data
+        commandline --insert -- $data
     end
 end
