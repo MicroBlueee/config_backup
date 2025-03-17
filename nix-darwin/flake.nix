@@ -85,6 +85,7 @@
           "google-chrome"
           "firefox"
           "kitty"
+          "wezterm"
           "miniconda"
           "alfred"
           "bartender"
