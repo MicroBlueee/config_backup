@@ -8,22 +8,10 @@ if status is-interactive
     set -gx COWPATH ~/.config/cowfile
     fortune-kind | cowsay -f fence -e oO -T U | clolcat -F 0.2
 
-    # brew
-    eval "$(/usr/local/bin/brew shellenv)"
-    if test -d (brew --prefix)"/share/fish/completions"
-        set -p fish_complete_path (brew --prefix)/share/fish/completions
-    end
-
-    if test -d (brew --prefix)"/share/fish/vendor_completions.d"
-        set -p fish_complete_path (brew --prefix)/share/fish/vendor_completions.d
-    end
-
     # Go
-    set GOROOT /usr/local/opt/go/libexec/
     set -g -x GOPATH /Users/sushuai/Documents/Code/GoLand
     set -g -x GOBIN $GOPATH/bin
     fish_add_path $GOBIN
-    fish_add_path $GOROOT/bin
     
     # zoxide
     zoxide init fish | source
@@ -50,8 +38,6 @@ if status is-interactive
 
     # starship
     starship init fish | source
-
-   
 
 end
 

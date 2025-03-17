@@ -44,12 +44,6 @@ export PATH="/usr/local/opt/python@3.10/bin:$PATH"
 
 # coursier
 export PATH="$PATH:/Users/sushuai/Library/Application Support/Coursier/bin"
-export PATH="/usr/local/opt/openjdk@8/bin:$PATH"
-
-# Java
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home"
-export PATH="$JAVA_HOME/bin:$PATH:"
-export CLASSPATH="$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar"
 
 # zoxide
 eval "$(zoxide init zsh)"
@@ -59,23 +53,13 @@ source <(fzf --zsh)
 export FZF_DEFAULT_OPTS="--style full --height 60% --layout=reverse --border --preview 'fzf-preview {}'"
 
 # GO
-export GOROOT=/usr/local/opt/go/libexec/
 export GOPATH=/Users/sushuai/Documents/Code/GoLand
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
-export PATH=$PATH:$GOROOT/bin
-
-# QuickQ
-# export ALL_PROXY=socks5://127.0.0.1:10010
-
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 export PATH="/usr/local/sbin:$PATH"
 
 set -o vi 
-
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 
 export PATH="~/.bun/bin:$PATH"
 
