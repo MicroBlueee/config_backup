@@ -57,8 +57,6 @@ if status is-interactive
 
     starship init fish | source
 
-    thefuck --alias | source 
-
     set -gx CHEAT_USE_FZF true
 
     # Using highlight (http://www.andre-simon.de/doku/highlight/en/highlight.html)

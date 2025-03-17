@@ -33,7 +33,6 @@
             nushell
             zoxide
             bat
-            thefuck
             zellij
             # lang
             gdb

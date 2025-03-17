@@ -54,13 +54,8 @@ export CLASSPATH="$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar"
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# ranger
-export RANGER_LOAD_DEFAULT_RC='False'
-
 # zoxide
 eval "$(zoxide init zsh)"
-
-eval "$(thefuck --alias)"
 
 # fzf
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
