@@ -6,10 +6,6 @@
     nix-darwin.url = "github:LnL7/nix-darwin/master";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
-    home-manager = {
-      url = "github:nix-community/home-manager";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
   };
 
   outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew, home-manager}:
@@ -31,14 +27,15 @@
             zsh-powerlevel10k
             zsh-autosuggestions
             zsh-autocomplete
-            # zsh-syntax-highlighting
-            zsh-fast-syntax-highlighting
+            zsh-syntax-highlighting
+            # zsh-fast-syntax-highlighting
             zsh-completions
             fish
             nushell
             zoxide
             bat
             zellij
+            tree
             # lang
             gdb
             rustup
@@ -189,10 +186,14 @@
       programs.zsh = {
         enable = true;
         enableCompletion = true;
-        # enableSyntaxHighlighting = true;
-        enableFastSyntaxHighlighting = true;
         enableFzfCompletion = true;
-        promptInit = "source ${pkgs.zsh-powerlevel10k}/share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
+        promptInit = ''
+          source ${pkgs.zsh-powerlevel10k}/share/zsh-powerlevel10k/powerlevel10k.zsh-theme
+          source ${pkgs.zsh-autosuggestions}/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+          source ${pkgs.zsh-autocomplete}/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+          '';
+          enableSyntaxHighlighting = true;
+          # enableFastSyntaxHighlighting = true;
       };
 
       # Set Git commit hash for darwin-version.
@@ -219,11 +220,6 @@
     darwinConfigurations."mbpro" = nix-darwin.lib.darwinSystem {
       modules = [ 
         configuration
-        home-manager.darwinModules.home-manager
-        {
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-        }
         nix-homebrew.darwinModules.nix-homebrew
         {
           nix-homebrew = {
