@@ -44,6 +44,7 @@
             cargo-cache
             go
             bun
+            deno
             opam
             coursier
             jdk
