@@ -9,10 +9,10 @@ if status is-interactive
     fortune-kind | cowsay -f fence -e oO -T U | clolcat -F 0.2
 
     # Go
-    set -g -x GOPATH /Users/sushuai/Documents/Code/GoLand
-    set -g -x GOBIN $GOPATH/bin
+    set -gx GOPATH /Users/sushuai/Documents/Code/GoLand
+    set -gx GOBIN $GOPATH/bin
     fish_add_path $GOBIN
-    
+
     # zoxide
     zoxide init fish | source
 
@@ -39,6 +39,8 @@ if status is-interactive
     # starship
     starship init fish | source
 
+    set EDITOR nvim
+
 end
 
 function proxy
@@ -55,8 +57,6 @@ function noproxy
     echo "proxy is off now"
 end
 
-
-
 function y
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
     yazi $argv --cwd-file="$tmp"
@@ -69,12 +69,12 @@ end
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 if test -f /usr/local/Caskroom/miniconda/base/bin/conda
-    eval /usr/local/Caskroom/miniconda/base/bin/conda "shell.fish" "hook" $argv | source
+    eval /usr/local/Caskroom/miniconda/base/bin/conda "shell.fish" hook $argv | source
 else
     if test -f "/usr/local/Caskroom/miniconda/base/etc/fish/conf.d/conda.fish"
         . "/usr/local/Caskroom/miniconda/base/etc/fish/conf.d/conda.fish"
     else
-        set -x PATH "/usr/local/Caskroom/miniconda/base/bin" $PATH
+        set -x PATH /usr/local/Caskroom/miniconda/base/bin $PATH
     end
 end
 # <<< conda initialize <<<
