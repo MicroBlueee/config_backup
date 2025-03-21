@@ -117,6 +117,7 @@
           "typora"
           "obsidian"
           "zotero"
+          "logseq"
           "1password"
         ];
         masApps = {
