@@ -133,6 +133,8 @@
           # "Elmedia Universal Video Player" = 937759555;
           "final cut pro" = 424389933;
           "Compressor" = 424390742;
+          "photomator" = 1444636541;
+          "affinity-photo-2" = 1616822987;
         };
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
