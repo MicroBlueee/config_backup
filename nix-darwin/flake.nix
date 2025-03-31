@@ -76,7 +76,7 @@
             _1password-cli
             # media
             spotify
-            mpv
+            # mpv
             viu
 
           #gui
@@ -119,6 +119,7 @@
           "zotero"
           "logseq"
           "1password"
+          "mpv"
         ];
         masApps = {
           "WeChat" = 836500024;
@@ -129,6 +130,9 @@
           "OneDrive" = 823766827;
           "XCode" = 497799835;
           "QQMusic" = 595615424;
+          # "Elmedia Universal Video Player" = 937759555;
+          "final cut pro" = 424389933;
+          "Compressor" = 424390742;
         };
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
