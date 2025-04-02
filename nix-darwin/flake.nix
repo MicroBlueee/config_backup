@@ -120,6 +120,7 @@
           "logseq"
           "1password"
           "mpv"
+          "anytype"
         ];
         masApps = {
           "WeChat" = 836500024;
