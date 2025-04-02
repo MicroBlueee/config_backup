@@ -131,11 +131,11 @@
           "OneDrive" = 823766827;
           "XCode" = 497799835;
           "QQMusic" = 595615424;
-          "final cut pro" = 424389933;
+          "Final Cut Pro" = 424389933;
           "Compressor" = 424390742;
-          "photomator" = 1444636541;
-          "affinity-photo-2" = 1616822987;
-          "bonjourr-startpage" = 1615431236;
+          "Photomator" = 1444636541;
+          "Affinity Photo 2" = 1616822987;
+          "Bonjourr Startpage" = 1615431236;
         };
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
