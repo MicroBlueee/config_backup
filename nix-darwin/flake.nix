@@ -130,7 +130,6 @@
           "OneDrive" = 823766827;
           "XCode" = 497799835;
           "QQMusic" = 595615424;
-          # "Elmedia Universal Video Player" = 937759555;
           "final cut pro" = 424389933;
           "Compressor" = 424390742;
           "photomator" = 1444636541;
