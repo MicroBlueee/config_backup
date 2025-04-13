@@ -140,6 +140,7 @@ yabai -m rule --add app="^.*AltTab.*$" manage=off
 yabai -m rule --add app="^.*DockDoor.*$" manage=off
 yabai -m rule --add app="^.*pot.*$" manage=off
 
+yabai -m rule --add app="^Happy Hacking Keyboard Keymap Tool$" manage=off
 yabai -m rule --add app="^CLion$" manage=off
 yabai -m rule --add app="^RustRover.*$" manage=off
 yabai -m rule --add app="^IntelliJ IDEA$" manage=off
