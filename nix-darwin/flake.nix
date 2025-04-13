@@ -120,6 +120,7 @@
           "1password"
           # "mpv"
           "anytype"
+          "hhkb"
           "clash-verge-rev"
         ];
         masApps = {
