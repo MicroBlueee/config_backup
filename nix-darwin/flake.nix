@@ -68,7 +68,6 @@
             yabai
             skhd
             neo-cowsay
-            clash-rs
             clolcat
             fzf
             fortune-kind
@@ -76,7 +75,7 @@
             _1password-cli
             # media
             spotify
-            # mpv
+            mpv
             viu
 
           #gui
@@ -119,8 +118,9 @@
           "zotero"
           "logseq"
           "1password"
-          "mpv"
+          # "mpv"
           "anytype"
+          "clash-verge-rev"
         ];
         masApps = {
           "WeChat" = 836500024;
