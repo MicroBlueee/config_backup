@@ -63,7 +63,6 @@
             ruff
             yaml-language-server
             # tool
-            mas
             git
             yabai
             skhd
@@ -89,6 +88,7 @@
       homebrew = {
         enable = true;
         brews = [
+          "mas"
           "ghcup"
         ];
         casks = [
