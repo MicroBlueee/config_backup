@@ -77,6 +77,9 @@
             spotify
             mpv
             viu
+            chafa
+            imgcat
+            viu
 
           #gui
             # terminal
