@@ -62,6 +62,7 @@
             ollama
             ruff
             yaml-language-server
+            uv
             # tool
             git
             yabai
