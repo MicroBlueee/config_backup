@@ -69,7 +69,6 @@
             skhd
             neo-cowsay
             clolcat
-            fzf
             fortune-kind
             yazi
             _1password-cli
@@ -92,6 +91,7 @@
       homebrew = {
         enable = true;
         brews = [
+          "fzf"
           "mas"
           "ghcup"
         ];
