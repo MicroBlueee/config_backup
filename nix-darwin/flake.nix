@@ -141,6 +141,7 @@
           "Photomator" = 1444636541;
           "Affinity Photo 2" = 1616822987;
           "Bonjourr Startpage" = 1615431236;
+          "keycastr"
         };
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
