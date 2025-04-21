@@ -52,7 +52,7 @@ eval "$(zoxide init zsh)"
 
 # fzf
 source <(fzf --zsh)
-export FZF_DEFAULT_OPTS="--style full --height 60% --layout=reverse --border --preview 'fzf-preview {}'"
+export FZF_DEFAULT_OPTS="--style full --height 60% --layout=reverse --border --preview 'fzf-preview.sh {}'"
 
 # GO
 export GOPATH=/Users/sushuai/Documents/Code/GoLand
@@ -72,4 +72,35 @@ function y() {
 		builtin cd -- "$cwd"
 	fi
 	rm -f -- "$tmp"
+}
+
+function proxy() {
+    # 参数处理逻辑
+    local port=${1:-7890}
+
+    # 端口验证
+    if ! [[ "$port" =~ ^[0-9]+$ ]]; then
+        echo "✖ 无效端口类型: 必须为数字" >&2
+        return 1
+    fi
+    if (( port < 1 || port > 65535 )); then
+        echo "✖ 端口越界: 需在1-65535之间" >&2
+        return 1
+    fi
+
+    # 设置代理变量
+    export http_proxy="http://127.0.0.1:$port"
+    export https_proxy="http://127.0.0.1:$port"
+    export ALL_PROXY="socks5://127.0.0.1:$port"
+    
+    # 状态反馈
+    echo "🌐 代理已激活 | 端口: $port"
+}
+
+function unproxy() {
+    # 清除所有代理变量
+    unset http_proxy https_proxy ALL_PROXY
+    
+    # 状态提示
+    echo "🛑 代理已关闭"
 }
