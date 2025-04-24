@@ -47,7 +47,6 @@
             go
             gopls
             bun
-            deno
             marksman
             nil
             lua-language-server
@@ -64,6 +63,7 @@
             yaml-language-server
             uv
             # tool
+            mas
             git
             yabai
             skhd
@@ -79,11 +79,8 @@
             chafa
             imgcat
             viu
-
           #gui
             # terminal
-            # kitty
-            # alacritty
             #editor
             neovide
         ];
@@ -92,7 +89,7 @@
         enable = true;
         brews = [
           "fzf"
-          "mas"
+          "deno"
           "ghcup"
         ];
         casks = [
