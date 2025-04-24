@@ -47,6 +47,7 @@
             go
             gopls
             bun
+            deno
             marksman
             nil
             lua-language-server
@@ -89,7 +90,6 @@
         enable = true;
         brews = [
           "fzf"
-          "deno"
           "ghcup"
         ];
         casks = [
