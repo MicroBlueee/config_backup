@@ -64,7 +64,6 @@
             yaml-language-server
             uv
             # tool
-            mas
             git
             yabai
             skhd
@@ -89,6 +88,7 @@
       homebrew = {
         enable = true;
         brews = [
+          "mas"
           "fzf"
           "ghcup"
         ];
