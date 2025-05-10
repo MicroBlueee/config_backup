@@ -75,26 +75,16 @@ $env.NU_PLUGIN_DIRS = [
     ($nu.config-path | path dirname | path join 'plugins')
 ]
 
-# Java
-$env.JAVA_HOME = '/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home'
-$env.CLASSPATH = ($env.JAVA_HOME ++ '/lib/tools.jar')
-$env.CLASSPATH = $env.CLASSPATH | append ($env.JAVA_HOME ++ '/lib/dt.jar')
-
 $env.CARGO_HOME = ($env.HOME ++ '/.cargo')
 
 # ranger
 $env.RANGER_LOAD_DEAFAULT_RC = 'False'
 
 # Go
-$env.GOROOT = '/usr/local/opt/go'
 $env.GOPATH = ($env.HOME + '/Documents/Code/GoLand')
 $env.GOBIN = ($env.GOPATH ++ '/bin')
 
 $env.COWPATH = ($env.HOME ++ '/.config/cowfile')
-
-# LLVM
-$env.LDFLAGS = '-L/usr/local/opt/llvm/lib'
-$env.CPPFLAGS = '-I/usr/local/opt/llvm/include'
 
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:
 # let-$env PATH = ($$env.PATH | split row (char esep) | prepend '/some/path')
@@ -108,16 +98,9 @@ $env.PATH = (
     | append ($env.HOME ++ '/.ghcup/bin')
     | append ($env.HOME ++ '/.local/bin')
     | append ($env.HOME ++ '/.cabal/bin')
-    | append ($env.HOME ++ '/.rbenv/shims')
-    | append ($env.HOME ++ '/.pyenv/shims')
     | append ($env.HOME ++ '/.opam/default/bin')
-    | append /usr/local/opt/llvm/bin
-    | append /usr/local/opt/coreutils/libexec/gnubin
-    # Coursier
     | append ($env.HOME ++ '/Library/Application Support/Coursier/bin')
-    | append /usr/local/opt/openjdk@8/bin
     | append ($env.GOBIN)
-    | append ($env.JAVA_HOME ++ "/bin")
     | append ($env.CARGO_HOME ++ "/bin")
     )
 

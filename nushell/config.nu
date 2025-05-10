@@ -47,18 +47,18 @@ $env.config.plugins = {
 
 alias fuck = thefuck $"(history | last 1 | get command | get 0)"
 
-def proxy [
+def --env proxy [
     port: int = 7890  # 可选参数，默认端口 7890
 ] {
     $env.HTTP_PROXY = $"http://127.0.0.1:($port)"
     $env.HTTPS_PROXY = $"http://127.0.0.1:($port)"
-    $env.NO_PROXY = "localhost,127.0.0.1,公司内部域名"  # 请替换实际需要忽略的域名
+    $env.ALL_PROXY = $"http://127.0.0.1:($port)"  # 请替换实际需要忽略的域名
     echo $"🌊 代理已开启 \(端口: ($port)\)"
 }
 
-def unproxy [] {
+def --env unproxy [] {
     hide-env HTTP_PROXY
     hide-env HTTPS_PROXY
-    hide-env NO_PROXY
+    hide-env ALL_PROXY
     echo "⛔ 代理已关闭"
 }
