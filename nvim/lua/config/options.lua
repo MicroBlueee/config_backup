@@ -41,14 +41,16 @@ opt.signcolumn = "yes"
 opt.scrolloff = 5
 opt.list = true
 opt.listchars = {
-    eol = "¬",
-    tab = "→→",
-    trail = "~",
+    eol = "↪",
+    tab = "↹ ",
+    lead = "↦",
+    trail = "›",
     extends = ">",
     precedes = "<",
-    space = "␣"
+    space = "·",
+    nbsp = "␣",
 }
-opt.showbreak = "↪"
+opt.showbreak = "¬"
 
 -- 显示光标所在位置
 opt.cursorcolumn = true
