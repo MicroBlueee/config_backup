@@ -71,7 +71,6 @@
             clolcat
             fortune-kind
             yazi
-            _1password-cli
             # media
             spotify
             mpv
@@ -91,6 +90,7 @@
           "mas"
           "fzf"
           "ghcup"
+          
         ];
         casks = [
           "google-chrome"
@@ -119,6 +119,7 @@
           "zotero"
           "logseq"
           "1password"
+          "1password-cli"
           # "mpv"
           "anytype"
           "hhkb"
