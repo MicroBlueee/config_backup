@@ -86,7 +86,11 @@
 
       homebrew = {
         enable = true;
+        taps = [
+          "jmattaa/laser"
+        ];
         brews = [
+          "jmattaa/laser/laser"
           "mas"
           "fzf"
           "ghcup"
@@ -141,9 +145,11 @@
           "Affinity Photo 2" = 1616822987;
           "Bonjourr Startpage" = 1615431236;
         };
-        onActivation.cleanup = "zap";
-        onActivation.autoUpdate = true;
-        onActivation.upgrade = true;
+        onActivation = {
+          cleanup = "zap";
+          autoUpdate = true;
+          upgrade = true;
+        };
       };
       
       fonts.packages = with pkgs; [ 
@@ -170,25 +176,27 @@
             ${pkgs.mkalias}/bin/mkalias "$src" "/Applications/Nix Apps/$app_name"
           done
         '';
-      
-      system.defaults = {
-        dock = {
-          autohide = true;
-          magnification = true;
-          minimize-to-application = true;
-          show-recents = false;
-        };
-        trackpad = {
-          Clicking = true;
-          TrackpadThreeFingerDrag = true;
-          TrackpadThreeFingerTapGesture = 2;
-        };
-        finder = {
+      system = {
+        primaryUser = "sushuai";
+        defaults = {
+          dock = {
+            autohide = true;
+            magnification = true;
+            minimize-to-application = true;
+            show-recents = false;
+          };
+          trackpad = {
+            Clicking = true;
+            TrackpadThreeFingerDrag = true;
+            TrackpadThreeFingerTapGesture = 2;
+          };
+          finder = {
             _FXSortFoldersFirst = true;
             _FXSortFoldersFirstOnDesktop = true;
         };
-        NSGlobalDomain = {
-          AppleICUForce24HourTime = true;
+          NSGlobalDomain = {
+            AppleICUForce24HourTime = true;
+          };
         };
       };
 
