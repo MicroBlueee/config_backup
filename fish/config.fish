@@ -41,6 +41,7 @@ if status is-interactive
 
     set EDITOR nvim
 
+    set -gx EZA_ICONS_AUTO true
 end
 
 function proxy

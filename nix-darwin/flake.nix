@@ -23,6 +23,7 @@
             starship
             neovim
             helix
+            eza
             # shell
             zsh
             zsh-powerlevel10k

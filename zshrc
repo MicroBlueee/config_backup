@@ -65,6 +65,8 @@ set -o vi
 
 export PATH="~/.bun/bin:$PATH"
 
+export EZA_ICONS_AUTO=true
+
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
 	yazi "$@" --cwd-file="$tmp"
