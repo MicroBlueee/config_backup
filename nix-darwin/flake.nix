@@ -88,10 +88,10 @@
       homebrew = {
         enable = true;
         taps = [
-          "jmattaa/laser"
+          # "jmattaa/laser"
         ];
         brews = [
-          "jmattaa/laser/laser"
+          # "jmattaa/laser/laser"
           "mas"
           "fzf"
           "ghcup"
