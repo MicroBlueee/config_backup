@@ -25,6 +25,7 @@
             helix
             eza
             # shell
+            tealdeer
             zsh
             zsh-powerlevel10k
             zsh-autosuggestions

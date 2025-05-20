@@ -1,6 +1,11 @@
 # Nushell $environment Config File
 
 # version = 0.100.0
+export-env {
+    load-env {
+        EDITOR : 'hx'
+    }
+}
 
 def create_left_prompt [] {
     mut home = ""
@@ -50,14 +55,14 @@ $env.PROMPT_MULTILINE_INDICATOR = {|| "::: " }
 # - converted from a value back to a string when running external commands (to_string)
 # Note: The conversions happen *after* config.nu is loaded
 $env.$env_CONVERSIONS = {
-  "PATH": {
-    from_string: { |s| $s | split row (char esep) | path expand -n }
-    to_string: { |v| $v | path expand -n | str join (char esep) }
-  }
-  "Path": {
-    from_string: { |s| $s | split row (char esep) | path expand -n }
-    to_string: { |v| $v | path expand -n | str join (char esep) }
-  }
+    "PATH": {
+        from_string: { |s| $s | split row (char esep) | path expand -n }
+        to_string: { |v| $v | path expand -n | str join (char esep) }
+    }
+    "Path": {
+        from_string: { |s| $s | split row (char esep) | path expand -n }
+        to_string: { |v| $v | path expand -n | str join (char esep) }
+    }
 }
 
 # Directories to search for scripts when calling source or use
@@ -77,13 +82,11 @@ $env.NU_PLUGIN_DIRS = [
 
 $env.CARGO_HOME = ($env.HOME ++ '/.cargo')
 
-# ranger
-$env.RANGER_LOAD_DEAFAULT_RC = 'False'
-
 # Go
 $env.GOPATH = ($env.HOME + '/Documents/Code/GoLand')
 $env.GOBIN = ($env.GOPATH ++ '/bin')
 
+# cowsay
 $env.COWPATH = ($env.HOME ++ '/.config/cowfile')
 
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:
@@ -115,5 +118,3 @@ def --env y [...args] {
 	}
 	rm -fp $tmp
 }
-
-$env.EDITOR = 'hx'
