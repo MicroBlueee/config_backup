@@ -104,18 +104,7 @@ $env.PATH = (
     | append ($env.CARGO_HOME ++ "/bin")
     )
 
-def proxy [] {
-  $env.http_proxy = "http://127.0.0.1:7890"
-  $env.https_proxy = "http://127.0.0.1:7890"
-  $env.all_proxy = "socks5://127.0.0.1:7890"
-  echo "proxy is used now"
-}
-def noproxy [] {
-  hide-$env http_proxy
-  hide-$env https_proxy
-  hide-$env all_proxy
-  echo "proxy is off now"
-}
+$env.EZA_ICONS_AUTO = true
 
 def --env y [...args] {
 	let tmp = (mktemp -t "yazi-cwd.XXXXXX")
