@@ -139,6 +139,9 @@
           "MS Excel" = 462058435;
           "MS PowerPoint" = 462062816;
           "OneDrive" = 823766827;
+          "Pages" = 409201541;
+          "Numbers" = 409203825;
+          "Keynote" = 409183694;
           "XCode" = 497799835;
           "QQMusic" = 595615424;
           "Final Cut Pro" = 424389933;
@@ -157,6 +160,7 @@
       fonts.packages = with pkgs; [ 
         nerd-fonts.fira-code
         nerd-fonts.fira-mono
+        julia-mono
       ]; 
 
       system.activationScripts.applications.text = let
