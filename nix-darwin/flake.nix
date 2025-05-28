@@ -74,7 +74,6 @@
             fortune-kind
             yazi
             # media
-            spotify
             mpv
             viu
             chafa
@@ -127,6 +126,7 @@
           "1password"
           "1password-cli"
           # "mpv"
+          "spotify"
           "anytype"
           "hhkb"
           "clash-verge-rev"
