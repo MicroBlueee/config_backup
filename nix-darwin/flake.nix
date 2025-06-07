@@ -95,7 +95,7 @@
           "mas"
           "fzf"
           "ghcup"
-          
+          "unar"
         ];
         casks = [
           "google-chrome"
