@@ -54,7 +54,7 @@ yabai -m config active_window_opacity 1.0
 yabai -m config normal_window_opacity 0.90
 yabai -m config split_ratio 0.50
 
-yabai -m config auto_balance off
+yabai -m config auto_balance on
 
 yabai -m config mouse_modifier fn
 yabai -m config mouse_action1 move
@@ -170,10 +170,6 @@ yabai -m signal --add event=window_created action="${ubersicht_spaces_refresh_co
 yabai -m signal --add event=window_destroyed action="${ubersicht_spaces_refresh_command}"
 yabai -m signal --add event=window_focused action="${ubersicht_spaces_refresh_command}"
 yabai -m signal --add event=window_title_changed action="${ubersicht_spaces_refresh_command}"
-
-# ghostty
-yabai -m signal --add app='^Ghostty$' event=window_created action='yabai -m space --layout bsp'
-yabai -m signal --add app='^Ghostty$' event=window_destroyed action='yabai -m space --layout bsp'
 
 set +x
 printf "yabai: configuration loaded...\\n"

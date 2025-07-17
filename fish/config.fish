@@ -23,7 +23,7 @@ if status is-interactive
     fish_add_path $HOME/.cargo/bin
 
     # coursier
-    eval "$(cs install --env)"
+    # eval "$(cs install --env)"
 
     # fzf
     fzf --fish | source
@@ -88,6 +88,22 @@ function y
         builtin cd -- "$cwd"
     end
     rm -f -- "$tmp"
+end
+
+function nix-clean
+
+    nix-collect-garbage -d
+    nix-collect-garbage --delete-old
+    nix-collect-garbage --delete-older-than 1d
+    nix-collect-garbage
+    nix-store --gc
+    nix-store --optimise
+    sudo nix-collect-garbage -d
+    sudo nix-collect-garbage --delete-old
+    sudo nix-collect-garbage --delete-older-than 1d
+    sudo nix-collect-garbage
+    sudo nix-store --gc
+    sudo nix-store --optimise
 end
 
 # >>> conda initialize >>>

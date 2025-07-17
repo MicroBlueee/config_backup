@@ -63,6 +63,7 @@
             foundry
             ollama
             ruff
+            solc
             yaml-language-server
             uv
             # tool
