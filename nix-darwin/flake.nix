@@ -61,7 +61,6 @@
             tinymist
             typstyle
             foundry
-            ollama
             ruff
             solc
             yaml-language-server
@@ -97,13 +96,14 @@
           "fzf"
           "ghcup"
           "unar"
+          # "ollama"
         ];
         casks = [
           "google-chrome"
           "firefox"
           "kitty"
           "wezterm"
-          "miniconda"
+          "miniforge"
           "alfred"
           "bartender"
           "downie"
@@ -150,6 +150,7 @@
           "Photomator" = 1444636541;
           "Affinity Photo 2" = 1616822987;
           "Bonjourr Startpage" = 1615431236;
+          "UPDF" = 1619925971;
         };
         onActivation = {
           cleanup = "zap";
