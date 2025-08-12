@@ -145,6 +145,7 @@
           "Keynote" = 409183694;
           "XCode" = 497799835;
           "QQMusic" = 595615424;
+          "NetCloud Music" = 944848654;
           "Final Cut Pro" = 424389933;
           "Compressor" = 424390742;
           "Photomator" = 1444636541;
