@@ -10,21 +10,6 @@ export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/h
 # ghcup-env
 [ -f "/Users/sushuai/.ghcup/env" ] && source "/Users/sushuai/.ghcup/env" # ghcup-env
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/usr/local/Caskroom/miniconda/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/usr/local/Caskroom/miniconda/base/etc/profile.d/conda.sh" ]; then
-        . "/usr/local/Caskroom/miniconda/base/etc/profile.d/conda.sh"
-    else
-        export PATH="/usr/local/Caskroom/miniconda/base/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
 # cowsay
 export COWPATH="$HOME/.config/cowfile/"
 fortune-kind | cowsay -f fence -e "oO" -T "ω" | clolcat -F 0.2
@@ -106,3 +91,18 @@ function unproxy() {
     # 状态提示
     echo "🛑 代理已关闭"
 }
+
+export CONDA_OVERRIDE_OSX="$(sw_vers -productVersion)"
+
+# >>> mamba initialize >>>
+# !! Contents within this block are managed by 'mamba shell init' !!
+export MAMBA_EXE='/usr/local/bin/mamba';
+export MAMBA_ROOT_PREFIX='/Users/sushuai/.local/share/mamba';
+__mamba_setup="$("$MAMBA_EXE" shell hook --shell zsh --root-prefix "$MAMBA_ROOT_PREFIX" 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__mamba_setup"
+else
+    alias mamba="$MAMBA_EXE"  # Fallback on help from mamba activate
+fi
+unset __mamba_setup
+# <<< mamba initialize <<<
