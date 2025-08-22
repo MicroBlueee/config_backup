@@ -115,3 +115,17 @@ set -gx MAMBA_EXE "/usr/local/bin/mamba"
 set -gx MAMBA_ROOT_PREFIX "/Users/sushuai/.local/share/mamba"
 $MAMBA_EXE shell hook --shell fish --root-prefix $MAMBA_ROOT_PREFIX | source
 # <<< mamba initialize <<<
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+if test -f /usr/local/Caskroom/miniforge/base/bin/conda
+    eval /usr/local/Caskroom/miniforge/base/bin/conda "shell.fish" "hook" $argv | source
+else
+    if test -f "/usr/local/Caskroom/miniforge/base/etc/fish/conf.d/conda.fish"
+        . "/usr/local/Caskroom/miniforge/base/etc/fish/conf.d/conda.fish"
+    else
+        set -x PATH "/usr/local/Caskroom/miniforge/base/bin" $PATH
+    end
+end
+# <<< conda initialize <<<
+

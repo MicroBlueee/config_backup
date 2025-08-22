@@ -97,14 +97,14 @@
           "ghcup"
           "unar"
           # "ollama"
-          "micromamba"
+          # "micromamba"
         ];
         casks = [
           "google-chrome"
           "firefox"
           "kitty"
           "wezterm"
-          # "miniforge"
+          "miniforge"
           "alfred"
           "bartender"
           "downie"
