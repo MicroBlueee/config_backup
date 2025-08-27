@@ -46,5 +46,5 @@ style = 'bold dimmed green'
 fish_indicator = '󰈺 '
 powershell_indicator = '_'
 unknown_indicator = 'mystery shell'
-style = 'green bold'
+style = 'yellow bold'
 disabled = false
