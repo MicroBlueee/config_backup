@@ -1,8 +1,5 @@
 # zsh
 export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/highlighters
-#export PROMPT="%{%F{blue}%}%n🥬$reset_color @ %{%F{green}%}%1~
-#%{$reset_color%}> "
-#export RPROMPT="[%{%F{cyan}%}%B%?%{$reset_color]%}"
 
 # opam configuration
 [[ ! -r /Users/sushuai/.opam/opam-init/init.zsh ]] || source /Users/sushuai/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
@@ -14,17 +11,8 @@ export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/h
 export COWPATH="$HOME/.config/cowfile/"
 fortune-kind | cowsay -f fence -e "oO" -T "ω" | clolcat -F 0.2
 
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-    source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+eval "$(starship init zsh)"
 
-# source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="/usr/local/opt/python@3.10/bin:$PATH"
 
 source /run/current-system/sw/share/zsh/plugins/nix/nix-zsh-completions.plugin.zsh

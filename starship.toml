@@ -4,15 +4,14 @@
 # 在命令之间插入空行
 add_newline = false
 
-format = "🥬 @ $directory $all $character"
+format = "🥬 @ [$directory]()in $shell$all $character"
 
 # command_timeout = 200
 # 将提示符的“❯”替换为“➜”
 [character] # “character”是我们正在配置的组件
-
 success_symbol = "[➜](bold green)" # 设置“success_symbol” 字段为绿色加粗的“➜”
 error_symbol = "[✗](bold red) "
-vicmd_symbol = "[V](bold green) "
+vimcmd_symbol = "[V](bold green) "
 
 [conda]
 format = "[$symbol$environment](dimmed green) "
@@ -43,3 +42,9 @@ threshold = -1
 symbol = ' '
 style = 'bold dimmed green'
 
+[shell]
+fish_indicator = '󰈺 '
+powershell_indicator = '_'
+unknown_indicator = 'mystery shell'
+style = 'green bold'
+disabled = false

@@ -27,7 +27,7 @@
             # shell
             tealdeer
             zsh
-            zsh-powerlevel10k
+            # zsh-powerlevel10k
             zsh-autosuggestions
             zsh-autocomplete
             zsh-syntax-highlighting
@@ -229,7 +229,6 @@
         enableCompletion = true;
         enableFzfCompletion = true;
         promptInit = ''
-          source ${pkgs.zsh-powerlevel10k}/share/zsh-powerlevel10k/powerlevel10k.zsh-theme
           source ${pkgs.zsh-autosuggestions}/share/zsh-autosuggestions/zsh-autosuggestions.zsh
           source ${pkgs.zsh-autocomplete}/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
           '';
