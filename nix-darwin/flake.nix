@@ -29,7 +29,7 @@
             zsh
             # zsh-powerlevel10k
             zsh-autosuggestions
-            zsh-autocomplete
+            # zsh-autocomplete
             zsh-syntax-highlighting
             # zsh-fast-syntax-highlighting
             zsh-completions
@@ -42,10 +42,6 @@
             # lang
             bash-language-server
             gdb
-            rustup
-            cargo-binstall
-            cargo-update
-            cargo-cache
             go
             gopls
             bun
@@ -98,6 +94,7 @@
           "unar"
           # "ollama"
           # "micromamba"
+          "rustup"
         ];
         casks = [
           "google-chrome"
@@ -220,8 +217,6 @@
       nix.settings.experimental-features = "nix-command flakes";
 
       # Enable alternative shell support in nix-darwin.
-      programs.fish.enable = true;
-
       programs.man.enable = true;
       
       programs.zsh = {
@@ -230,10 +225,17 @@
         enableFzfCompletion = true;
         promptInit = ''
           source ${pkgs.zsh-autosuggestions}/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-          source ${pkgs.zsh-autocomplete}/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+          source ${pkgs.zsh-syntax-highlighting}/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+          export JAVA_HOME=${pkgs.jdk}
           '';
           enableSyntaxHighlighting = true;
           # enableFastSyntaxHighlighting = true;
+      };
+      programs.fish = {
+        enable = true;
+        promptInit = ''
+          set -gx JAVA_HOME ${pkgs.jdk}
+          '';
       };
 
       # Set Git commit hash for darwin-version.

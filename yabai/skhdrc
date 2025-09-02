@@ -1,8 +1,8 @@
 # opens kitty
-alt - return : "${HOME}"/.config/yabai/scripts/open_kitty.sh
+# alt - return : "${HOME}"/.config/yabai/scripts/open_kitty.sh
 
 # opens Ghostty
-rctrl - return : "${HOME}"/.config/yabai/scripts/open_wezterm.sh
+# rctrl - return : "${HOME}"/.config/yabai/scripts/open_wezterm.sh
 
 # Show system statistics
 fn + lalt - 1 : "${HOME}"/.config/yabai/scripts/show_cpu.sh
