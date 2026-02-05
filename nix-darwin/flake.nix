@@ -139,9 +139,9 @@
           "MS Excel" = 462058435;
           "MS PowerPoint" = 462062816;
           "OneDrive" = 823766827;
-          "Pages" = 409201541;
-          "Numbers" = 409203825;
-          "Keynote" = 409183694;
+          "Pages" = 361309726;
+          "Numbers" = 361304891;
+          "Keynote" = 361285480;
           "XCode" = 497799835;
           "QQMusic" = 595615424;
           "NetCloud Music" = 944848654;
