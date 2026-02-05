@@ -130,6 +130,7 @@
           "clash-verge-rev"
           "keycastr"
           "font-google-sans-code"
+          "jordanbaird-ice"
         ];
         masApps = {
           "WeChat" = 836500024;
