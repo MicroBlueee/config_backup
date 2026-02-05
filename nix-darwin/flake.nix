@@ -41,7 +41,6 @@
             tree
             # lang
             bash-language-server
-            gdb
             go
             gopls
             bun
