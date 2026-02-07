@@ -69,7 +69,6 @@
             fortune-kind
             yazi
             # media
-            mpv
             viu
             chafa
             imgcat
@@ -96,6 +95,7 @@
           "rustup"
         ];
         casks = [
+          "mpv"
           "google-chrome"
           "firefox"
           "kitty"
