@@ -95,7 +95,7 @@
           "rustup"
         ];
         casks = [
-          "mpv"
+          "stolendata-mpv"
           "google-chrome"
           "firefox"
           "kitty"
