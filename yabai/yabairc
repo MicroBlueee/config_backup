@@ -128,6 +128,7 @@ yabai -m rule --add label="AppCleaner" app="^AppCleaner$" manage=off
 yabai -m rule --add label="KeyCastr" app="^KeyCastr$" eymanage=off
 yabai -m rule --add app="^.*Bartender.*$" manage=off
 yabai -m rule --add app="^.*Ice.*$" manage=off
+yabai -m rule --add app="^.*Thaw.*$" manage=off
 yabai -m rule --add app="^.*Pixelmator.*$" manage=off
 yabai -m rule --add app="^.*Downie.*$" manage=off
 yabai -m rule --add app="^Pictogram$" manage=off

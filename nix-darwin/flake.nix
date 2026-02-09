@@ -123,14 +123,13 @@
           "logseq"
           "1password"
           "1password-cli"
-          # "mpv"
           "spotify"
           "anytype"
           "hhkb"
           "clash-verge-rev"
           "keycastr"
           "font-google-sans-code"
-          "jordanbaird-ice"
+          "thaw"
         ];
         masApps = {
           "WeChat" = 836500024;
