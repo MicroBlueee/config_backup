@@ -1,0 +1,700 @@
+
+# ========== clean session started at 2026-02-11 10:26:50 ==========
+[2026-02-11 10:26:51] [clean] REMOVED /Library/Logs/DiagnosticReports/.storagekitd_2025-04-01-163441_sushuaideMacBook-Pro.diag
+[2026-02-11 10:26:51] [clean] REMOVED /Library/Logs/DiagnosticReports/.rustup-wrapped_2025-04-04-124526_sushuaideMacBook-Pro.diag (8KB)
+[2026-02-11 10:26:51] [clean] REMOVED /Library/Logs/DiagnosticReports/.rustup-wrapped_2025-08-29-104719_sushuaideMacBook-Pro.diag (12KB)
+[2026-02-11 10:26:51] [clean] REMOVED /Library/Logs/DiagnosticReports/.rustup-wrapped_2025-08-29-101318_sushuaideMacBook-Pro.diag (12KB)
+[2026-02-11 10:26:51] [clean] REMOVED /private/var/log/displaypolicyd.stdout.log
+[2026-02-11 10:26:57] [clean] REMOVED /private/var/db/diagnostics/logdata.statistics.1.jsonl (5.0MB)
+[2026-02-11 10:26:57] [clean] REMOVED /private/var/db/diagnostics/timesync/000000000000000a.timesync (12KB)
+[2026-02-11 10:26:57] [clean] REMOVED /private/var/db/diagnostics/timesync/0000000000000004.timesync (20KB)
+[2026-02-11 10:26:57] [clean] REMOVED /private/var/db/diagnostics/timesync/0000000000000005.timesync (32KB)
+[2026-02-11 10:26:57] [clean] REMOVED /private/var/db/diagnostics/timesync/0000000000000009.timesync (16KB)
+[2026-02-11 10:26:58] [clean] REMOVED /private/var/db/diagnostics/timesync/0000000000000008.timesync (28KB)
+[2026-02-11 10:26:58] [clean] REMOVED /private/var/db/diagnostics/timesync/000000000000000b.timesync (16KB)
+[2026-02-11 10:26:58] [clean] REMOVED /private/var/db/diagnostics/timesync/0000000000000007.timesync (16KB)
+[2026-02-11 10:26:58] [clean] REMOVED /private/var/db/diagnostics/timesync/0000000000000006.timesync (92KB)
+[2026-02-11 10:26:58] [clean] REMOVED /private/var/db/DiagnosticPipeline/DRSTaskingDataModel.sqlite (40KB)
+[2026-02-11 10:26:58] [clean] REMOVED /private/var/db/DiagnosticPipeline/DRSCKConfigModel.sqlite (24KB)
+[2026-02-11 10:26:58] [clean] REMOVED /private/var/db/DiagnosticPipeline/DRSTaskingDataModel.sqlite-wal (388KB)
+[2026-02-11 10:26:58] [clean] REMOVED /private/var/db/DiagnosticPipeline/DRSDataModel.sqlite-wal (260KB)
+[2026-02-11 10:26:58] [clean] REMOVED /private/var/db/DiagnosticPipeline/DRSDataModel.sqlite (112KB)
+[2026-02-11 10:26:59] [clean] REMOVED /private/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2025-12-26_069C378D.PLSQL.gz (224KB)
+[2026-02-11 10:26:59] [clean] REMOVED /private/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2025-12-30_2A588356.PLSQL.gz (212KB)
+[2026-02-11 10:26:59] [clean] REMOVED /private/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2025-12-29_B70C5A3D.PLSQL.gz (232KB)
+[2026-02-11 10:26:59] [clean] REMOVED /private/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2025-12-28_82E5A83B.PLSQL.gz (200KB)
+[2026-02-11 10:26:59] [clean] REMOVED /private/var/db/powerlog/Library/BatteryLife/Archives/powerlog_2025-12-27_C1D0AB37.PLSQL.gz (208KB)
+[2026-02-11 10:26:59] [clean] REMOVED /private/var/db/powerlog/Library/PerfPowerTelemetry/ExtendedPersistence/CurrentLog.EPSQL (4KB)
+[2026-02-11 10:26:59] [clean] REMOVED /private/var/db/powerlog/Library/PerfPowerTelemetry/XcodeOrganizer/CurrentXcodeOrganizerDB.XCSQL (4KB)
+[2026-02-11 10:27:03] [clean] SKIPPED /Users/sushuai/Library/Caches/CloudKit (whitelist)
+[2026-02-11 10:27:03] [clean] SKIPPED /Users/sushuai/Library/Caches/Firefox (protected)
+[2026-02-11 10:27:03] [clean] SKIPPED /Users/sushuai/Library/Caches/JetBrains (protected)
+[2026-02-11 10:27:03] [clean] SKIPPED /Users/sushuai/Library/Caches/abnerworks.Typora (protected)
+[2026-02-11 10:27:03] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.AMPLibraryAgent (protected)
+[2026-02-11 10:27:03] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.AppleMediaServices (protected)
+[2026-02-11 10:27:03] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.AssistantServices (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.AuthenticationServicesCore.AuthenticationServicesAgent (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.AvatarKit (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.CloudTelemetry (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.DictionaryServices (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.Family-Settings.extension (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.FeatureAccessAgent (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.FileProviderDaemon.AppStoreService (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.HomeKit (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.Safari (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.SoftwareUpdateNotificationManager (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.Spotlight (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.SystemProfiler (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.SystemProfiler.AboutExtension (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.accountsd (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.akd (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.amsaccountsd (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.amsengagementd (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.ap.PromotedContentJetService (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.ap.adprivacyd (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.appleaccountd (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.appstore (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.appstoreagent (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.appstorecomponentsd (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.assistant_service (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.assistantd (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.betaenrollmentagent (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.bird (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.businessservicesd (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.cache_delete (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.callintelligenced (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.chrono (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.commerce (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.containermanagerd (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.ctcategories.service (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.dataaccess.dataaccessd (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.duetexpertd (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.e5rt.e5bundlecache (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.feedbacklogger (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.findmy.findmylocateagent (protected)
+[2026-02-11 10:27:04] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.findmy.fmfcore (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.findmy.fmipcore (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.findmy.imagecache (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.gamed (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.geoanalyticsd (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.helpd (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.homed (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.iCloudNotificationAgent (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.iTunes (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.iTunesCloud (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.itunescloudd (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.managedappdistributionagent (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.nbagent (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.nsservicescache.plist (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.nsurlsessiond (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.parsecd (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.passd (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.preferencepanes.usercache (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.proactive.eventtracker (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.python (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.remindd (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.sharekit.33396590.png (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.sharekit.51008390.png (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.sharekit.8472269483375425.png (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.shazamd (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.siri.bundleservicecache.plist (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.siri.conversationhandlercache.plist (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.siri.findmy.syncdevicedata.json (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.siri.transformationplugincache.plist (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.sirittsd (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.storekitagent (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.systemsettings.menucache (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.tipsd (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.tiswitcher.cache (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.translationd (protected)
+[2026-02-11 10:27:05] [clean] SKIPPED /Users/sushuai/Library/Caches/com.hnc.Discord (protected)
+[2026-02-11 10:27:06] [clean] SKIPPED /Users/sushuai/Library/Caches/com.microsoft.VSCode (protected)
+[2026-02-11 10:27:06] [clean] SKIPPED /Users/sushuai/Library/Caches/com.microsoft.VSCode.ShipIt (protected)
+[2026-02-11 10:27:06] [clean] SKIPPED /Users/sushuai/Library/Caches/com.runningwithcrayons.Alfred (protected)
+[2026-02-11 10:27:06] [clean] SKIPPED /Users/sushuai/Library/Caches/com.surteesstudios.Bartender (protected)
+[2026-02-11 10:27:06] [clean] SKIPPED /Users/sushuai/Library/Caches/net.whatsapp.WhatsApp (protected)
+[2026-02-11 10:27:06] [clean] SKIPPED /Users/sushuai/Library/Caches/ru.keepcoder.Telegram (protected)
+[2026-02-11 10:27:06] [clean] REMOVED /Users/sushuai/Library/Caches/JNA
+[2026-02-11 10:27:07] [clean] REMOVED /Users/sushuai/Library/Caches/Zed
+[2026-02-11 10:27:07] [clean] REMOVED /Users/sushuai/Library/Caches/pip (40KB)
+[2026-02-11 10:27:07] [clean] REMOVED /Users/sushuai/Library/Caches/conda
+[2026-02-11 10:27:07] [clean] REMOVED /Users/sushuai/Library/Caches/kitty (24KB)
+[2026-02-11 10:27:07] [clean] REMOVED /Users/sushuai/Library/Caches/Google (19.8MB)
+[2026-02-11 10:27:07] [clean] REMOVED /Users/sushuai/Library/Caches/GameKit (48KB)
+[2026-02-11 10:27:07] [clean] REMOVED /Users/sushuai/Library/Caches/Mozilla
+[2026-02-11 10:27:07] [clean] REMOVED /Users/sushuai/Library/Caches/PassKit (2.2MB)
+[2026-02-11 10:27:07] [clean] REMOVED /Users/sushuai/Library/Caches/SiriTTS
+[2026-02-11 10:27:07] [clean] REMOVED /Users/sushuai/Library/Caches/Homebrew (48.5MB)
+[2026-02-11 10:27:07] [clean] REMOVED /Users/sushuai/Library/Caches/EnergyKit
+[2026-02-11 10:27:07] [clean] REMOVED /Users/sushuai/Library/Caches/TrickPlay
+[2026-02-11 10:27:07] [clean] REMOVED /Users/sushuai/Library/Caches/ARFileCache
+[2026-02-11 10:27:07] [clean] REMOVED /Users/sushuai/Library/Caches/GeoServices (58.2MB)
+[2026-02-11 10:27:07] [clean] FAILED /Users/sushuai/Library/Caches/FamilyCircle (permission denied)
+[2026-02-11 10:27:08] [clean] REMOVED /Users/sushuai/Library/Caches/JetPackCache (172KB)
+[2026-02-11 10:27:08] [clean] REMOVED /Users/sushuai/Library/Caches/LSMImageCache
+[2026-02-11 10:27:08] [clean] REMOVED /Users/sushuai/Library/Caches/familycircled (3.5MB)
+[2026-02-11 10:27:08] [clean] REMOVED /Users/sushuai/Library/Caches/askpermissiond (932KB)
+[2026-02-11 10:27:08] [clean] REMOVED /Users/sushuai/Library/Caches/storedownloadd (80KB)
+[2026-02-11 10:27:08] [clean] REMOVED /Users/sushuai/Library/Caches/icloudmailagent (12.1MB)
+[2026-02-11 10:27:08] [clean] REMOVED /Users/sushuai/Library/Caches/SharedImageCache
+[2026-02-11 10:27:08] [clean] REMOVED /Users/sushuai/Library/Caches/google-sdks-events
+[2026-02-11 10:27:08] [clean] REMOVED /Users/sushuai/Library/Caches/com.hnc.Discord.ShipIt (444.0MB)
+[2026-02-11 10:27:08] [clean] REMOVED /Users/sushuai/Library/Caches/com.google.GoogleUpdater (404KB)
+[2026-02-11 10:27:08] [clean] REMOVED /Users/sushuai/Library/Caches/com.runjuu.Input-Source-Pro (1.0MB)
+[2026-02-11 10:27:08] [clean] REMOVED /Users/sushuai/Library/Caches/com.plausiblelabs.crashreporter.data
+[2026-02-11 10:27:08] [clean] REMOVED /Users/sushuai/Library/Caches/io.github.clash-verge-rev.clash-verge-rev (84KB)
+[2026-02-11 10:27:08] [clean] REMOVED /Users/sushuai/Library/Caches/AAProfilePicture_2C8003E9-9AC6-4784-83ED-2176C81CE82E.png (288KB)
+[2026-02-11 10:27:09] [clean] SKIPPED /Users/sushuai/Library/Logs/JetBrains (protected)
+[2026-02-11 10:27:09] [clean] SKIPPED /Users/sushuai/Library/Logs/com.apple.CloudTelemetry (protected)
+[2026-02-11 10:27:09] [clean] REMOVED /Users/sushuai/Library/Logs/Baseband
+[2026-02-11 10:27:09] [clean] REMOVED /Users/sushuai/Library/Logs/Homebrew
+[2026-02-11 10:27:09] [clean] REMOVED /Users/sushuai/Library/Logs/Assistant
+[2026-02-11 10:27:09] [clean] REMOVED /Users/sushuai/Library/Logs/AppAnalytics (8KB)
+[2026-02-11 10:27:09] [clean] REMOVED /Users/sushuai/Library/Logs/fsck_hfs.log (48KB)
+[2026-02-11 10:27:09] [clean] REMOVED /Users/sushuai/Library/Logs/SiriTTSService
+[2026-02-11 10:27:09] [clean] REMOVED /Users/sushuai/Library/Logs/DiagnosticReports (1.0MB)
+[2026-02-11 10:27:09] [clean] REMOVED /Users/sushuai/Library/Logs/PhotosSearch.aapbz (12KB)
+[2026-02-11 10:27:09] [clean] REMOVED /Users/sushuai/Library/Logs/PhotosUpgrade.aapbz (12KB)
+[2026-02-11 10:27:09] [clean] REMOVED /Users/sushuai/Library/Logs/PrivacyPreservingMeasurement
+[2026-02-11 10:27:14] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.photoanalysisd (protected)
+[2026-02-11 10:27:14] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.akd (protected)
+[2026-02-11 10:27:14] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.QuickLook.thumbnailcache (protected)
+[2026-02-11 10:27:14] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.iconservices* (protected)
+[2026-02-11 10:27:14] [clean] SKIPPED /Users/sushuai/Library/Preferences/com.apple.recentitems.plist (protected)
+[2026-02-11 10:27:16] [clean] SKIPPED /Users/sushuai/Library/Containers/com.apple.wallpaper.agent/Data/Library/Caches/com.apple.wallpaper.caches (protected)
+[2026-02-11 10:27:16] [clean] SKIPPED /Users/sushuai/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches/PFSceneGeographyData.index (protected)
+[2026-02-11 10:27:16] [clean] SKIPPED /Users/sushuai/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches/PFSceneTaxonomyData.index (protected)
+[2026-02-11 10:27:16] [clean] SKIPPED /Users/sushuai/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches/com.apple.HomeKit (protected)
+[2026-02-11 10:27:16] [clean] SKIPPED /Users/sushuai/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches/com.apple.mediaanalysisd (protected)
+[2026-02-11 10:27:16] [clean] SKIPPED /Users/sushuai/Library/Containers/com.apple.AppStore/Data/Library/Caches/com.apple.AppStore (protected)
+[2026-02-11 10:27:16] [clean] SKIPPED /Users/sushuai/Library/Containers/com.apple.AppStore/Data/Library/Caches/com.apple.AppleMediaServices (protected)
+[2026-02-11 10:27:16] [clean] SKIPPED /Users/sushuai/Library/Containers/com.apple.AppStore/Data/Library/Caches/com.apple.itunesstored (protected)
+[2026-02-11 10:27:25] [clean] REMOVED /Users/sushuai/Library/Application Support/Google/Chrome/Default/GPUCache/index (260KB)
+[2026-02-11 10:27:25] [clean] REMOVED /Users/sushuai/Library/Application Support/Google/Chrome/Default/GPUCache/data_0 (44KB)
+[2026-02-11 10:27:25] [clean] REMOVED /Users/sushuai/Library/Application Support/Google/Chrome/Default/GPUCache/data_1 (264KB)
+[2026-02-11 10:27:25] [clean] REMOVED /Users/sushuai/Library/Application Support/Google/Chrome/Default/GPUCache/data_2 (1.0MB)
+[2026-02-11 10:27:25] [clean] REMOVED /Users/sushuai/Library/Application Support/Google/Chrome/Default/GPUCache/data_3 (8KB)
+[2026-02-11 10:27:26] [clean] REMOVED /Users/sushuai/Library/Caches/Firefox/Profiles (110.8MB)
+[2026-02-11 10:27:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.dropbox.* (protected)
+[2026-02-11 10:27:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.getdropbox.dropbox (protected)
+[2026-02-11 10:27:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.google.GoogleDrive (protected)
+[2026-02-11 10:27:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.box.desktop (protected)
+[2026-02-11 10:27:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.microsoft.OneDrive (protected)
+[2026-02-11 10:27:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.microsoft.Word (protected)
+[2026-02-11 10:27:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.microsoft.Excel (protected)
+[2026-02-11 10:27:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.microsoft.Powerpoint (protected)
+[2026-02-11 10:27:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.iWork.* (protected)
+[2026-02-11 10:27:47] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3
+[2026-02-11 10:27:47] [clean] REMOVED /Users/sushuai/.bun/install/cache/he
+[2026-02-11 10:27:47] [clean] REMOVED /Users/sushuai/.bun/install/cache/ms
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/rw
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/c12
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/cac
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/fzf
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/got
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/ini
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/lie
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/rc9
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/ufo
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/uqr
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/vue
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/defu
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/errx
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/fdir
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/jiti
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/keyv
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/mlly
+[2026-02-11 10:27:48] [clean] REMOVED /Users/sushuai/.bun/install/cache/nypm
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/open
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/pako
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/sirv
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/uuid
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/vite
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/y18n
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/yaml
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/acorn
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/ansis
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/birpc
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/citty
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/cliui
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/dayjs
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/debug
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/destr
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/drauu
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/fastq
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/giget
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/https
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/is-ip
+[2026-02-11 10:27:49] [clean] REMOVED /Users/sushuai/.bun/install/cache/jsesc
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/json5
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/jszip
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/katex
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/kleur
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/klona
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/mdurl
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/ohash
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/p-map
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/pathe
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/queue
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/regex
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/scule
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/shiki
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/tslib
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/unctx
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/untun
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/vfile
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/yargs
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/braces
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/ccount
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/cssesc
+[2026-02-11 10:27:50] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-dsv
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-geo
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/dequal
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/devlop
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/dotenv
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/ignore
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/is-wsl
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/khroma
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/marked
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/merge2
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/mrmime
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/nanoid
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/ofetch
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/rollup
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/semver
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/stylis
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/unhead
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/unocss
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/unpipe
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/vitefu
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/zwitch
+[2026-02-11 10:27:51] [clean] REMOVED /Users/sushuai/.bun/install/cache/confbox
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/connect
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/consola
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/csstype
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-axis
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-drag
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-ease
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-path
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-time
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-zoom
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/esbuild
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/esprima
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/exsolve
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/fuse.js
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/gensync
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/globals
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/is-glob
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/isarray
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/js-yaml
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/kind-of
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/langium
+[2026-02-11 10:27:52] [clean] REMOVED /Users/sushuai/.bun/install/cache/mermaid
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/nanotar
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/pdf-lib
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/postcss
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/prompts
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/reusify
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/roughjs
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/std-env
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/untyped
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/yallist
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/anymatch
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/argparse
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/chokidar
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/css-tree
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-array
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-brush
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-chord
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-color
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-fetch
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-force
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-scale
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-shape
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-timer
+[2026-02-11 10:27:53] [clean] REMOVED /Users/sushuai/.bun/install/cache/domutils
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/duplexer
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/ee-first
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/entities
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/escalade
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/fs-extra
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/fsevents
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/hookable
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/inherits
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/ip-regex
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/jsonfile
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/knitwork
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/kolorist
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/mdn-data
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/minimist
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/parseurl
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/prettier
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/quansync
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/readdirp
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/statuses
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/tinyexec
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/totalist
+[2026-02-11 10:27:54] [clean] REMOVED /Users/sushuai/.bun/install/cache/twoslash
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/uc.micro
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/unconfig
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/unimport
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/unplugin
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/colorette
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/commander
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/cose-base
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/cytoscape
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-format
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-random
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-sankey
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/de-indent
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/dompurify
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/encodeurl
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/fast-glob
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/framesync
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/gzip-size
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/immediate
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/internmap
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/is-docker
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/is-number
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/is-regexp
+[2026-02-11 10:27:55] [clean] REMOVED /Users/sushuai/.bun/install/cache/js-tokens
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/local-pkg
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/lodash-es
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/lru-cache
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/lz-string
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/minimatch
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/picomatch
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/pkg-types
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/popmotion
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/pptxgenjs
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/public-ip
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/quick-lru
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/recordrtc
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/time-span
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/ts-dedent
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/wrap-ansi
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/ansi-regex
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/chevrotain
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/color-name
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-contour
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-polygon
+[2026-02-11 10:27:56] [clean] REMOVED /Users/sushuai/.bun/install/cache/delaunator
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/dns-packet
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/dns-socket
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/domhandler
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/file-saver
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/fill-range
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/get-stream
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/hey-listen
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/iconv-lite
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/image-size
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/is-extglob
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/linkify-it
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromatch
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/picocolors
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/sisteransi
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/sprintf-js
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/strip-ansi
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/tinyglobby
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/trim-lines
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/typescript
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/vscode-uri
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/vue-resize
+[2026-02-11 10:27:57] [clean] REMOVED /Users/sushuai/.bun/install/cache/vue-router
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/ansi-styles
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/bundle-name
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-delaunay
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-dispatch
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-quadtree
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/dagre-d3-es
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/emoji-regex
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/escape-html
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/glob-parent
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/graceful-fs
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/gray-matter
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/htmlparser2
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/json-buffer
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/layout-base
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/markdown-it
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/on-finished
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/punycode.js
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/safe-buffer
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/super-regex
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/utils-merge
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/browserslist
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/caniuse-lite
+[2026-02-11 10:27:58] [clean] REMOVED /Users/sushuai/.bun/install/cache/cli-progress
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/clone-regexp
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/core-util-is
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-hierarchy
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-selection
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/finalhandler
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/floating-vue
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/hachure-fill
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/magic-string
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/p-cancelable
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/resolve-alpn
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/resolve-from
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/responselike
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/run-parallel
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/safer-buffer
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/setimmediate
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/string-width
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/twoslash-vue
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/undici-types
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/universalify
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/vite-dev-rpc
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/yargs-parser
+[2026-02-11 10:27:59] [clean] REMOVED /Users/sushuai/.bun/install/cache/alien-signals
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/color-convert
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/create-slidev
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-transition
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/estree-walker
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/http2-wrapper
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/is-extendable
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/monaco-editor
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/muggle-string
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/node-releases
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/normalize-url
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/source-map-js
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/strip-literal
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/unist-util-is
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/vfile-message
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/balanced-match
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/convert-hrtime
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-interpolate
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-time-format
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/dom-serializer
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/domelementtype
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/extend-shallow
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/is-binary-path
+[2026-02-11 10:28:00] [clean] REMOVED /Users/sushuai/.bun/install/cache/is-path-inside
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/longest-streak
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/lowercase-keys
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/markdown-table
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/mdast-util-gfm
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/mimic-response
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/normalize-path
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/points-on-path
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/postcss-nested
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/resolve-global
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/section-matter
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/string_decoder
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/to-regex-range
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/unplugin-icons
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/unplugin-utils
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/util-deprecate
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/vscode-jsonrpc
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/brace-expansion
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/cytoscape-fcose
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/default-browser
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/fast-deep-equal
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/get-caller-file
+[2026-02-11 10:28:01] [clean] REMOVED /Users/sushuai/.bun/install/cache/get-port-please
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/markdown-it-mdc
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/oniguruma-to-es
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/path-browserify
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/points-on-curve
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/queue-microtask
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/readable-stream
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/regex-recursion
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/regex-utilities
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/run-applescript
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/vite-hot-client
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/vue-flow-layout
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/cacheable-lookup
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/defer-to-connect
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/define-lazy-prop
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/function-timeout
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/global-directory
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/oniguruma-parser
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/path-data-parser
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/perfect-debounce
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/plantuml-encoder
+[2026-02-11 10:28:02] [clean] REMOVED /Users/sushuai/.bun/install/cache/prism-theme-vars
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/shiki-magic-move
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/strip-bom-string
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/unist-util-visit
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/binary-extensions
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/cacheable-request
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/form-data-encoder
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/hast-util-to-html
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/markdown-it-async
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/node-fetch-native
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/require-directory
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/robust-predicates
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/style-value-types
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/twoslash-protocol
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/character-entities
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/chevrotain-allstar
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/convert-source-map
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/d3-scale-chromatic
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/default-browser-id
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/html-void-elements
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/magic-string-stack
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/mdast-util-to-hast
+[2026-02-11 10:28:03] [clean] REMOVED /Users/sushuai/.bun/install/cache/stringify-entities
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/decompress-response
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/diff-match-patch-es
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/is-inside-container
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/mdast-util-phrasing
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/unist-util-position
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/vite-plugin-inspect
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/electron-to-chromium
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/escape-string-regexp
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/hast-util-whitespace
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/http-cache-semantics
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/markdown-it-footnote
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/mdast-util-gfm-table
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/mdast-util-to-string
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-util-types
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/process-nextick-args
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/property-information
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/codemirror-theme-vars
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/error-stack-parser-es
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/is-installed-globally
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-util-encode
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-util-symbol
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/unplugin-vue-markdown
+[2026-02-11 10:28:04] [clean] REMOVED /Users/sushuai/.bun/install/cache/vscode-languageserver
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/comma-separated-tokens
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/cytoscape-cose-bilkent
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/mdast-util-to-markdown
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-util-chunked
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/space-separated-tokens
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/update-browserslist-db
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/is-fullwidth-code-point
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/mdast-util-gfm-footnote
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-factory-label
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-factory-space
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-factory-title
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/postcss-selector-parser
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/unplugin-vue-components
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/vite-plugin-static-copy
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/webpack-virtual-modules
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/character-entities-html4
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/mdast-util-from-markdown
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-util-character
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/package-manager-detector
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/unist-util-visit-parents
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/character-entities-legacy
+[2026-02-11 10:28:05] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-core-commonmark
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/vite-plugin-remote-assets
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-util-resolve-all
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-util-subtokenize
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/vite-plugin-vue-server-ref
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/mdast-util-find-and-replace
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-util-sanitize-uri
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/vscode-languageserver-types
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/mdast-util-gfm-strikethrough
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-factory-whitespace
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-util-decode-string
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-util-html-tag-name
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/mdast-util-gfm-task-list-item
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-factory-destination
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/unist-util-stringify-position
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/vscode-languageserver-protocol
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/mdast-util-gfm-autolink-literal
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/decode-named-character-reference
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-util-classify-character
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-util-combine-extensions
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/vscode-languageserver-textdocument
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-util-normalize-identifier
+[2026-02-11 10:28:06] [clean] REMOVED /Users/sushuai/.bun/install/cache/micromark-util-decode-numeric-character-reference
+[2026-02-11 10:28:12] [clean] REMOVED /Users/sushuai/.cache/uv/sdists-v9
+[2026-02-11 10:28:12] [clean] REMOVED /Users/sushuai/.cache/uv/CACHEDIR.TAG (4KB)
+[2026-02-11 10:28:13] [clean] REMOVED /Users/sushuai/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f (30.0MB)
+[2026-02-11 10:28:13] [clean] REMOVED /Users/sushuai/.cargo/registry/cache/index.crates.io-6f17d22bba15001f (37.7MB)
+[2026-02-11 10:28:13] [clean] REMOVED /Users/sushuai/.cargo/git/db (90.5MB)
+[2026-02-11 10:28:13] [clean] REMOVED /Users/sushuai/.cargo/git/CACHEDIR.TAG (4KB)
+[2026-02-11 10:29:02] [clean] SKIPPED /Users/sushuai/Library/Caches/com.navicat.* (protected)
+[2026-02-11 10:29:02] [clean] SKIPPED /Users/sushuai/Library/Caches/com.dbeaver.* (protected)
+[2026-02-11 10:29:02] [clean] SKIPPED /Users/sushuai/Library/Caches/com.redis.RedisInsight (protected)
+[2026-02-11 10:29:02] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedData/1e3c50d64110be466c0b4a45222e81d2c9352888 (10.5MB)
+[2026-02-11 10:29:02] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedData/591199df409fbf59b4b52d5ad4ee0470152a9b31 (11.5MB)
+[2026-02-11 10:29:02] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedData/618725e67565b290ba4da6fe2d29f8fa1d4e3622 (10.1MB)
+[2026-02-11 10:29:02] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedData/6534f6ba7604bf324f94cc9a590727f39a4af040 (10.6MB)
+[2026-02-11 10:29:02] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a (10.1MB)
+[2026-02-11 10:29:02] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedData/bdd88df003631aaa0bcbe057cb0a940b80a476fa (11.6MB)
+[2026-02-11 10:29:03] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/DawnGraphiteCache/index (260KB)
+[2026-02-11 10:29:03] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/DawnGraphiteCache/data_0 (8KB)
+[2026-02-11 10:29:03] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/DawnGraphiteCache/data_1 (264KB)
+[2026-02-11 10:29:03] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/DawnGraphiteCache/data_2 (8KB)
+[2026-02-11 10:29:03] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/DawnGraphiteCache/data_3 (8KB)
+[2026-02-11 10:29:03] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/DawnWebGPUCache/index (260KB)
+[2026-02-11 10:29:04] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/DawnWebGPUCache/data_0 (8KB)
+[2026-02-11 10:29:04] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/DawnWebGPUCache/data_1 (264KB)
+[2026-02-11 10:29:04] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/DawnWebGPUCache/data_2 (8KB)
+[2026-02-11 10:29:04] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/DawnWebGPUCache/data_3 (8KB)
+[2026-02-11 10:29:04] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/GPUCache/index (260KB)
+[2026-02-11 10:29:04] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/GPUCache/data_0 (44KB)
+[2026-02-11 10:29:04] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/GPUCache/data_1 (264KB)
+[2026-02-11 10:29:04] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/GPUCache/data_2 (1.0MB)
+[2026-02-11 10:29:04] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/GPUCache/data_3 (8KB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/golang.go-0.52.2 (600KB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/antfu.slidev-52.11.5 (1.8MB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/github.copilot-1.388.0 (18.9MB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/fill-labs.dependi-0.7.21 (68KB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/github.copilot-chat-0.37.4 (18.6MB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/james-yu.latex-workshop-10.12.2 (6.7MB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/pkief.material-icon-theme-5.31.0 (836KB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2025.10.4 (20.1MB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/viper-admin.viper-5.1.1-darwin-x64 (120.0MB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-ssh-0.122.0 (740KB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/ms-python.python-2026.0.0-darwin-x64 (8.6MB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/davidanson.vscode-markdownlint-0.61.1 (320KB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/ms-azuretools.vscode-containers-2.4.1 (1.2MB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/ms-python.debugpy-2025.18.0-darwin-x64 (4.7MB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/monokai.theme-monokai-pro-vscode-2.0.12 (200KB)
+[2026-02-11 10:29:06] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-containers-0.442.0 (2.1MB)
+[2026-02-11 10:29:07] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/myriad-dreamin.tinymist-0.14.10-darwin-x64 (30.5MB)
+[2026-02-11 10:29:07] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/rust-lang.rust-analyzer-0.3.2786-darwin-x64 (16.4MB)
+[2026-02-11 10:29:07] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/ms-python.vscode-python-envs-1.16.0-darwin-x64 (3.3MB)
+[2026-02-11 10:29:07] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/CachedExtensionVSIXs/ms-ceintl.vscode-language-pack-zh-hans-1.108.2026020409 (476KB)
+[2026-02-11 10:29:14] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/logs/20260205T175640 (156KB)
+[2026-02-11 10:29:14] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/logs/20260208T010236 (124KB)
+[2026-02-11 10:29:14] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/logs/20260208T010514
+[2026-02-11 10:29:14] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/logs/20260208T202228 (72KB)
+[2026-02-11 10:29:14] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/logs/20260209T144255 (84KB)
+[2026-02-11 10:29:14] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/logs/20260209T150309 (76KB)
+[2026-02-11 10:29:14] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/logs/20260211T094758 (80KB)
+[2026-02-11 10:29:14] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/logs/20260211T094938 (80KB)
+[2026-02-11 10:29:14] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/logs/20260211T095811 (68KB)
+[2026-02-11 10:29:14] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/logs/20260211T101037 (72KB)
+[2026-02-11 10:29:19] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/Cache/Cache_Data (433.0MB)
+[2026-02-11 10:29:19] [clean] REMOVED /Users/sushuai/Library/Application Support/Code/Cache/No_Vary_Search (8KB)
+[2026-02-11 10:29:25] [clean] REMOVED /Users/sushuai/Library/Application Support/discord/Cache/Cache_Data (1.03GB)
+[2026-02-11 10:29:25] [clean] REMOVED /Users/sushuai/Library/Caches/ru.keepcoder.Telegram/Cache.db (48KB)
+[2026-02-11 10:29:25] [clean] REMOVED /Users/sushuai/Library/Caches/ru.keepcoder.Telegram/Cache.db-shm (32KB)
+[2026-02-11 10:29:25] [clean] REMOVED /Users/sushuai/Library/Caches/ru.keepcoder.Telegram/Cache.db-wal (324KB)
+[2026-02-11 10:29:25] [clean] REMOVED /Users/sushuai/Library/Caches/ru.keepcoder.Telegram/fsCachedData
+[2026-02-11 10:29:25] [clean] SKIPPED /Users/sushuai/Library/Caches/net.whatsapp.WhatsApp/org.sparkle-project.Sparkle (protected)
+[2026-02-11 10:29:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.Music (protected)
+[2026-02-11 10:29:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.apple.podcasts (protected)
+[2026-02-11 10:29:26] [clean] SKIPPED /Users/sushuai/Library/Containers/com.apple.podcasts/Data/tmp/StreamedMedia (protected)
+[2026-02-11 10:29:26] [clean] SKIPPED /Users/sushuai/Library/Containers/com.apple.podcasts/Data/tmp/*.heic (protected)
+[2026-02-11 10:29:26] [clean] SKIPPED /Users/sushuai/Library/Containers/com.apple.podcasts/Data/tmp/*.img (protected)
+[2026-02-11 10:29:26] [clean] SKIPPED /Users/sushuai/Library/Containers/com.apple.podcasts/Data/tmp/*CFNetworkDownload*.tmp (protected)
+[2026-02-11 10:29:26] [clean] SKIPPED /Users/sushuai/Library/Caches/tv.plex.player.desktop (protected)
+[2026-02-11 10:29:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.netease.163music (protected)
+[2026-02-11 10:29:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.colliderli.iina (protected)
+[2026-02-11 10:29:26] [clean] SKIPPED /Users/sushuai/Library/Caches/org.videolan.vlc (protected)
+[2026-02-11 10:29:26] [clean] SKIPPED /Users/sushuai/Library/Caches/io.mpv (protected)
+[2026-02-11 10:29:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.cleanshot.* (protected)
+[2026-02-11 10:29:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.reincubate.camo (protected)
+[2026-02-11 10:29:26] [clean] SKIPPED /Users/sushuai/Library/Caches/com.xnipapp.xnip (protected)
+[2026-02-11 10:29:27] [clean] SKIPPED /Users/sushuai/Library/Caches/com.readdle.smartemail-Mac (protected)
+[2026-02-11 10:29:27] [clean] SKIPPED /Users/sushuai/Library/Caches/com.airmail.* (protected)
+[2026-02-11 10:29:27] [clean] SKIPPED /Users/sushuai/Library/Caches/com.todoist.mac.Todoist (protected)
+[2026-02-11 10:29:27] [clean] SKIPPED /Users/sushuai/Library/Caches/com.any.do.* (protected)
+[2026-02-11 10:29:27] [clean] REMOVED /Users/sushuai/.zcompdump (68KB)
+[2026-02-11 10:29:27] [clean] REMOVED /Users/sushuai/.lesshst (4KB)
+[2026-02-11 10:29:28] [clean] REMOVED /Users/sushuai/Library/Caches/com.runningwithcrayons.Alfred/Gallery (1.2MB)
+[2026-02-11 10:29:28] [clean] REMOVED /Users/sushuai/Library/Caches/com.runningwithcrayons.Alfred/applescript
+[2026-02-11 10:29:28] [clean] REMOVED /Users/sushuai/Library/Caches/com.runningwithcrayons.Alfred/Workflow Data
+[2026-02-11 10:29:28] [clean] REMOVED /Users/sushuai/Library/Caches/com.runningwithcrayons.Alfred/extensions_tmp
+[2026-02-11 10:29:28] [clean] REMOVED /Users/sushuai/Library/Caches/com.runningwithcrayons.Alfred/Workflow Scripts (8KB)
+[2026-02-11 10:29:28] [clean] SKIPPED /Users/sushuai/Library/Caches/com.vmware.fusion (protected)
+[2026-02-11 10:29:40] [clean] REMOVED /var/folders/ps/ghfdv6n501s2w3_y4j928t3w0000gn/T/tmp.8kI5LGHuus (16KB)
+# ========== clean session ended at 2026-02-11 10:29:43, 545 items, 3.55GB ==========

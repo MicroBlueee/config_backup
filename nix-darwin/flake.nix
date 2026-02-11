@@ -93,6 +93,7 @@
           # "ollama"
           # "micromamba"
           "rustup"
+          "mole"
         ];
         casks = [
           "stolendata-mpv"
