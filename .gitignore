@@ -14,3 +14,4 @@ zed/prompts
 github-copilot/
 nushell/**/history*
 nix-darwin/flake.lock
+mole/
