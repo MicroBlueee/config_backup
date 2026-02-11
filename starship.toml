@@ -10,8 +10,8 @@ format = "🥬 @ [$directory]()in $shell$all $character"
 # 将提示符的“❯”替换为“➜”
 [character] # “character”是我们正在配置的组件
 success_symbol = "[➜](bold green)" # 设置“success_symbol” 字段为绿色加粗的“➜”
-error_symbol = "[✗](bold red) "
-vimcmd_symbol = "[V](bold green) "
+error_symbol = "[✗](bold red)"
+vimcmd_symbol = "[V](bold green)"
 
 [conda]
 format = "[$symbol$environment](dimmed green) "
