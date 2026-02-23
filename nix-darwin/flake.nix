@@ -44,7 +44,6 @@
             go
             gopls
             bun
-            deno
             marksman
             nil
             lua-language-server
@@ -90,6 +89,7 @@
           "fzf"
           "ghcup"
           "unar"
+          "deno"
           # "ollama"
           # "micromamba"
           "rustup"
