@@ -131,6 +131,7 @@
           "keycastr"
           "font-google-sans-code"
           # "thaw"
+          "omnigraffle"
         ];
         masApps = {
           "WeChat" = 836500024;

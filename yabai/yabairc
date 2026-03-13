@@ -122,6 +122,7 @@ yabai -m rule --add app="^DaVinci Resolve$" manage=off
 yabai -m rule --add app="^Motion$" manage=off
 yabai -m rule --add app="^Compressor$" manage=off
 yabai -m rule --add app="^.*Luminar.*$" manage=off
+yabai -m rule --add app="^.*OmniGraffle.*$" manage=off
 
 yabai -m rule --add label="App Cleaner & Uninstaller" app="^App Cleaner & Uninstaller$" manage=off
 yabai -m rule --add label="AppCleaner" app="^AppCleaner$" manage=off
