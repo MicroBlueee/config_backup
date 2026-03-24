@@ -130,6 +130,7 @@
           "font-google-sans-code"
           # "thaw"
           "omnigraffle"
+          "mactex"
         ];
         masApps = {
           "WeChat" = 836500024;

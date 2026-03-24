@@ -158,6 +158,7 @@ yabai -m rule --add app="^.*Microsoft.*$" manage=off
 yabai -m rule --add app="^Postman$" manage=off
 yabai -m rule --add app="^.*Clash.*$" manage=off
 yabai -m rule --add app="^.*V2ray.*$" manage=off
+yabai -m rule --add app="^.*LaTeXiT.*$" manage=off
 
 yabai -m rule --add app="^.*Office.*$" manage=off
 
