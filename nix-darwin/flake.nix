@@ -97,7 +97,7 @@
           "stolendata-mpv"
           "google-chrome"
           "firefox"
-          "kitty@nightly"
+          "kitty"
           "wezterm"
           "miniforge"
           "alfred"
