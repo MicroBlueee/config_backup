@@ -131,6 +131,7 @@
           # "thaw"
           "omnigraffle"
           "mactex"
+          "affinity"
         ];
         masApps = {
           "WeChat" = 836500024;
@@ -145,8 +146,8 @@
           "XCode" = 497799835;
           "QQMusic" = 595615424;
           "NetCloud Music" = 944848654;
-          "Final Cut Pro" = 424389933;
-          "Compressor" = 424390742;
+          "Final Cut Pro" = 1631624924;
+          "Compressor" = 6746516157;
           "Photomator" = 1444636541;
           "Affinity Photo 2" = 1616822987;
           "Bonjourr Startpage" = 1615431236;
