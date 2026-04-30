@@ -1,7 +1,7 @@
 local wezterm = require("wezterm")
 
 return {
-	default_prog = { "/run/current-system/sw/bin/nu" },
+	default_prog = { "/usr/local/bin/nu" },
 	-- default_prog = { '/usr/local/bin/zsh' },
 	-- default_prog = {'/usr/local/bin/fish'},
 	automatically_reload_config = true,

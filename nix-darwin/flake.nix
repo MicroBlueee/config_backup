@@ -34,7 +34,6 @@
             # zsh-fast-syntax-highlighting
             zsh-completions
             fish
-            nushell
             zoxide
             bat
             zellij
@@ -92,6 +91,7 @@
           # "micromamba"
           "rustup"
           "mole"
+          "nushell"
         ];
         casks = [
           "stolendata-mpv"
