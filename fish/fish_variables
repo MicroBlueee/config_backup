@@ -1,6 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export PYENV_ROOT:/Users/sushuai/\x2epyenv
-SETUVAR __fish_initialized:3800
+SETUVAR __fish_initialized:4300
 SETUVAR fish_migration_4_3_0_applied:yes
 SETUVAR fish_user_paths:/usr/local/opt/rustup/bin\x1e/Users/sushuai/\x2econfig/cowfile\x1e/Users/sushuai/Documents/Code/GoLand/src/Ywy/test_grpc/protoc\x2d25\x2e3\x2dosx\x2duniversal_binary/bin\x1e/usr/local/opt/go/libexec/bin\x1e/Users/sushuai/\x2ebun/bin\x1e/Library/TeX/texbin\x1e/usr/local/opt/gnu\x2dtar/libexec/gnubin\x1e/Users/sushuai/\x2elocal/share/solana/install/active_release/bin\x1e/Users/sushuai/\x2efoundry/bin\x1e/Users/sushuai/Library/pnpm\x1e/Applications/CLion\x2eapp/Contents/MacOS\x1e/Applications/IntelliJ\x20IDEA\x2eapp/Contents/MacOS\x1e/usr/local/opt/go/bin\x1e/Users/sushuai/\x2eemacs\x2ed/bin\x1e/Users/sushuai/\x2ecabal/bin\x1e/Users/sushuai/\x2eghcup/bin\x1e/Users/sushuai/\x2epyenv/bin\x1e/usr/local/sbin\x1e/Users/sushuai/Library/Application\x20Support/Coursier/bin\x1e/Users/sushuai/\x2elocal/bin\x1e/usr/local/opt/llvm/bin\x1e/Users/sushuai/Documents/Code/GoLand/bin\x1e/Users/sushuai/\x2ecargo/bin\x1e/Library/Java/JavaVirtualMachines/openjdk\x2ejdk/Contents/Home/bin\x1e/usr/local/go/bin\x1e/usr/local/bin\x1e/usr/local/opt/fzf/bin

@@ -146,7 +146,8 @@
           "XCode" = 497799835;
           "QQMusic" = 595615424;
           "NetCloud Music" = 944848654;
-          "Final Cut Pro" = 1631624924;
+          "Final Cut Pro Studio" = 1631624924;
+          "Final Cut Pro" = 424389933;
           "Compressor" = 6746516157;
           "Photomator" = 1444636541;
           "Affinity Photo 2" = 1616822987;
