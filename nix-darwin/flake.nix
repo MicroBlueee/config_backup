@@ -80,6 +80,7 @@
       homebrew = {
         enable = true;
         taps = [
+          "chen08209/tap"
         ];
         brews = [
           "mas"
@@ -94,6 +95,7 @@
           "nushell"
         ];
         casks = [
+          "chen08209/tap/flclash"
           "stolendata-mpv"
           "google-chrome"
           "firefox"
